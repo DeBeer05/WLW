@@ -12,11 +12,13 @@ cd back-end/Wirelesworks
 # Install dependencies (no database packages needed)
 pip install -r requirements.txt
 
-# Start server (WebSocket auto-starts)
+# Start server
 python manage.py runserver
 ```
 
-Access API at: `http://localhost:8000/scan/api/start/`
+**Scanning starts automatically!** Results are broadcast via WebSocket in real-time.
+
+Access WebSocket at: `ws://localhost:8765`
 
 ## Project Structure
 

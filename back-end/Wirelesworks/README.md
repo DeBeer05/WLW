@@ -10,13 +10,35 @@ Django-based backend for Bluetooth Low Energy (BLE) device scanning and manageme
 # 1. Install dependencies (no database packages needed)
 pip install -r requirements.txt
 
-# 2. Create virtual environment (optional)
-python3 -m venv venv
-source venv/bin/activate
+# 2. (Optional) Configure scanning
+export SERIAL_PORT=/dev/ttyS2
+export SCAN_DURATION=5
+export SCAN_INTERVAL=10
 
 # 3. Start server
 python manage.py runserver
 ```
+
+**Scanning starts automatically when the server starts!**
+
+### Console Output Example:
+```
+✓ WebSocket server started automatically
+✓ Background scanning started
+
+▶ Scanning for 5 seconds...
+✓ Found 3 device(s)
+AA:BB:CC:DD:EE:FF | RSSI: -45 | Company: Apple | Name: iPhone
+22:33:44:55:66:77 | RSSI: -52 | Company: Samsung | Name: Galaxy
+⏳ Waiting 10 seconds before next scan...
+
+▶ Scanning for 5 seconds...
+...
+```
+
+You can also:
+- Connect to WebSocket: `ws://localhost:8765` for live results
+- Trigger manual scans: `POST /scan/api/start/`
 
 ## Project Structure
 
@@ -52,11 +74,11 @@ Wirelesworks/
 
 ## Features
 
-- ✅ BLE device scanning with serial communication
+- ✅ Automatic continuous BLE scanning (starts with server)
 - ✅ Company identifier decoding
 - ✅ Device name extraction
-- ✅ Real-time WebSocket updates
-- ✅ REST API endpoints
+- ✅ Real-time WebSocket updates (broadcasts scan results)
+- ✅ REST API endpoints (manual scan trigger)
 - ✅ Automatic WebSocket server startup
 - ❌ **Database persistence disabled**
 - ❌ **Django admin panel disabled**

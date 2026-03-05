@@ -23,7 +23,9 @@ Scan/
 
 ## API Endpoints
 
-### Start Scan
+**Note:** Automatic scanning runs continuously in the background. These endpoints are for manual control.
+
+### Start Manual Scan
 ```
 POST /scan/api/start/
 Body: {
@@ -70,25 +72,84 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
-The WebSocket server starts automatically. You'll see:
+**Automatic scanning starts immediately!** You'll see:
 ```
 ✓ WebSocket server started automatically
+✓ Background scanning started
+
+▶ Scanning for 5 seconds...
+✓ Found 3 device(s)
+...
+```
+
+Results are broadcast live via WebSocket and printed to console.
+
+## Configuration
+
+Configure scanning behavior via environment variables:
+
+```bash
+# Set serial port (default: /dev/ttyS2)
+export SERIAL_PORT=/dev/ttyUSB0
+
+# Set scan duration in seconds (default: 5)
+export SCAN_DURATION=10
+
+# Set interval between scans in seconds (default: 10)
+export SCAN_INTERVAL=15
+
+# Then start server
+python manage.py runserver
+```
+
+Or create a `.env` file in the project directory and load it:
+```bash
+export SERIAL_PORT=/dev/ttyUSB0
+export SCAN_DURATION=10
+export SCAN_INTERVAL=15
+python manage.py runserver
 ```
 
 ## Usage
 
-### Via API
+### Automatic Scanning (Continuous Background)
+
+When you start the server, scanning automatically begins:
+
+1. **Console Output:**
+```
+▶ Scanning for 5 seconds...
+✓ Found 3 device(s)
+AA:BB:CC:DD:EE:FF | RSSI: -45 | Company: Apple | Name: iPhone
+...
+⏳ Waiting 10 seconds before next scan...
+```
+
+2. **WebSocket Broadcast:**
+Connect to `ws://localhost:8765` to receive real-time scan results:
+```python
+import asyncio
+import websockets
+
+async def listen_scans():
+    async with websockets.connect('ws://localhost:8765') as ws:
+        while True:
+            data = await ws.recv()
+            print(f"Scan update: {data}")
+
+asyncio.run(listen_scans())
+```
+
+### Manual Scanning (API Endpoint)
+
+Trigger a scan via the API:
 ```python
 import requests
 
-# Start a scan
 response = requests.post('http://localhost:8000/scan/api/start/', 
                         json={'duration': 10})
 result = response.json()
 print(f"Found {result['device_count']} devices")
-
-for mac, device_info in result['devices'].items():
-    print(f"{mac}: {device_info.get('company_name', 'Unknown')}")
 ```
 
 ### Via WebSocket
@@ -112,11 +173,35 @@ Models are defined but **not used** (database disabled):
 
 ## Notes
 
+- ✅ **Automatic Continuous Scanning** - Starts when server starts
+- ✅ **Real-time WebSocket Broadcasts** - Results sent to all connected clients
+- ✅ **Configurable via Environment** - SERIAL_PORT, SCAN_DURATION, SCAN_INTERVAL
 - ⚠️ **Database disabled** - Scan results are NOT persisted
 - ⚠️ **Admin panel disabled** - No Django admin access
-- ✅ WebSocket server auto-starts when Django runs (port 8765)
-- ✅ YAML files contain company identifiers and advertisement type definitions
-- ✅ No database dependencies or migrations required
+- ✅ **No database dependencies** - PostgreSQL not required
+
+## Environment Variables
+
+Configure the scanner behavior:
+
+```bash
+# Serial port to use (default: /dev/ttyS2)
+SERIAL_PORT=/dev/ttyUSB0
+
+# Duration of each scan in seconds (default: 5)
+SCAN_DURATION=10
+
+# Interval between scans in seconds (default: 10)
+SCAN_INTERVAL=15
+```
+
+Example with all options:
+```bash
+export SERIAL_PORT=/dev/ttyUSB0
+export SCAN_DURATION=15
+export SCAN_INTERVAL=20
+python manage.py runserver
+```
 
 ## Re-enabling Database
 

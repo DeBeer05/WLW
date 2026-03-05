@@ -6,7 +6,7 @@ class ScanConfig(AppConfig):
     name = 'Scan'
 
     def ready(self):
-        """Initialize the app - start websocket server when Django starts"""
+        """Initialize the app - start websocket server and background scanning"""
         import os
         # Only start once (Django runs ready() twice in some cases)
         if os.environ.get('RUN_MAIN') == 'true':
@@ -16,3 +16,9 @@ class ScanConfig(AppConfig):
                 print("✓ WebSocket server started automatically")
             except Exception as e:
                 print(f"⚠ WebSocket server failed to start: {e}")
+            
+            try:
+                from .scan_service import start_background_scanning
+                start_background_scanning()
+            except Exception as e:
+                print(f"⚠ Background scanning failed to start: {e}")
