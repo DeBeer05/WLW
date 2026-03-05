@@ -28,6 +28,7 @@ class ScanService:
         self.ad_types = self._load_type_dict(
             os.path.join(base_dir, 'yaml_files', 'ad_types.yaml')
         )
+        print(f"📋 Loaded {len(self.company_identifiers)} company identifiers from YAML")
     
     def _load_company_dict(self, file_path):
         """Load company identifiers from YAML"""
@@ -81,7 +82,13 @@ class ScanService:
             
             while not ok_reached:
                 device = {}
-                incoming_adv = self.serial_bus.readline().decode()
+                try:
+                    incoming_adv = self.serial_bus.readline().decode()
+                except serial.SerialException as se:
+                    print(f"⚠ Serial error during scan: {str(se)}")
+                    # Try to recover the connection
+                    self.reconnect_serial()
+                    return unique_devices
                 
                 if len(incoming_adv) > 28:
                     device['mac'] = incoming_adv[6:20]
@@ -98,8 +105,22 @@ class ScanService:
             
             return unique_devices
         except Exception as e:
+            print(f"⚠ Scan error: {str(e)}")
             ws_server.broadcast_sync(f"Scan error: {str(e)}")
             return {}
+    
+    def reconnect_serial(self):
+        """Attempt to reconnect the serial port"""
+        try:
+            print("🔄 Attempting to reconnect serial port...")
+            if self.serial_bus and self.serial_bus.is_open:
+                self.serial_bus.close()
+            time.sleep(2)
+            self.configure_serial()
+            print("✓ Serial port reconnected")
+        except Exception as e:
+            print(f"❌ Failed to reconnect: {str(e)}")
+
     
     def _decode_advert(self, device):
         """Decode advertisement data"""
@@ -169,7 +190,6 @@ class ScanService:
             # If no match found, set to "Unknown" 
             device['company_name'] = "Unknown"
         except Exception as e:
-            print(f"Error decoding company ID: {e}")
             device['company_name'] = "Unknown"
     
     def _get_device_name(self, device, hex_name):
@@ -202,6 +222,7 @@ class ScanService:
                          f"Name: {device_info.get('device_name', 'N/A')}"
             print(info_string)
             ws_server.broadcast_sync(info_string)
+            time.sleep(1)  # Delay between each device
         
         # Devices by company
         company_devices = self._sort_by_company(devices)
@@ -220,6 +241,7 @@ class ScanService:
                              f"Name: {device_info.get('device_name', 'N/A')}"
                 print(info_string)
                 ws_server.broadcast_sync(info_string)
+                time.sleep(1)  # Delay between each device
     
     def _sort_by_company(self, devices):
         """Sort devices by company name"""
@@ -239,14 +261,13 @@ class ScanService:
         
         while self.running:
             try:
-                print(f"\n▶ Scanning for {self.scan_duration} seconds...")
-                ws_server.broadcast_sync(f"▶ Scanning for {self.scan_duration} seconds...")
+               
                 
                 devices = self.scan()
                 
                 if devices:
-                    print(f"✓ Found {len(devices)} device(s)")
-                    ws_server.broadcast_sync(f"✓ Found {len(devices)} device(s)")
+                    
+                    
                     self.print_and_broadcast_results(devices)
                 else:
                     print("✗ No devices found")
