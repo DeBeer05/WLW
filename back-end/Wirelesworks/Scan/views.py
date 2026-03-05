@@ -8,7 +8,6 @@ import yaml
 import json
 import re
 import os
-from .models import ScanSession, Device
 from .utils.loading import Loading
 from .utils.websocket_server import ws_server
 
@@ -152,26 +151,6 @@ class BluetoothScanner:
         if "LAIRD" in name.upper():
             device['company_name'] = "Laird"
     
-    def save_to_database(self, duration):
-        """Save scan results to Django database"""
-        scan_session = ScanSession.objects.create(
-            duration=duration,
-            device_count=len(self.unique_devices)
-        )
-        
-        for mac, device_info in self.unique_devices.items():
-            Device.objects.create(
-                scan_session=scan_session,
-                mac_address=device_info.get('mac', ''),
-                rssi=device_info.get('rssi', ''),
-                raw_data=device_info.get('data', ''),
-                company_name=device_info.get('company_name'),
-                device_name=device_info.get('device_name'),
-                decoded_data=device_info.get('sep_data')
-            )
-        
-        return scan_session
-    
     def close(self):
         """Close serial connection"""
         if self.serial_bus and self.serial_bus.is_open:
@@ -191,12 +170,10 @@ def start_scan(request):
         scanner = BluetoothScanner(port=port)
         scanner.configure_serial()
         devices = scanner.scan(duration=duration)
-        scan_session = scanner.save_to_database(duration)
         scanner.close()
         
         return JsonResponse({
             'status': 'success',
-            'scan_id': scan_session.id,
             'device_count': len(devices),
             'devices': devices
         })
@@ -206,46 +183,26 @@ def start_scan(request):
 
 @require_http_methods(["GET"])
 def get_scan_history(request):
-    """Get all scan sessions"""
-    sessions = ScanSession.objects.all()[:10]  # Last 10 scans
-    data = [{
-        'id': session.id,
-        'timestamp': session.timestamp.isoformat(),
-        'duration': session.duration,
-        'device_count': session.device_count
-    } for session in sessions]
-    return JsonResponse({'scans': data})
+    """Get scan history (in-memory only, no database)"""
+    return JsonResponse({
+        'status': 'info',
+        'message': 'Database disabled. Scan data is not persisted.',
+        'scans': []
+    })
 
 
 @require_http_methods(["GET"])
 def get_scan_details(request, scan_id):
-    """Get details of a specific scan"""
-    try:
-        scan = ScanSession.objects.get(id=scan_id)
-        devices = scan.devices.all()
-        
-        device_data = [{
-            'mac_address': device.mac_address,
-            'rssi': device.rssi,
-            'company_name': device.company_name,
-            'device_name': device.device_name,
-            'decoded_data': device.decoded_data
-        } for device in devices]
-        
-        return JsonResponse({
-            'scan': {
-                'id': scan.id,
-                'timestamp': scan.timestamp.isoformat(),
-                'duration': scan.duration,
-                'device_count': scan.device_count
-            },
-            'devices': device_data
-        })
-    except ScanSession.DoesNotExist:
-        return JsonResponse({'status': 'error', 'message': 'Scan not found'}, status=404)
+    """Get scan details (database disabled)"""
+    return JsonResponse({
+        'status': 'info',
+        'message': 'Database disabled. Scan details not available.',
+    })
 
 
 def index(request):
-    """Main dashboard view"""
-    recent_scans = ScanSession.objects.all()[:5]
-    return render(request, 'scan/index.html', {'recent_scans': recent_scans})
+    """Main dashboard view (no database)"""
+    return JsonResponse({
+        'status': 'info',
+        'message': 'Database disabled. Use /scan/api/start/ to perform scans.',
+    })

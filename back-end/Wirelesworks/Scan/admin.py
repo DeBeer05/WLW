@@ -1,4 +1,11 @@
 from django.contrib import admin
+
+# Database disabled - admin functionality not available
+
+"""
+# These models are available but database is disabled
+# Uncomment when database is enabled
+
 from .models import ScanSession, Device
 
 
@@ -23,3 +30,4 @@ class DeviceAdmin(admin.ModelAdmin):
     list_filter = ('company_name', 'scan_session__timestamp')
     search_fields = ('mac_address', 'company_name', 'device_name')
     readonly_fields = ('decoded_data',)
+"""

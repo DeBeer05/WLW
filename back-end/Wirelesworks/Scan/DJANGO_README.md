@@ -2,13 +2,15 @@
 
 A compact Django application for Bluetooth Low Energy (BLE) device scanning integrated with WebSocket support.
 
+⚠️ **Database is disabled** - Scan results are not persisted. Data is lost when the application stops.
+
 ## Structure
 
 ```
 Scan/
-├── models.py           # Django models for ScanSession and Device
+├── models.py           # Django models (not used, DB disabled)
 ├── views.py            # API endpoints and BluetoothScanner class
-├── admin.py            # Django admin configuration
+├── admin.py            # Django admin (disabled)
 ├── urls.py             # URL routing
 ├── utils/              # Utility modules
 │   ├── websocket_server.py
@@ -16,7 +18,7 @@ Scan/
 ├── yaml_files/         # Configuration files
 │   ├── company_identifiers.yaml
 │   └── ad_types.yaml
-└── migrations/         # Database migrations
+└── migrations/         # Database migrations (not used)
 ```
 
 ## API Endpoints
@@ -28,42 +30,49 @@ Body: {
     "duration": 5,      // Scan duration in seconds (optional, default: 5)
     "port": "/dev/ttyS2" // Serial port (optional, default: /dev/ttyS2)
 }
+Response: {
+    "status": "success",
+    "device_count": 5,
+    "devices": { ... }
+}
 ```
 
 ### Get Scan History
 ```
 GET /scan/api/history/
-Returns: List of last 10 scan sessions
+Response: Database disabled info
 ```
 
 ### Get Scan Details
 ```
 GET /scan/api/details/<scan_id>/
-Returns: Detailed information about a specific scan including all devices
+Response: Database disabled info
 ```
 
 ### Dashboard
 ```
 GET /scan/
-Returns: HTML dashboard with recent scans
+Response: Info message
 ```
 
 ## Setup
 
-1. Run migrations:
+**⚠️ Database is disabled** - No migrations or database setup required.
+
+1. Install dependencies:
 ```bash
-python manage.py makemigrations
-python manage.py migrate
+cd back-end/Wirelesworks
+pip install -r requirements.txt
 ```
 
-2. Create superuser (optional, for admin access):
-```bash
-python manage.py createsuperuser
-```
-
-3. Start development server:
+2. Start development server:
 ```bash
 python manage.py runserver
+```
+
+The WebSocket server starts automatically. You'll see:
+```
+✓ WebSocket server started automatically
 ```
 
 ## Usage
@@ -78,16 +87,16 @@ response = requests.post('http://localhost:8000/scan/api/start/',
 result = response.json()
 print(f"Found {result['device_count']} devices")
 
-# Get scan history
-history = requests.get('http://localhost:8000/scan/api/history/').json()
+for mac, device_info in result['devices'].items():
+    print(f"{mac}: {device_info.get('company_name', 'Unknown')}")
 ```
 
-### Via Django Admin
-1. Access admin panel at http://localhost:8000/admin/
-2. View and manage scan sessions and devices
-3. Filter by company name, timestamp, etc.
+### Via WebSocket
+The WebSocket server broadcasts scan results in real-time on port 8765.
 
 ## Models
+
+Models are defined but **not used** (database disabled):
 
 ### ScanSession
 - timestamp: When the scan was performed
@@ -103,6 +112,18 @@ history = requests.get('http://localhost:8000/scan/api/history/').json()
 
 ## Notes
 
-- WebSocket server runs in the background for real-time updates
-- All scan results are automatically saved to the database
-- YAML files contain company identifiers and advertisement type definitions
+- ⚠️ **Database disabled** - Scan results are NOT persisted
+- ⚠️ **Admin panel disabled** - No Django admin access
+- ✅ WebSocket server auto-starts when Django runs (port 8765)
+- ✅ YAML files contain company identifiers and advertisement type definitions
+- ✅ No database dependencies or migrations required
+
+## Re-enabling Database
+
+To re-enable PostgreSQL database functionality, see [README.md](../README.md) "Enabling Database" section.
+
+## Requirements
+
+- Python 3.8+
+- Serial port access (for BLE hardware)
+- No database required

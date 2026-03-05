@@ -1,0 +1,18 @@
+# Django Web Framework
+Django>=5.0,<6.0
+
+# Serial Communication
+pyserial>=3.5
+
+# YAML Configuration Files
+PyYAML>=6.0
+
+# WebSocket Server
+websockets>=12.0
+
+# Terminal Colors (optional, for enhanced output)
+termcolor>=2.4
+
+# Note: PostgreSQL database support is disabled
+# Uncomment below if you want to enable database functionality:
+# psycopg2-binary>=2.9
