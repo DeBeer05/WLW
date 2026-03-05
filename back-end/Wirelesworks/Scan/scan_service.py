@@ -10,7 +10,7 @@ from .utils.websocket_server import ws_server
 class ScanService:
     """Background service for continuous BLE scanning"""
     
-    def __init__(self, port="/dev/ttyS2", baudrate=115200, timeout=0.2, scan_duration=5, scan_interval=10):
+    def __init__(self, port="/dev/ttyS2", baudrate=115200, timeout=0.2, scan_duration=15, scan_interval=10):
         self.port = port
         self.baudrate = baudrate
         self.timeout = timeout
@@ -140,11 +140,37 @@ class ScanService:
     
     def _get_company_name(self, device, company_id):
         """Extract company name from identifier"""
-        byte1 = company_id[:2]
-        byte2 = company_id[2:4]
-        company_id_rotated = byte2 + byte1
-        comp_name = self.company_identifiers.get(str(company_id_rotated))
-        device['company_name'] = comp_name if comp_name else "No Name Found"
+        try:
+            # Remove common prefixes/spaces and strip
+            company_id = company_id.strip().replace(' ', '').replace('0x', '')
+            
+            # Take first 4 characters (2 bytes = 4 hex chars)
+            if len(company_id) >= 4:
+                company_id = company_id[:4]
+            else:
+                company_id = company_id.zfill(4)
+            
+            # Byte swap: Little Endian to Big Endian
+            byte1 = company_id[:2]
+            byte2 = company_id[2:4]
+            company_id_rotated = byte2 + byte1
+            
+            # Try different key variations (the YAML keys are uppercase)
+            for key_attempt in [
+                company_id_rotated.upper(),  # Swapped + uppercase
+                company_id_rotated.lower(),  # Swapped + lowercase
+                company_id.upper(),           # Not swapped + uppercase
+                company_id.lower()            # Not swapped + lowercase
+            ]:
+                if key_attempt in self.company_identifiers:
+                    device['company_name'] = self.company_identifiers[key_attempt]
+                    return
+            
+            # If no match found, set to "Unknown" 
+            device['company_name'] = "Unknown"
+        except Exception as e:
+            print(f"Error decoding company ID: {e}")
+            device['company_name'] = "Unknown"
     
     def _get_device_name(self, device, hex_name):
         """Extract device name"""
