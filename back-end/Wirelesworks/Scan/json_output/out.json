@@ -1,0 +1,1776 @@
+{
+    "024AECBF9655EE": {
+        "mac": "024AECBF9655EE",
+        "rssi": "-53",
+        "data": "1EFF0600010920029C773D33CAAFE7749773CF4C65250F7BC1AC31AABE924C",
+        "sep_data": {
+            "FF": {
+                "data_len": 60,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "0600010920029C773D33CAAFE7749773CF4C65250F7BC1AC31AABE924C"
+            }
+        },
+        "company_name": "Microsoft"
+    },
+    "0309B0256C68C0": {
+        "mac": "0309B0256C68C0",
+        "rssi": "-81",
+        "data": "0201041AFF004C02152686F39CBADA4658854AA62E7E5E8B8D00010000C9",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "04"
+            },
+            "FF": {
+                "data_len": 52,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "004C02152686F39CBADA4658854AA62E7E5E8B8D00010000C9"
+            }
+        },
+        "company_name": "No Name Found"
+    },
+    "0264A41021F7B3": {
+        "mac": "0264A41021F7B3",
+        "rssi": "-82",
+        "data": "02011A0DFF4C0016080042B030E5E4FC84",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 26,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0016080042B030E5E4FC84"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "024CCB12498CB9": {
+        "mac": "024CCB12498CB9",
+        "rssi": "-85",
+        "data": "02011A020A0C0BFF4C001006411D6079D258",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001006411D6079D258"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "0262F6C8BD6852": {
+        "mac": "0262F6C8BD6852",
+        "rssi": "-58",
+        "data": "1EFF0600010F20026808AD00B4DFC17CBF58094AED693DEA8168D2AA8F32D8",
+        "sep_data": {
+            "FF": {
+                "data_len": 60,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "0600010F20026808AD00B4DFC17CBF58094AED693DEA8168D2AA8F32D8"
+            }
+        },
+        "company_name": "Microsoft"
+    },
+    "0000126F3F2852": {
+        "mac": "0000126F3F2852",
+        "rssi": "-67",
+        "data": "020106030389FE03FF50000B0942656F706C6179205333",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            },
+            "03": {
+                "data_len": 6,
+                "data_type": "03",
+                "data_type_str": "Complete List of 16-bit Service Class UUIDs",
+                "data": "89FE"
+            },
+            "FF": {
+                "data_len": 6,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "5000"
+            },
+            "09": {
+                "data_len": 22,
+                "data_type": "09",
+                "data_type_str": "Complete Local Name",
+                "data": "42656F706C6179205333"
+            }
+        },
+        "company_name": "Gibson Guitars",
+        "device_name": "Beoplay S3"
+    },
+    "024CD7A7F0FE59": {
+        "mac": "024CD7A7F0FE59",
+        "rssi": "-70",
+        "data": "02011A17FF4C00090813120AF5FF591B58160800CFFD12D021E347",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 46,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C00090813120AF5FF591B58160800CFFD12D021E347"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "032B7E12EDE83A": {
+        "mac": "032B7E12EDE83A",
+        "rssi": "-69",
+        "data": "1EFF0600010920223F5DCC3A5A3CAFAD9EC29F806329580D2B1F65210F07D7",
+        "sep_data": {
+            "FF": {
+                "data_len": 60,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "0600010920223F5DCC3A5A3CAFAD9EC29F806329580D2B1F65210F07D7"
+            }
+        },
+        "company_name": "Microsoft"
+    },
+    "005C60BA975B66": {
+        "mac": "005C60BA975B66",
+        "rssi": "-64",
+        "data": "0201061916F7FD018380D1BDEE8EDC2ACC96BD86D8D7D2430000000001030378FE06FF650001C905",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            },
+            "16": {
+                "data_len": 50,
+                "data_type": "16",
+                "data_type_str": "Service Data - 16-bit UUID",
+                "data": "F7FD018380D1BDEE8EDC2ACC96BD86D8D7D2430000000001"
+            },
+            "03": {
+                "data_len": 6,
+                "data_type": "03",
+                "data_type_str": "Complete List of 16-bit Service Class UUIDs",
+                "data": "78FE"
+            },
+            "FF": {
+                "data_len": 12,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "650001C905"
+            }
+        },
+        "company_name": "Fugoo, Inc."
+    },
+    "003A22E2906EA9": {
+        "mac": "003A22E2906EA9",
+        "rssi": "-69",
+        "data": "0201061916F7FD017787320611525380C16BF7E6CBCAED730000000003030378FE06FF650001C905",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            },
+            "16": {
+                "data_len": 50,
+                "data_type": "16",
+                "data_type_str": "Service Data - 16-bit UUID",
+                "data": "F7FD017787320611525380C16BF7E6CBCAED730000000003"
+            },
+            "03": {
+                "data_len": 6,
+                "data_type": "03",
+                "data_type_str": "Complete List of 16-bit Service Class UUIDs",
+                "data": "78FE"
+            },
+            "FF": {
+                "data_len": 12,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "650001C905"
+            }
+        },
+        "company_name": "Fugoo, Inc."
+    },
+    "008C037B1F0411": {
+        "mac": "008C037B1F0411",
+        "rssi": "-78",
+        "data": "0201061AFF4C00021574278BDAB64445208F0C720EAF05993501006277C5",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            },
+            "FF": {
+                "data_len": 52,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C00021574278BDAB64445208F0C720EAF05993501006277C5"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "02663F86E575A4": {
+        "mac": "02663F86E575A4",
+        "rssi": "-76",
+        "data": "02011A020A0C0BFF4C0010064B1DA9007708",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0010064B1DA9007708"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "01C5692EF84003": {
+        "mac": "01C5692EF84003",
+        "rssi": "-95",
+        "data": "020104020AF8",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "04"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "F8"
+            }
+        }
+    },
+    "0274A09995E4E5": {
+        "mac": "0274A09995E4E5",
+        "rssi": "-76",
+        "data": "02011A020A0C0BFF4C0010064B1DA9007708",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0010064B1DA9007708"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "024D4A64D9B673": {
+        "mac": "024D4A64D9B673",
+        "rssi": "-85",
+        "data": "02011A020A0B0CFF4C001007331F74DD0C9F08",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0B"
+            },
+            "FF": {
+                "data_len": 24,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001007331F74DD0C9F08"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "0277590A8AD104": {
+        "mac": "0277590A8AD104",
+        "rssi": "-61",
+        "data": "0201061BFF4C000C0E0090223FF49DC4BE1122D29003341006491D297F6C08",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            },
+            "FF": {
+                "data_len": 54,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C000C0E0090223FF49DC4BE1122D29003341006491D297F6C08"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "032AEA42B20BF8": {
+        "mac": "032AEA42B20BF8",
+        "rssi": "-85",
+        "data": "02011A0BFF4C00090603060AF5FF9B",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C00090603060AF5FF9B"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "0258F080D3C45E": {
+        "mac": "0258F080D3C45E",
+        "rssi": "-86",
+        "data": "02011A020A090AFF4C0010050598AEF934",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "09"
+            },
+            "FF": {
+                "data_len": 20,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0010050598AEF934"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "0247AE1506D89F": {
+        "mac": "0247AE1506D89F",
+        "rssi": "-82",
+        "data": "02011A020A0C0AFF4C0010054B1C9ADBBD",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 20,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0010054B1C9ADBBD"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "031F117E276260": {
+        "mac": "031F117E276260",
+        "rssi": "-84",
+        "data": "02011A0BFF4C0009060306C0A801F6",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0009060306C0A801F6"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "00C0EE4044EDC7": {
+        "mac": "00C0EE4044EDC7",
+        "rssi": "-85",
+        "data": "02010411075914FB699252B69EE8118D8E6E0798BE19094C616972642049473630204C4C202834343A45443A433429",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "04"
+            },
+            "07": {
+                "data_len": 34,
+                "data_type": "07",
+                "data_type_str": "Complete List of 128-bit Service Class UUIDs",
+                "data": "5914FB699252B69EE8118D8E6E0798BE"
+            },
+            "09": {
+                "data_len": 50,
+                "data_type": "09",
+                "data_type_str": "Complete Local Name",
+                "data": "4C616972642049473630204C4C202834343A45443A433429"
+            }
+        },
+        "device_name": "Laird IG60 LL (44:ED:C4)"
+    },
+    "0260EB9F46280F": {
+        "mac": "0260EB9F46280F",
+        "rssi": "-75",
+        "data": "02011A020A0C0BFF4C001006411D6079D258",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001006411D6079D258"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "00B25CDAFAD6BB": {
+        "mac": "00B25CDAFAD6BB",
+        "rssi": "-86",
+        "data": "0201061916F7FD01000000000000000000000000000000000000000003",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            },
+            "16": {
+                "data_len": 50,
+                "data_type": "16",
+                "data_type_str": "Service Data - 16-bit UUID",
+                "data": "F7FD01000000000000000000000000000000000000000003"
+            }
+        }
+    },
+    "025217EE2BAAF4": {
+        "mac": "025217EE2BAAF4",
+        "rssi": "-69",
+        "data": ""
+    },
+    "0324703D026A66": {
+        "mac": "0324703D026A66",
+        "rssi": "-76",
+        "data": "1EFF060001092002531689C82B6FC9741A64225CE550B83C8DBFC7B80EBB05",
+        "sep_data": {
+            "FF": {
+                "data_len": 60,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "060001092002531689C82B6FC9741A64225CE550B83C8DBFC7B80EBB05"
+            }
+        },
+        "company_name": "Microsoft"
+    },
+    "0267AFCDBE77C8": {
+        "mac": "0267AFCDBE77C8",
+        "rssi": "-81",
+        "data": "02011A0DFF4C00090813510AF5010C1B58",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 26,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C00090813510AF5010C1B58"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "0302326338BA91": {
+        "mac": "0302326338BA91",
+        "rssi": "-83",
+        "data": "1EFF060001092002BFC1E537A8E6154875CBC4CF6259C7C07565B1E995A4D6",
+        "sep_data": {
+            "FF": {
+                "data_len": 60,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "060001092002BFC1E537A8E6154875CBC4CF6259C7C07565B1E995A4D6"
+            }
+        },
+        "company_name": "Microsoft"
+    },
+    "030073732FF5F0": {
+        "mac": "030073732FF5F0",
+        "rssi": "-83",
+        "data": "1EFF0600010F20024209869C8E3A63CAAB7438EACCA5691EE3F36469722C19",
+        "sep_data": {
+            "FF": {
+                "data_len": 60,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "0600010F20024209869C8E3A63CAAB7438EACCA5691EE3F36469722C19"
+            }
+        },
+        "company_name": "Microsoft"
+    },
+    "026466988EC8EB": {
+        "mac": "026466988EC8EB",
+        "rssi": "-86",
+        "data": "02011A020A070BFF4C001006391D6B464D48",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "07"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001006391D6B464D48"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "02688B816FE23E": {
+        "mac": "02688B816FE23E",
+        "rssi": "-84",
+        "data": "02011A020A0C0CFF4C001007291F0A6DD76B38",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 24,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001007291F0A6DD76B38"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "0263533A9B7FF6": {
+        "mac": "0263533A9B7FF6",
+        "rssi": "-77",
+        "data": "02011A020A0C0BFF4C001006401D07215728",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001006401D07215728"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "0273BC21A2FC4D": {
+        "mac": "0273BC21A2FC4D",
+        "rssi": "-85",
+        "data": "02011A020A0C0BFF4C001006401D07215728",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001006401D07215728"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "00A09E1AAC8826": {
+        "mac": "00A09E1AAC8826",
+        "rssi": "-66",
+        "data": "0201060302EEFE0DFF6B0072086503E302000000001609506F6C61722049676E697465204143383832363243",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            },
+            "02": {
+                "data_len": 6,
+                "data_type": "02",
+                "data_type_str": "Incomplete List of 16-bit Service Class UUIDs",
+                "data": "EEFE"
+            },
+            "FF": {
+                "data_len": 26,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "6B0072086503E30200000000"
+            },
+            "09": {
+                "data_len": 44,
+                "data_type": "09",
+                "data_type_str": "Complete Local Name",
+                "data": "506F6C61722049676E697465204143383832363243"
+            }
+        },
+        "company_name": "Polar Electro OY",
+        "device_name": "Polar Ignite AC88262C"
+    },
+    "01C9DD0F49F7E7": {
+        "mac": "01C9DD0F49F7E7",
+        "rssi": "-50",
+        "data": "02010613094C4149524420424C3635342D34394637453711077C16A55EBA11CB920C497FB801119A56",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            },
+            "09": {
+                "data_len": 38,
+                "data_type": "09",
+                "data_type_str": "Complete Local Name",
+                "data": "4C4149524420424C3635342D343946374537"
+            },
+            "07": {
+                "data_len": 34,
+                "data_type": "07",
+                "data_type_str": "Complete List of 128-bit Service Class UUIDs",
+                "data": "7C16A55EBA11CB920C497FB801119A56"
+            }
+        },
+        "device_name": "LAIRD BL654-49F7E7"
+    },
+    "02619D6496C30F": {
+        "mac": "02619D6496C30F",
+        "rssi": "-82",
+        "data": "02011A0DFF4C00160800E2D10A597BE1B2",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 26,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C00160800E2D10A597BE1B2"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "0243ADBA0BFE91": {
+        "mac": "0243ADBA0BFE91",
+        "rssi": "-89",
+        "data": "02011A020A0C0BFF4C0010067F1E79809693",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0010067F1E79809693"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "0274A002BF8442": {
+        "mac": "0274A002BF8442",
+        "rssi": "-88",
+        "data": "02011A020A070BFF4C001006371EA067867C",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "07"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001006371EA067867C"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "0264D9B5C0B515": {
+        "mac": "0264D9B5C0B515",
+        "rssi": "-68",
+        "data": "0201180303BEFE0EFF0337511020E5E59D8BFB18EA300D094C452D426F73652051433435020AF6",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "18"
+            },
+            "03": {
+                "data_len": 6,
+                "data_type": "03",
+                "data_type_str": "Complete List of 16-bit Service Class UUIDs",
+                "data": "BEFE"
+            },
+            "FF": {
+                "data_len": 28,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "0337511020E5E59D8BFB18EA30"
+            },
+            "09": {
+                "data_len": 26,
+                "data_type": "09",
+                "data_type_str": "Complete Local Name",
+                "data": "4C452D426F73652051433435"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "F6"
+            }
+        },
+        "company_name": "No Name Found",
+        "device_name": "LE-Bose QC45"
+    },
+    "027873110F06E1": {
+        "mac": "027873110F06E1",
+        "rssi": "-78",
+        "data": "02011A020A0C0BFF4C0010061E1EAD06BA56",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0010061E1EAD06BA56"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "0248E02564A82D": {
+        "mac": "0248E02564A82D",
+        "rssi": "-76",
+        "data": "02011A17FF4C000908130E0AF50C161B5816080009F4109CAB4332",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 46,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C000908130E0AF50C161B5816080009F4109CAB4332"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "01DD3127E1920B": {
+        "mac": "01DD3127E1920B",
+        "rssi": "-71",
+        "data": "1EFF4C00121910B152C53386429FEE911584542983F077CA5791E3E6C3010B",
+        "sep_data": {
+            "FF": {
+                "data_len": 60,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C00121910B152C53386429FEE911584542983F077CA5791E3E6C3010B"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "03053B7D8DAAEB": {
+        "mac": "03053B7D8DAAEB",
+        "rssi": "-91",
+        "data": "02011A0BFF4C000906037AC0A8010C",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C000906037AC0A8010C"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "026310371A6462": {
+        "mac": "026310371A6462",
+        "rssi": "-68",
+        "data": "02011A0DFF4C00160800EACB179B4DF3D3",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 26,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C00160800EACB179B4DF3D3"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "032B9C0E24A413": {
+        "mac": "032B9C0E24A413",
+        "rssi": "-88",
+        "data": "0201041AFF004C02152686F39CBADA4658854AA62E7E5E8B8D00010000C9",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "04"
+            },
+            "FF": {
+                "data_len": 52,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "004C02152686F39CBADA4658854AA62E7E5E8B8D00010000C9"
+            }
+        },
+        "company_name": "No Name Found"
+    },
+    "01CCBAC9DAFC9F": {
+        "mac": "01CCBAC9DAFC9F",
+        "rssi": "-68",
+        "data": "020106",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            }
+        }
+    },
+    "02414C3E10AD8C": {
+        "mac": "02414C3E10AD8C",
+        "rssi": "-90",
+        "data": "02011A0AFF4C001005471C7DA602",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 20,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001005471C7DA602"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "03278EAEB09643": {
+        "mac": "03278EAEB09643",
+        "rssi": "-89",
+        "data": "02011A0BFF4C00090603170AF51036",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C00090603170AF51036"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "00A0024A95AF33": {
+        "mac": "00A0024A95AF33",
+        "rssi": "-63",
+        "data": "02010612166AFE030506100101410416DC5011020B140E09504E4C5F52435F616575313737",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            },
+            "16": {
+                "data_len": 36,
+                "data_type": "16",
+                "data_type_str": "Service Data - 16-bit UUID",
+                "data": "6AFE030506100101410416DC5011020B14"
+            },
+            "09": {
+                "data_len": 28,
+                "data_type": "09",
+                "data_type_str": "Complete Local Name",
+                "data": "504E4C5F52435F616575313737"
+            }
+        },
+        "device_name": "PNL_RC_aeu177"
+    },
+    "02490C21CEDAD7": {
+        "mac": "02490C21CEDAD7",
+        "rssi": "-91",
+        "data": "02011A020A0A0AFF4C0010054E1CC1B2D0",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0A"
+            },
+            "FF": {
+                "data_len": 20,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0010054E1CC1B2D0"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "02528F0304BB82": {
+        "mac": "02528F0304BB82",
+        "rssi": "-84",
+        "data": "02011A0DFF4C001608009D44092EC08E26",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 26,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001608009D44092EC08E26"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "02657DE8884E4B": {
+        "mac": "02657DE8884E4B",
+        "rssi": "-81",
+        "data": "02011A0DFF4C001608005E23D65F806AB9",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 26,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001608005E23D65F806AB9"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "025E794D82A982": {
+        "mac": "025E794D82A982",
+        "rssi": "-85",
+        "data": "02011A020A0C0BFF4C0010061E1E29F6EF40",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0010061E1E29F6EF40"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "01D85163B01D17": {
+        "mac": "01D85163B01D17",
+        "rssi": "-65",
+        "data": "0201061106420074A9FF52109B3349359B000168EF09095468696E67795F4D07FF590016ACDB2F",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            },
+            "06": {
+                "data_len": 34,
+                "data_type": "06",
+                "data_type_str": "Incomplete List of 128-bit Service Class UUIDs",
+                "data": "420074A9FF52109B3349359B000168EF"
+            },
+            "09": {
+                "data_len": 18,
+                "data_type": "09",
+                "data_type_str": "Complete Local Name",
+                "data": "5468696E67795F4D"
+            },
+            "FF": {
+                "data_len": 14,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "590016ACDB2F"
+            }
+        },
+        "device_name": "Thingy_M",
+        "company_name": "Nordic Semiconductor ASA"
+    },
+    "01D4D023727461": {
+        "mac": "01D4D023727461",
+        "rssi": "-63",
+        "data": "0201060C09000000002D37323734363111077C16A55EBA11CB920C497FB801119A56",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            },
+            "09": {
+                "data_len": 24,
+                "data_type": "09",
+                "data_type_str": "Complete Local Name",
+                "data": "000000002D373237343631"
+            },
+            "07": {
+                "data_len": 34,
+                "data_type": "07",
+                "data_type_str": "Complete List of 128-bit Service Class UUIDs",
+                "data": "7C16A55EBA11CB920C497FB801119A56"
+            }
+        },
+        "device_name": "\u0000\u0000\u0000\u0000-727461"
+    },
+    "027A52B3E35C96": {
+        "mac": "027A52B3E35C96",
+        "rssi": "-80",
+        "data": "02011A020A0A0AFF4C001005491CB09EAE",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0A"
+            },
+            "FF": {
+                "data_len": 20,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001005491CB09EAE"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "026D46B0017DA8": {
+        "mac": "026D46B0017DA8",
+        "rssi": "-85",
+        "data": "02011A020A0C0AFF4C001005421CA3110B",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 20,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001005421CA3110B"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "02462B20B5EAC5": {
+        "mac": "02462B20B5EAC5",
+        "rssi": "-81",
+        "data": "02011A0DFF4C0016080055340F76D8761D",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 26,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0016080055340F76D8761D"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "024F59A1872557": {
+        "mac": "024F59A1872557",
+        "rssi": "-88",
+        "data": "02011A020A0C0BFF4C0010061D1AEF97E51B",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0010061D1AEF97E51B"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "01EEC31E0D619D": {
+        "mac": "01EEC31E0D619D",
+        "rssi": "-74",
+        "data": "07FF4C0012020002",
+        "sep_data": {
+            "FF": {
+                "data_len": 14,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0012020002"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "0258A00248A193": {
+        "mac": "0258A00248A193",
+        "rssi": "-83",
+        "data": "02011A020A0C0BFF4C0010067B1E92178D4A",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0010067B1E92178D4A"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "01F33385976212": {
+        "mac": "01F33385976212",
+        "rssi": "-89",
+        "data": "020104030307FE14FFA705060012202300CA00001000000000000000020A00",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "04"
+            },
+            "03": {
+                "data_len": 6,
+                "data_type": "03",
+                "data_type_str": "Complete List of 16-bit Service Class UUIDs",
+                "data": "07FE"
+            },
+            "FF": {
+                "data_len": 40,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "A705060012202300CA00001000000000000000"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "00"
+            }
+        },
+        "company_name": "Sonos Inc"
+    },
+    "027D32B9613313": {
+        "mac": "027D32B9613313",
+        "rssi": "-91",
+        "data": "02011A020A0C0BFF4C001006381E724BC107",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 22,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001006381E724BC107"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "01EAF57551F6C7": {
+        "mac": "01EAF57551F6C7",
+        "rssi": "-67",
+        "data": "07FF4C0012020003",
+        "sep_data": {
+            "FF": {
+                "data_len": 14,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0012020003"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "025822A4695764": {
+        "mac": "025822A4695764",
+        "rssi": "-84",
+        "data": "02011A1AFF4C000C0E08E09163F29976426F43DD27786D1005421CAD76DA",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 52,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C000C0E08E09163F29976426F43DD27786D1005421CAD76DA"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "02574DBD7C6330": {
+        "mac": "02574DBD7C6330",
+        "rssi": "-90",
+        "data": "0201180703D2FD26FE03FE11FF030F7112B5C6CBC52741D2D915DAADE9",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "18"
+            },
+            "03": {
+                "data_len": 14,
+                "data_type": "03",
+                "data_type_str": "Complete List of 16-bit Service Class UUIDs",
+                "data": "D2FD26FE03FE"
+            },
+            "FF": {
+                "data_len": 34,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "030F7112B5C6CBC52741D2D915DAADE9"
+            }
+        },
+        "company_name": "No Name Found"
+    },
+    "02461CDFFFB036": {
+        "mac": "02461CDFFFB036",
+        "rssi": "-84",
+        "data": "02011A020A0C0AFF4C001005421CA3110B",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0C"
+            },
+            "FF": {
+                "data_len": 20,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001005421CA3110B"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "009804ED8F6883": {
+        "mac": "009804ED8F6883",
+        "rssi": "-89",
+        "data": "0201061AFF4C00021574278BDAB64445208F0C720EAF05993500004A87C5030222111309533362336163383435663764393165643943",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            },
+            "FF": {
+                "data_len": 52,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C00021574278BDAB64445208F0C720EAF05993500004A87C5"
+            },
+            "02": {
+                "data_len": 6,
+                "data_type": "02",
+                "data_type_str": "Incomplete List of 16-bit Service Class UUIDs",
+                "data": "2211"
+            },
+            "09": {
+                "data_len": 38,
+                "data_type": "09",
+                "data_type_str": "Complete Local Name",
+                "data": "533362336163383435663764393165643943"
+            }
+        },
+        "company_name": "Apple, Inc.",
+        "device_name": "S3b3ac845f7d91ed9C"
+    },
+    "02743FBA201141": {
+        "mac": "02743FBA201141",
+        "rssi": "-87",
+        "data": "0201020303A0FE1016A0FE03FA8FCA955176762020209FFF",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "02"
+            },
+            "03": {
+                "data_len": 6,
+                "data_type": "03",
+                "data_type_str": "Complete List of 16-bit Service Class UUIDs",
+                "data": "A0FE"
+            },
+            "16": {
+                "data_len": 32,
+                "data_type": "16",
+                "data_type_str": "Service Data - 16-bit UUID",
+                "data": "A0FE03FA8FCA955176762020209FFF"
+            }
+        }
+    },
+    "00C0EE4044EC93": {
+        "mac": "00C0EE4044EC93",
+        "rssi": "-72",
+        "data": "02010411075914FB699252B69EE8118D8E6E0798BE",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "04"
+            },
+            "07": {
+                "data_len": 34,
+                "data_type": "07",
+                "data_type_str": "Complete List of 128-bit Service Class UUIDs",
+                "data": "5914FB699252B69EE8118D8E6E0798BE"
+            }
+        }
+    },
+    "026CA962FAB25E": {
+        "mac": "026CA962FAB25E",
+        "rssi": "-73",
+        "data": "02011A0DFF4C001608006BE9173CD21313",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 26,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001608006BE9173CD21313"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "01D68110034751": {
+        "mac": "01D68110034751",
+        "rssi": "-90",
+        "data": "07FF4C0012020002",
+        "sep_data": {
+            "FF": {
+                "data_len": 14,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0012020002"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "01E6DF0222CBA3": {
+        "mac": "01E6DF0222CBA3",
+        "rssi": "-84",
+        "data": "07FF4C0012020001",
+        "sep_data": {
+            "FF": {
+                "data_len": 14,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0012020001"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "0250320F586464": {
+        "mac": "0250320F586464",
+        "rssi": "-92",
+        "data": "02011A1BFF4C000C0E0018146BCB1C7EEB180008A2864B1006471DA2625F08",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "FF": {
+                "data_len": 54,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C000C0E0018146BCB1C7EEB180008A2864B1006471DA2625F08"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "00A0024A9666E1": {
+        "mac": "00A0024A9666E1",
+        "rssi": "-71",
+        "data": "02010611166AFE021C0202510431307244304161630E09504E4C5F52435F61666A383531",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            },
+            "16": {
+                "data_len": 34,
+                "data_type": "16",
+                "data_type_str": "Service Data - 16-bit UUID",
+                "data": "6AFE021C020251043130724430416163"
+            },
+            "09": {
+                "data_len": 28,
+                "data_type": "09",
+                "data_type_str": "Complete Local Name",
+                "data": "504E4C5F52435F61666A383531"
+            }
+        },
+        "device_name": "PNL_RC_afj851"
+    },
+    "01C9871B4316DC": {
+        "mac": "01C9871B4316DC",
+        "rssi": "-66",
+        "data": "02010603030A1817FF7205122BC27173FFEEFA653CD6DFEBAAF86EBF5D7195",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            },
+            "03": {
+                "data_len": 6,
+                "data_type": "03",
+                "data_type_str": "Complete List of 16-bit Service Class UUIDs",
+                "data": "0A18"
+            },
+            "FF": {
+                "data_len": 46,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "7205122BC27173FFEEFA653CD6DFEBAAF86EBF5D7195"
+            }
+        },
+        "company_name": "No Name Found"
+    },
+    "01F46BBD86A3A3": {
+        "mac": "01F46BBD86A3A3",
+        "rssi": "-73",
+        "data": "07FF4C0012020001",
+        "sep_data": {
+            "FF": {
+                "data_len": 14,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0012020001"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "01D85163B01D19": {
+        "mac": "01D85163B01D19",
+        "rssi": "-65",
+        "data": "0201060303AAFE1316AAFE10EE03676F6F2E676C2F704957646972",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "06"
+            },
+            "03": {
+                "data_len": 6,
+                "data_type": "03",
+                "data_type_str": "Complete List of 16-bit Service Class UUIDs",
+                "data": "AAFE"
+            },
+            "16": {
+                "data_len": 38,
+                "data_type": "16",
+                "data_type_str": "Service Data - 16-bit UUID",
+                "data": "AAFE10EE03676F6F2E676C2F704957646972"
+            }
+        }
+    },
+    "01DDE0F190A399": {
+        "mac": "01DDE0F190A399",
+        "rssi": "-79",
+        "data": "07FF4C0012020002",
+        "sep_data": {
+            "FF": {
+                "data_len": 14,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C0012020002"
+            }
+        },
+        "company_name": "Apple, Inc."
+    },
+    "0278EC5F6CFFA2": {
+        "mac": "0278EC5F6CFFA2",
+        "rssi": "-89",
+        "data": "02011A020A0B0AFF4C001005331C4A10E7",
+        "sep_data": {
+            "01": {
+                "data_len": 4,
+                "data_type": "01",
+                "data_type_str": "Flags",
+                "data": "1A"
+            },
+            "0A": {
+                "data_len": 4,
+                "data_type": "0A",
+                "data_type_str": "Tx Power Level",
+                "data": "0B"
+            },
+            "FF": {
+                "data_len": 20,
+                "data_type": "FF",
+                "data_type_str": "Manufacturer Specific Data",
+                "data": "4C001005331C4A10E7"
+            }
+        },
+        "company_name": "Apple, Inc."
+    }
+}

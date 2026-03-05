@@ -1,0 +1,10283 @@
+company_identifiers:
+
+  - value: 0D65
+    name: 'Molnlycke Health Care AB'
+
+  - value: 0D64
+    name: 'Southco'
+
+  - value: 0D63
+    name: 'SKF France'
+
+  - value: 0D62
+    name: 'MEBSTER s.r.o.'
+
+  - value: 0D61
+    name: 'F.I.P. FORMATURA INIEZIONE POLIMERI - S.P.A.'
+
+  - value: 0D60
+    name: 'Smart Products Connection, S.A.'
+
+  - value: 0D5F
+    name: 'SiChuan Homme Intelligent Technology co.,Ltd.'
+
+  - value: 0D5E
+    name: 'Pella Corp'
+
+  - value: 0D5D
+    name: 'Stogger B.V.'
+
+  - value: 0D5C
+    name: 'Pison Technology, Inc.'
+
+  - value: 0D5B
+    name: 'Axis Communications AB'
+
+  - value: 0D5A
+    name: 'Gunnebo Aktiebolag'
+
+  - value: 0D59
+    name: 'HYUPSUNG MACHINERY ELECTRIC CO., LTD.'
+
+  - value: 0D58
+    name: 'ifm electronic gmbh'
+
+  - value: 0D57
+    name: 'Nanjing Xinxiangyuan Microelectronics Co., Ltd.'
+
+  - value: 0D56
+    name: 'Wellang.Co,.Ltd'
+
+  - value: 0D55
+    name: 'NO CLIMB PRODUCTS LTD'
+
+  - value: 0D54
+    name: 'ISEKI FRANCE S.A.S'
+
+  - value: 0D53
+    name: 'Luxottica Group S.p.A'
+
+  - value: 0D52
+    name: 'DIVAN TRADING CO., LTD.'
+
+  - value: 0D51
+    name: 'Genetus inc.'
+
+  - value: 0D50
+    name: 'NINGBO FOTILE KITCHENWARE CO., LTD.'
+
+  - value: 0D4F
+    name: 'Movano Inc.'
+
+  - value: 0D4E
+    name: 'NIKAT SOLUTIONS PRIVATE LIMITED'
+
+  - value: 0D4D
+    name: 'Optec, LLC'
+
+  - value: 0D4C
+    name: 'IotGizmo Corporation'
+
+  - value: 0D4B
+    name: 'Soundwave Hearing, LLC'
+
+  - value: 0D4A
+    name: 'Rockpile Solutions, LLC'
+
+  - value: 0D49
+    name: 'Refrigerated Transport Electronics, Inc.'
+
+  - value: 0D48
+    name: 'Vemcon GmbH'
+
+  - value: 0D47
+    name: 'Shenzhen DOKE Electronic Co., Ltd'
+
+  - value: 0D46
+    name: 'Thales Simulation & Training AG'
+
+  - value: 0D45
+    name: 'Odeon, Inc.'
+
+  - value: 0D44
+    name: 'Ex Makhina Inc.'
+
+  - value: 0D43
+    name: 'Gosuncn Technology Group Co., Ltd.'
+
+  - value: 0D42
+    name: 'TEKTRO TECHNOLOGY CORPORATION'
+
+  - value: 0D41
+    name: 'CPAC Systems AB'
+
+  - value: 0D40
+    name: 'SignalFire Telemetry, Inc.'
+
+  - value: 0D3F
+    name: 'Vogels Products B.V.'
+
+  - value: 0D3E
+    name: 'LUMINOAH, INC.'
+
+  - value: 0D3D
+    name: 'bHaptics Inc.'
+
+  - value: 0D3C
+    name: 'SIRONA Dental Systems GmbH'
+
+  - value: 0D3B
+    name: 'Lone Star Marine Pty Ltd'
+
+  - value: 0D3A
+    name: 'Frost Solutions, LLC'
+
+  - value: 0D39
+    name: 'Systemic Games, LLC'
+
+  - value: 0D38
+    name: 'CycLock'
+
+  - value: 0D37
+    name: 'Zerene Inc.'
+
+  - value: 0D36
+    name: 'XIHAO INTELLIGENGT TECHNOLOGY CO., LTD'
+
+  - value: 0D35
+    name: 'Universidad Politecnica de Madrid'
+
+  - value: 0D34
+    name: 'ZILLIOT TECHNOLOGIES PRIVATE LIMITED'
+
+  - value: 0D33
+    name: 'Micropower Group AB'
+
+  - value: 0D32
+    name: 'Badger Meter'
+
+  - value: 0D31
+    name: 'SYNCHRON, INC.'
+
+  - value: 0D30
+    name: 'Laxmi Therapeutic Devices, Inc.'
+
+  - value: 0D2F
+    name: 'Delta Development Team, Inc'
+
+  - value: 0D2E
+    name: 'Advanced Electronic Applications, Inc'
+
+  - value: 0D2D
+    name: 'Cooler Pro, LLC'
+
+  - value: 0D2C
+    name: 'SIL System Integration Laboratory GmbH'
+
+  - value: 0D2B
+    name: 'Sensoryx AG'
+
+  - value: 0D2A
+    name: 'PhysioLogic Devices, Inc.'
+
+  - value: 0D29
+    name: 'MIYAKAWA ELECTRIC WORKS LTD.'
+
+  - value: 0D28
+    name: 'FUJITSU COMPONENT LIMITED'
+
+  - value: 0D27
+    name: 'velocitux'
+
+  - value: 0D26
+    name: 'Burkert Werke GmbH & Co. KG'
+
+  - value: 0D25
+    name: 'System Elite Holdings Group Limited'
+
+  - value: 0D24
+    name: 'Japan Display Inc.'
+
+  - value: 0D23
+    name: 'GREE Electric Appliances, Inc. of Zhuhai'
+
+  - value: 0D22
+    name: 'Cedarware, Corp.'
+
+  - value: 0D21
+    name: 'Cennox Group Limited'
+
+  - value: 0D20
+    name: 'SCIENTERRA LIMITED'
+
+  - value: 0D1F
+    name: 'Synkopi, Inc.'
+
+  - value: 0D1E
+    name: 'FESTINA LOTUS SA'
+
+  - value: 0D1D
+    name: 'Electronics4All Inc.'
+
+  - value: 0D1C
+    name: 'LIMBOID LLC'
+
+  - value: 0D1B
+    name: 'RACHIO, INC.'
+
+  - value: 0D1A
+    name: 'Maturix ApS'
+
+  - value: 0D19
+    name: 'C.G. Air Systemes Inc.'
+
+  - value: 0D18
+    name: 'Bioliberty Ltd'
+
+  - value: 0D17
+    name: 'Akix S.r.l.'
+
+  - value: 0D16
+    name: 'Nations Technologies Inc.'
+
+  - value: 0D15
+    name: 'Spark'
+
+  - value: 0D14
+    name: 'Merry Electronics (S) Pte Ltd'
+
+  - value: 0D13
+    name: 'MERRY ELECTRONICS CO., LTD.'
+
+  - value: 0D12
+    name: 'Spartek Systems Inc.'
+
+  - value: 0D11
+    name: 'Great Dane LLC'
+
+  - value: 0D10
+    name: 'JVC KENWOOD Corporation'
+
+  - value: 0D0F
+    name: 'Timebirds Australia Pty Ltd'
+
+  - value: 0D0E
+    name: 'PetVoice Co., Ltd.'
+
+  - value: 0D0D
+    name: 'C.Ed. Schulte GmbH Zylinderschlossfabrik'
+
+  - value: 0D0C
+    name: 'Planmeca Oy'
+
+  - value: 0D0B
+    name: 'Research Products Corporation'
+
+  - value: 0D0A
+    name: 'CATEYE Co., Ltd.'
+
+  - value: 0D09
+    name: 'Leica Geosystems AG'
+
+  - value: 0D08
+    name: 'Datalogic USA, Inc.'
+
+  - value: 0D07
+    name: 'Datalogic S.r.l.'
+
+  - value: 0D06
+    name: 'doubleO Co., Ltd.'
+
+  - value: 0D05
+    name: 'Energy Technology and Control Limited'
+
+  - value: 0D04
+    name: 'Bartec Auto Id Ltd'
+
+  - value: 0D03
+    name: 'MakuSafe Corp'
+
+  - value: 0D02
+    name: 'Rocky Mountain ATV/MC Jake Wilson'
+
+  - value: 0D01
+    name: 'KEEPEN'
+
+  - value: 0D00
+    name: 'Sparkpark AS'
+
+  - value: 0CFF
+    name: 'Ergodriven Inc'
+
+  - value: 0CFE
+    name: 'Thule Group AB'
+
+  - value: 0CFD
+    name: 'Wuhan Woncan Construction Technologies Co., Ltd.'
+
+  - value: 0CFC
+    name: 'ElectronX design'
+
+  - value: 0CFB
+    name: 'Tyromotion GmbH'
+
+  - value: 0CFA
+    name: 'Protect Animals With Satellites LLC'
+
+  - value: 0CF9
+    name: 'Tamblue Oy'
+
+  - value: 0CF8
+    name: 'core sensing GmbH'
+
+  - value: 0CF7
+    name: 'TVS Motor Company Ltd.'
+
+  - value: 0CF6
+    name: 'OJ Electronics A/S'
+
+  - value: 0CF5
+    name: 'BOS Balance of Storage Systems AG'
+
+  - value: 0CF4
+    name: 'SOLUX PTY LTD'
+
+  - value: 0CF3
+    name: 'Radio Sound'
+
+  - value: 0CF2
+    name: 'BestSens AG'
+
+  - value: 0CF1
+    name: 'Midmark'
+
+  - value: 0CF0
+    name: 'THOTAKA TEKHNOLOGIES INDIA PRIVATE LIMITED'
+
+  - value: 0CEF
+    name: 'POGS B.V.'
+
+  - value: 0CEE
+    name: 'MadgeTech, Inc'
+
+  - value: 0CED
+    name: 'CV. NURI TEKNIK'
+
+  - value: 0CEC
+    name: 'Pacific Coast Fishery Services (2003) Inc.'
+
+  - value: 0CEB
+    name: 'Shenzhen Tingting Technology Co. LTD'
+
+  - value: 0CEA
+    name: 'HAYWARD INDUSTRIES, INC.'
+
+  - value: 0CE9
+    name: 'PEAG, LLC dba JLab Audio'
+
+  - value: 0CE8
+    name: 'Dongguan Yougo Electronics Co.,Ltd.'
+
+  - value: 0CE7
+    name: 'TAG HEUER SA'
+
+  - value: 0CE6
+    name: 'McWong International, Inc.'
+
+  - value: 0CE5
+    name: 'Amina Distribution AS'
+
+  - value: 0CE4
+    name: 'Off-Highway Powertrain Services Germany GmbH'
+
+  - value: 0CE3
+    name: 'Taiwan Fuhsing'
+
+  - value: 0CE2
+    name: 'CORVENT MEDICAL, INC.'
+
+  - value: 0CE1
+    name: 'Regal Beloit America, Inc.'
+
+  - value: 0CE0
+    name: 'VODALOGIC PTY LTD'
+
+  - value: 0CDF
+    name: 'SHENZHEN CHENYUN ELECTRONICS  CO., LTD'
+
+  - value: 0CDE
+    name: 'RESPONSE TECHNOLOGIES, LTD.'
+
+  - value: 0CDD
+    name: 'Alif Semiconductor, Inc.'
+
+  - value: 0CDC
+    name: 'Ypsomed AG'
+
+  - value: 0CDB
+    name: 'Circus World Displays Limited'
+
+  - value: 0CDA
+    name: 'Wolf Steel ltd'
+
+  - value: 0CD9
+    name: 'Minami acoustics Limited'
+
+  - value: 0CD8
+    name: 'SIA Mesh Group'
+
+  - value: 0CD7
+    name: 'Maztech Industries, LLC'
+
+  - value: 0CD6
+    name: 'HHO (Hangzhou) Digital Technology Co., Ltd.'
+
+  - value: 0CD5
+    name: 'Numa Products, LLC'
+
+  - value: 0CD4
+    name: 'Reoqoo IoT Technology Co., Ltd.'
+
+  - value: 0CD3
+    name: 'TechSwipe'
+
+  - value: 0CD2
+    name: 'EQOM SSC B.V.'
+
+  - value: 0CD1
+    name: 'Imagine Marketing Limited'
+
+  - value: 0CD0
+    name: 'MooreSilicon Semiconductor Technology (Shanghai) Co., LTD.'
+
+  - value: 0CCF
+    name: 'Shenzhen CESI Information Technology Co., Ltd.'
+
+  - value: 0CCE
+    name: 'SENOSPACE LLC'
+
+  - value: 0CCD
+    name: 'YanFeng Visteon(Chongqing) Automotive Electronic Co.,Ltd'
+
+  - value: 0CCC
+    name: 'Kord Defence Pty Ltd'
+
+  - value: 0CCB
+    name: 'NOTHING TECHNOLOGY LIMITED'
+
+  - value: 0CCA
+    name: 'Cyclops Marine Ltd'
+
+  - value: 0CC9
+    name: 'Innocent Technology Co., Ltd.'
+
+  - value: 0CC8
+    name: 'TrikThom'
+
+  - value: 0CC7
+    name: 'SB C&S Corp.'
+
+  - value: 0CC6
+    name: 'Serial Technology Corporation'
+
+  - value: 0CC5
+    name: 'Open Road Solutions, Inc.'
+
+  - value: 0CC4
+    name: 'ABUS August Bremicker Soehne Kommanditgesellschaft'
+
+  - value: 0CC3
+    name: 'HMD Global Oy'
+
+  - value: 0CC2
+    name: 'Anker Innovations Limited'
+
+  - value: 0CC1
+    name: 'CLEIO Inc.'
+
+  - value: 0CC0
+    name: 'Garnet Instruments Ltd.'
+
+  - value: 0CBF
+    name: 'Forward Thinking Systems LLC.'
+
+  - value: 0CBD
+    name: 'Pricer AB'
+
+  - value: 0CBC
+    name: 'TROX GmbH'
+
+  - value: 0CBB
+    name: 'Emlid Tech Kft.'
+
+  - value: 0CBA
+    name: 'Ameso Tech (OPC) Private Limited'
+
+  - value: 0CB9
+    name: 'seca GmbH & Co. KG'
+
+  - value: 0CB8
+    name: 'Shanghai Proxy Network Technology Co., Ltd.'
+
+  - value: 0CB7
+    name: 'Cucumber Lighting Controls Limited'
+
+  - value: 0CB6
+    name: 'THE EELECTRIC MACARON LLC'
+
+  - value: 0CB5
+    name: 'Racketry, d. o. o.'
+
+  - value: 0CB4
+    name: 'Eberspaecher Climate Control Systems GmbH'
+
+  - value: 0CB3
+    name: 'janova GmbH'
+
+  - value: 0CB2
+    name: 'SHINKAWA Sensor Technology, Inc.'
+
+  - value: 0CB1
+    name: 'RF Creations'
+
+  - value: 0CB0
+    name: 'SwipeSense, Inc.'
+
+  - value: 0CAF
+    name: 'NEURINNOV'
+
+  - value: 0CAE
+    name: 'Evident Corporation'
+
+  - value: 0CAD
+    name: 'Shenzhen Openhearing Tech CO., LTD .'
+
+  - value: 0CAC
+    name: 'Shenzhen Shokz Co.,Ltd.'
+
+  - value: 0CAB
+    name: 'HERUTU ELECTRONICS CORPORATION'
+
+  - value: 0CAA
+    name: 'Shenzhen Poseidon Network Technology Co., Ltd'
+
+  - value: 0CA9
+    name: 'Mievo Technologies Private Limited'
+
+  - value: 0CA8
+    name: 'Sonas, Inc.'
+
+  - value: 0CA7
+    name: 'Verve InfoTec Pty Ltd'
+
+  - value: 0CA6
+    name: 'Megger Ltd'
+
+  - value: 0CA5
+    name: 'Princess Cruise Lines, Ltd.'
+
+  - value: 0CA4
+    name: 'MITSUBISHI ELECTRIC LIGHTING CO, LTD'
+
+  - value: 0CA3
+    name: 'MAQUET GmbH'
+
+  - value: 0CA2
+    name: 'XSENSE LTD'
+
+  - value: 0CA1
+    name: 'YAMAHA MOTOR CO.,LTD.'
+
+  - value: 0CA0
+    name: 'BIGBEN'
+
+  - value: 0C9F
+    name: 'Dragonfly Energy Corp.'
+
+  - value: 0C9E
+    name: 'ECCEL CORPORATION SAS'
+
+  - value: 0C9D
+    name: 'Ribbiot, INC.'
+
+  - value: 0C9C
+    name: 'Sunstone-RTLS Ipari Szolgaltato Korlatolt Felelossegu Tarsasag'
+
+  - value: 0C9B
+    name: 'NTT sonority, Inc.'
+
+  - value: 0C9A
+    name: 'ALF Inc.'
+
+  - value: 0C99
+    name: 'Vire Health Oy'
+
+  - value: 0C98
+    name: 'MiX Telematics International (PTY) LTD'
+
+  - value: 0C97
+    name: 'Deako'
+
+  - value: 0C96
+    name: 'H+B Hightech GmbH'
+
+  - value: 0C95
+    name: 'Gemstone Lights Canada Ltd.'
+
+  - value: 0C94
+    name: 'Baxter Healthcare Corporation'
+
+  - value: 0C93
+    name: 'Movesense Oy'
+
+  - value: 0C92
+    name: 'KessebÃ¶hmer Ergonomietechnik GmbH'
+
+  - value: 0C91
+    name: 'Yashu Systems'
+
+  - value: 0C90
+    name: 'WESCO AG'
+
+  - value: 0C8F
+    name: 'Radar Automobile Sales(Shandong)Co.,Ltd.'
+
+  - value: 0C8E
+    name: 'Technocon Engineering Ltd.'
+
+  - value: 0C8D
+    name: 'tonies GmbH'
+
+  - value: 0C8C
+    name: 'T-Mobile USA'
+
+  - value: 0C8B
+    name: 'Heavys Inc'
+
+  - value: 0C8A
+    name: 'A.GLOBAL co.,Ltd.'
+
+  - value: 0C89
+    name: 'AGZZX OPTOELECTRONICS TECHNOLOGY CO., LTD'
+
+  - value: 0C88
+    name: 'Nextivity Inc.'
+
+  - value: 0C87
+    name: 'Weltek Technologies Company Limited'
+
+  - value: 0C86
+    name: 'Qingdao Eastsoft Communication Technology Co.,Ltd'
+
+  - value: 0C85
+    name: 'Amlogic, Inc.'
+
+  - value: 0C84
+    name: 'MAXON INDUSTRIES, INC.'
+
+  - value: 0C83
+    name: 'Watchdog Systems LLC'
+
+  - value: 0C82
+    name: 'NACON'
+
+  - value: 0C81
+    name: 'Carrier Corporation'
+
+  - value: 0C80
+    name: 'CARDIOID - TECHNOLOGIES, LDA'
+
+  - value: 0C7F
+    name: 'Rochester Sensors, LLC'
+
+  - value: 0C7E
+    name: 'BOOMING OF THINGS'
+
+  - value: 0C7D
+    name: '3ALogics, Inc.'
+
+  - value: 0C7C
+    name: 'Mopeka Products LLC'
+
+  - value: 0C7B
+    name: 'PT SADAMAYA GRAHA TEKNOLOGI'
+
+  - value: 0C7A
+    name: 'Triductor Technology (Suzhou), Inc.'
+
+  - value: 0C79
+    name: 'Zhuhai Smartlink Technology Co., Ltd'
+
+  - value: 0C78
+    name: 'CHARGTRON IOT PRIVATE LIMITED'
+
+  - value: 0C77
+    name: 'TEAC Corporation'
+
+  - value: 0C76
+    name: 'Shenzhen Gwell Times Technology Co. , Ltd'
+
+  - value: 0C75
+    name: 'Embedded Engineering Solutions LLC'
+
+  - value: 0C74
+    name: 'yupiteru'
+
+  - value: 0C73
+    name: 'Truma GerÃ¤tetechnik GmbH & Co. KG'
+
+  - value: 0C72
+    name: 'StreetCar ORV, LLC'
+
+  - value: 0C71
+    name: 'BitGreen Technolabz (OPC) Private Limited'
+
+  - value: 0C70
+    name: 'SCARAB SOLUTIONS LTD'
+
+  - value: 0C6F
+    name: 'Parakey AB'
+
+  - value: 0C6E
+    name: 'Sensa LLC'
+
+  - value: 0C6D
+    name: 'Fidure Corp.'
+
+  - value: 0C6C
+    name: 'SNIFF LOGIC LTD'
+
+  - value: 0C6B
+    name: 'GILSON SAS'
+
+  - value: 0C6A
+    name: 'CONSORCIO TRUST CONTROL - NETTEL'
+
+  - value: 0C69
+    name: 'BLITZ electric motors. LTD'
+
+  - value: 0C68
+    name: 'Emerja Corporation'
+
+  - value: 0C67
+    name: 'TRACKTING S.R.L.'
+
+  - value: 0C66
+    name: 'DEN Smart Home B.V.'
+
+  - value: 0C65
+    name: 'WAKO CO,.LTD'
+
+  - value: 0C64
+    name: 'dormakaba Holding AG'
+
+  - value: 0C63
+    name: 'phg Peter Hengstler GmbH + Co. KG'
+
+  - value: 0C62
+    name: 'Phiaton Corporation'
+
+  - value: 0C61
+    name: 'NNOXX, Inc'
+
+  - value: 0C60
+    name: 'KEBA Energy Automation GmbH'
+
+  - value: 0C5F
+    name: 'Nanjing Linkpower Microelectronics Co.,Ltd'
+
+  - value: 0C5E
+    name: 'BlueID GmbH'
+
+  - value: 0C5D
+    name: 'StepUp Solutions ApS'
+
+  - value: 0C5C
+    name: 'MGM WIRELESSS HOLDINGS PTY LTD'
+
+  - value: 0C5B
+    name: 'Alban Giacomo S.P.A.'
+
+  - value: 0C5A
+    name: 'Lockswitch Sdn Bhd'
+
+  - value: 0C59
+    name: 'CYBERDYNE Inc.'
+
+  - value: 0C58
+    name: 'Hykso Inc.'
+
+  - value: 0C57
+    name: 'UNEEG medical A/S'
+
+  - value: 0C56
+    name: 'Rheem Sales Company, Inc.'
+
+  - value: 0C55
+    name: 'Zintouch B.V.'
+
+  - value: 0C54
+    name: 'HiViz Lighting, Inc.'
+
+  - value: 0C53
+    name: 'Taco, Inc.'
+
+  - value: 0C52
+    name: 'ESCEA LIMITED'
+
+  - value: 0C51
+    name: 'INNOVA S.R.L.'
+
+  - value: 0C50
+    name: 'Imostar Technologies Inc.'
+
+  - value: 0C4F
+    name: 'SharkNinja Operating LLC'
+
+  - value: 0C4E
+    name: 'Tactile Engineering, Inc.'
+
+  - value: 0C4D
+    name: 'Seekwave Technology Co.,ltd.'
+
+  - value: 0C4C
+    name: 'Orpyx Medical Technologies Inc.'
+
+  - value: 0C4B
+    name: 'ADTRAN, Inc.'
+
+  - value: 0C4A
+    name: 'atSpiro ApS'
+
+  - value: 0C49
+    name: 'twopounds gmbh'
+
+  - value: 0C48
+    name: 'VALEO MANAGEMENT SERVICES'
+
+  - value: 0C47
+    name: 'Epsilon Electronics,lnc'
+
+  - value: 0C46
+    name: 'Granwin IoT Technology (Guangzhou) Co.,Ltd'
+
+  - value: 0C45
+    name: 'Brose Verwaltung SE, Bamberg'
+
+  - value: 0C44
+    name: 'ONCELABS LLC'
+
+  - value: 0C43
+    name: 'Berlinger & Co. AG'
+
+  - value: 0C42
+    name: 'Heath Consultants Inc.'
+
+  - value: 0C41
+    name: 'Control Solutions LLC'
+
+  - value: 0C40
+    name: 'HORIBA, Ltd.'
+
+  - value: 0C3F
+    name: 'Stinger Equipment, Inc.'
+
+  - value: 0C3E
+    name: 'BELLDESIGN Inc.'
+
+  - value: 0C3D
+    name: 'Wrmth Corp.'
+
+  - value: 0C3C
+    name: 'Classified Cycling'
+
+  - value: 0C3B
+    name: 'ORB Innovations Ltd'
+
+  - value: 0C3A
+    name: 'Equinosis, LLC'
+
+  - value: 0C39
+    name: 'TIGER CORPORATION'
+
+  - value: 0C38
+    name: 'Noritz Corporation.'
+
+  - value: 0C37
+    name: 'SignalQuest, LLC'
+
+  - value: 0C36
+    name: 'Cosmicnode BV'
+
+  - value: 0C35
+    name: 'Thermokon-Sensortechnik GmbH'
+
+  - value: 0C34
+    name: 'BYD Company Limited'
+
+  - value: 0C33
+    name: 'Exeger Operations AB'
+
+  - value: 0C32
+    name: 'Xian Yisuobao Electronic Technology Co., Ltd.'
+
+  - value: 0C31
+    name: 'KINDOO LLP'
+
+  - value: 0C30
+    name: 'McIntosh Group Inc'
+
+  - value: 0C2F
+    name: 'BEEHERO, INC.'
+
+  - value: 0C2E
+    name: 'Easee AS'
+
+  - value: 0C2D
+    name: 'OTF Product Sourcing, LLC'
+
+  - value: 0C2C
+    name: 'Zeku Technology (Shanghai) Corp., Ltd.'
+
+  - value: 0C2B
+    name: 'GigaDevice Semiconductor Inc.'
+
+  - value: 0C2A
+    name: 'Caresix Inc.'
+
+  - value: 0C29
+    name: 'DENSO AIRCOOL CORPORATION'
+
+  - value: 0C28
+    name: 'Embecta Corp.'
+
+  - value: 0C27
+    name: 'Pal Electronics'
+
+  - value: 0C26
+    name: 'Performance Electronics, Ltd.'
+
+  - value: 0C25
+    name: 'JURA Elektroapparate AG'
+
+  - value: 0C24
+    name: 'SMARTD TECHNOLOGIES INC.'
+
+  - value: 0C23
+    name: 'KEYTEC,Inc.'
+
+  - value: 0C22
+    name: 'Glamo Inc.'
+
+  - value: 0C21
+    name: 'Foshan Viomi Electrical Technology Co., Ltd'
+
+  - value: 0C20
+    name: 'COMELIT GROUP S.P.A.'
+
+  - value: 0C1F
+    name: 'LVI Co.'
+
+  - value: 0C1E
+    name: 'EC sense co., Ltd'
+
+  - value: 0C1D
+    name: 'OFF Line Japan Co., Ltd.'
+
+  - value: 0C1C
+    name: 'GEMU'
+
+  - value: 0C1B
+    name: 'Rockchip Electronics Co., Ltd.'
+
+  - value: 0C1A
+    name: 'Catapult Group International Ltd'
+
+  - value: 0C19
+    name: 'Arlo Technologies, Inc.'
+
+  - value: 0C18
+    name: 'CORROHM'
+
+  - value: 0C17
+    name: 'SomnoMed Limited'
+
+  - value: 0C16
+    name: 'TYKEE PTY. LTD.'
+
+  - value: 0C15
+    name: 'Geva Sol B.V.'
+
+  - value: 0C14
+    name: 'Fasetto, Inc.'
+
+  - value: 0C13
+    name: 'Scandinavian Health Limited'
+
+  - value: 0C12
+    name: 'IoSA'
+
+  - value: 0C11
+    name: 'Gordon Murray Design Limited'
+
+  - value: 0C10
+    name: 'Cosmed s.r.l.'
+
+  - value: 0C0F
+    name: 'AETERLINK'
+
+  - value: 0C0E
+    name: 'ALEX DENKO CO.,LTD.'
+
+  - value: 0C0D
+    name: 'Mereltron bv'
+
+  - value: 0C0C
+    name: 'Mendeltron, Inc.'
+
+  - value: 0C0B
+    name: 'aconno GmbH'
+
+  - value: 0C0A
+    name: 'Automated Pet Care Products, LLC'
+
+  - value: 0C09
+    name: 'Senic Inc.'
+
+  - value: 0C08
+    name: 'limited liability company "Red"'
+
+  - value: 0C07
+    name: 'CONSTRUKTS, INC.'
+
+  - value: 0C06
+    name: 'LED Smart Inc.'
+
+  - value: 0C05
+    name: 'Montage Connect, Inc.'
+
+  - value: 0C04
+    name: 'Happy Health, Inc.'
+
+  - value: 0C03
+    name: 'Puff Corp'
+
+  - value: 0C02
+    name: 'Loomanet, Inc.'
+
+  - value: 0C01
+    name: 'NEOWRK SISTEMAS INTELIGENTES S.A.'
+
+  - value: 0C00
+    name: 'MQA Limited'
+
+  - value: 0BFF
+    name: 'Ratio Electric BV'
+
+  - value: 0BFE
+    name: 'Media-Cartec GmbH'
+
+  - value: 0BFD
+    name: 'EsmÃ© Solutions'
+
+  - value: 0BFC
+    name: 'T+A elektroakustik GmbH & Co.KG'
+
+  - value: 0BFB
+    name: 'Dodam Enersys Co., Ltd'
+
+  - value: 0BFA
+    name: 'CleanBands Systems Ltd.'
+
+  - value: 0BF9
+    name: 'Alio, Inc'
+
+  - value: 0BF8
+    name: 'Innovacionnye Resheniya'
+
+  - value: 0BF7
+    name: 'Wacker Neuson SE'
+
+  - value: 0BF6
+    name: 'greenTEG AG'
+
+  - value: 0BF5
+    name: 'T5 tek, Inc.'
+
+  - value: 0BF4
+    name: 'ER Lab LLC'
+
+  - value: 0BF3
+    name: 'PONE BIOMETRICS AS'
+
+  - value: 0BF2
+    name: 'Angel Medical Systems, Inc.'
+
+  - value: 0BF1
+    name: 'Site IQ LLC'
+
+  - value: 0BF0
+    name: 'KIDO SPORTS CO., LTD.'
+
+  - value: 0BEF
+    name: 'Safetytest GmbH'
+
+  - value: 0BEE
+    name: 'LINKSYS USA, INC.'
+
+  - value: 0BED
+    name: 'CORAL-TAIYI Co. Ltd.'
+
+  - value: 0BEC
+    name: 'Miracle-Ear, Inc.'
+
+  - value: 0BEB
+    name: 'Luna Health, Inc.'
+
+  - value: 0BEA
+    name: 'Twenty Five Seven, prodaja in storitve, d.o.o.'
+
+  - value: 0BE9
+    name: 'Shindengen Electric Manufacturing Co., Ltd.'
+
+  - value: 0BE8
+    name: 'Sensormate AG'
+
+  - value: 0BE7
+    name: 'Fresnel Technologies, Inc.'
+
+  - value: 0BE6
+    name: 'Puratap Pty Ltd'
+
+  - value: 0BE5
+    name: 'ZWILLING J.A. Henckels Aktiengesellschaft'
+
+  - value: 0BE4
+    name: 'Deepfield Connect GmbH'
+
+  - value: 0BE3
+    name: 'Comtel Systems Ltd.'
+
+  - value: 0BE2
+    name: 'OTC engineering'
+
+  - value: 0BE1
+    name: 'Back40 Precision'
+
+  - value: 0BE0
+    name: 'Koizumi Lighting Technology corp.'
+
+  - value: 0BDF
+    name: 'WINKEY ENTERPRISE (HONG KONG) LIMITED'
+
+  - value: 0BDE
+    name: 'Yale'
+
+  - value: 0BDD
+    name: 'Coroflo Limited'
+
+  - value: 0BDC
+    name: 'Ledworks S.r.l.'
+
+  - value: 0BDB
+    name: 'CHAR-BROIL, LLC'
+
+  - value: 0BDA
+    name: 'Aardex Ltd.'
+
+  - value: 0BD9
+    name: 'Elics Basis Ltd.'
+
+  - value: 0BD8
+    name: 'PURA SCENTS, INC.'
+
+  - value: 0BD7
+    name: 'VINFAST TRADING AND PRODUCTION JOINT STOCK COMPANY'
+
+  - value: 0BD6
+    name: 'Shenzhen Injoinic Technology Co., Ltd.'
+
+  - value: 0BD5
+    name: 'Super B Lithium Power B.V.'
+
+  - value: 0BD4
+    name: 'ndd Medizintechnik AG'
+
+  - value: 0BD3
+    name: 'Procon Analytics, LLC'
+
+  - value: 0BD2
+    name: 'IDEC'
+
+  - value: 0BD1
+    name: 'Hubei Yuan Times Technology Co., Ltd.'
+
+  - value: 0BD0
+    name: 'Durag GmbH'
+
+  - value: 0BCF
+    name: 'LL Tec Group LLC'
+
+  - value: 0BCE
+    name: 'Neurosity, Inc.'
+
+  - value: 0BCD
+    name: 'Amiko srl'
+
+  - value: 0BCC
+    name: 'Sylvac sa'
+
+  - value: 0BCB
+    name: 'Divesoft s.r.o.'
+
+  - value: 0BCA
+    name: 'Perimeter Technologies, Inc.'
+
+  - value: 0BC9
+    name: 'Neuvatek Inc.'
+
+  - value: 0BC8
+    name: 'OTF Distribution, LLC'
+
+  - value: 0BC7
+    name: 'Signtle Inc.'
+
+  - value: 0BC6
+    name: 'TCL COMMUNICATION EQUIPMENT CO.,LTD.'
+
+  - value: 0BC5
+    name: 'Aperia Technologies, Inc.'
+
+  - value: 0BC4
+    name: 'TECHTICS ENGINEERING B.V.'
+
+  - value: 0BC3
+    name: 'MCOT INC.'
+
+  - value: 0BC2
+    name: 'EntWick Co.'
+
+  - value: 0BC1
+    name: 'Miele & Cie. KG'
+
+  - value: 0BC0
+    name: 'READY FOR SKY LLP'
+
+  - value: 0BBF
+    name: 'HIMSA II K/S'
+
+  - value: 0BBE
+    name: 'SAAB Aktiebolag'
+
+  - value: 0BBD
+    name: 'ETHEORY PTY LTD'
+
+  - value: 0BBC
+    name: 'T2REALITY SOLUTIONS PRIVATE LIMITED'
+
+  - value: 0BBB
+    name: 'SWISSINNO SOLUTIONS AG'
+
+  - value: 0BBA
+    name: 'Huso, INC'
+
+  - value: 0BB9
+    name: 'SaluStim Group Oy'
+
+  - value: 0BB8
+    name: 'INNOVAG PTY. LTD.'
+
+  - value: 0BB7
+    name: 'IONA Tech LLC'
+
+  - value: 0BB6
+    name: 'Build With Robots Inc.'
+
+  - value: 0BB5
+    name: 'Xirgo Technologies, LLC'
+
+  - value: 0BB4
+    name: 'New Cosmos USA, Inc.'
+
+  - value: 0BB3
+    name: 'Flender GmbH'
+
+  - value: 0BB2
+    name: 'Fjorden Electra AS'
+
+  - value: 0BB1
+    name: 'Beijing ranxin intelligence technology Co.,LTD'
+
+  - value: 0BB0
+    name: 'Ecolab Inc.'
+
+  - value: 0BAF
+    name: 'NITTO KOGYO CORPORATION'
+
+  - value: 0BAE
+    name: 'Soma Labs LLC'
+
+  - value: 0BAD
+    name: 'Roambotics, Inc.'
+
+  - value: 0BAC
+    name: 'Machfu Inc.'
+
+  - value: 0BAB
+    name: 'Grandex International Corporation'
+
+  - value: 0BAA
+    name: 'Infinitegra, Inc.'
+
+  - value: 0BA9
+    name: 'Allterco Robotics ltd'
+
+  - value: 0BA8
+    name: 'GLOWFORGE INC.'
+
+  - value: 0BA7
+    name: 'hearX Group (Pty) Ltd'
+
+  - value: 0BA6
+    name: 'Nissan Motor Co., Ltd.'
+
+  - value: 0BA5
+    name: 'SONICOS ENTERPRISES, LLC'
+
+  - value: 0BA4
+    name: 'Vervent Audio Group'
+
+  - value: 0BA3
+    name: 'Sonova Consumer Hearing GmbH'
+
+  - value: 0BA2
+    name: 'TireCheck GmbH'
+
+  - value: 0BA1
+    name: 'Bunn-O-Matic Corporation'
+
+  - value: 0BA0
+    name: 'Data Sciences International'
+
+  - value: 0B9F
+    name: 'Group Lotus Limited'
+
+  - value: 0B9E
+    name: 'Audio Partnership Plc'
+
+  - value: 0B9D
+    name: 'Sensoria Holdings LTD'
+
+  - value: 0B9C
+    name: 'Komatsu Ltd.'
+
+  - value: 0B9B
+    name: 'GISMAN'
+
+  - value: 0B9A
+    name: 'Beijing Wisepool Infinite Intelligence Technology Co.,Ltd'
+
+  - value: 0B99
+    name: 'The Goodyear Tire & Rubber Company'
+
+  - value: 0B98
+    name: 'Gymstory B.V.'
+
+  - value: 0B97
+    name: 'SILVER TREE LABS, INC.'
+
+  - value: 0B96
+    name: 'Telecom Design'
+
+  - value: 0B95
+    name: 'Netwake GmbH'
+
+  - value: 0B94
+    name: 'Dreem SAS'
+
+  - value: 0B93
+    name: 'Hangzhou BroadLink Technology Co., Ltd.'
+
+  - value: 0B92
+    name: 'Citisend Solutions, SL'
+
+  - value: 0B91
+    name: 'Alfen ICU B.V.'
+
+  - value: 0B90
+    name: 'Ineos Automotive Limited'
+
+  - value: 0B8F
+    name: 'Senscomm Semiconductor Co., Ltd.'
+
+  - value: 0B8E
+    name: 'Gentle Energy Corp.'
+
+  - value: 0B8D
+    name: 'Pertech Industries Inc'
+
+  - value: 0B8C
+    name: 'MOTREX'
+
+  - value: 0B8B
+    name: 'American Technology Components, Incorporated'
+
+  - value: 0B8A
+    name: 'Seiko Instruments Inc.'
+
+  - value: 0B89
+    name: 'Rotronic AG'
+
+  - value: 0B88
+    name: 'Muguang (Guangdong) Intelligent Lighting Technology Co., Ltd'
+
+  - value: 0B87
+    name: 'Ampetronic Ltd'
+
+  - value: 0B86
+    name: 'Trek Bicycle'
+
+  - value: 0B85
+    name: 'VIMANA TECH PTY LTD'
+
+  - value: 0B84
+    name: 'Presidio Medical, Inc.'
+
+  - value: 0B83
+    name: 'Taiga Motors Inc.'
+
+  - value: 0B82
+    name: 'Mammut Sports Group AG'
+
+  - value: 0B81
+    name: 'SCM Group'
+
+  - value: 0B80
+    name: 'AXELIFE'
+
+  - value: 0B7F
+    name: 'ICU tech GmbH'
+
+  - value: 0B7E
+    name: 'Offcode Oy'
+
+  - value: 0B7D
+    name: 'FoundersLane GmbH'
+
+  - value: 0B7C
+    name: 'Scangrip A/S'
+
+  - value: 0B7B
+    name: 'Hardcoder Oy'
+
+  - value: 0B7A
+    name: 'Shenzhen KTC Technology Co.,Ltd.'
+
+  - value: 0B79
+    name: 'Sankyo Air Tech Co.,Ltd.'
+
+  - value: 0B78
+    name: 'FIELD DESIGN INC.'
+
+  - value: 0B77
+    name: 'Aixlink(Chengdu) Co., Ltd.'
+
+  - value: 0B76
+    name: 'MAX-co., ltd'
+
+  - value: 0B75
+    name: 'Triple W Japan Inc.'
+
+  - value: 0B74
+    name: 'BQN'
+
+  - value: 0B73
+    name: 'HARADA INDUSTRY CO., LTD.'
+
+  - value: 0B72
+    name: 'Geeknet, Inc.'
+
+  - value: 0B71
+    name: 'lilbit ODM AS'
+
+  - value: 0B70
+    name: 'JDRF Electromag Engineering Inc'
+
+  - value: 0B6F
+    name: 'Shenzhen Malide Technology Co.,Ltd'
+
+  - value: 0B6E
+    name: 'React Mobile'
+
+  - value: 0B6D
+    name: 'SOLUM CO., LTD'
+
+  - value: 0B6C
+    name: 'Sensitech, Inc.'
+
+  - value: 0B6B
+    name: 'Samsara Networks, Inc'
+
+  - value: 0B6A
+    name: 'Dymo'
+
+  - value: 0B69
+    name: 'Addaday'
+
+  - value: 0B68
+    name: 'Quha oy'
+
+  - value: 0B67
+    name: 'CleanSpace Technology Pty Ltd'
+
+  - value: 0B66
+    name: 'MITSUBISHI ELECTRIC AUTOMATION (THAILAND) COMPANY LIMITED'
+
+  - value: 0B65
+    name: 'The Apache Software Foundation'
+
+  - value: 0B64
+    name: 'NingBo klite Electric Manufacture Co.,LTD'
+
+  - value: 0B63
+    name: 'Innolux Corporation'
+
+  - value: 0B62
+    name: 'NOVEA ENERGIES'
+
+  - value: 0B61
+    name: 'Sentek Pty Ltd'
+
+  - value: 0B60
+    name: 'RATOC Systems, Inc.'
+
+  - value: 0B5F
+    name: 'Rivieh, Inc.'
+
+  - value: 0B5E
+    name: 'CELLCONTROL, INC.'
+
+  - value: 0B5D
+    name: 'Fujian Newland Auto-ID Tech. Co., Ltd.'
+
+  - value: 0B5C
+    name: 'Exponential Power, Inc.'
+
+  - value: 0B5B
+    name: 'Shenzhen ImagineVision Technology Limited'
+
+  - value: 0B5A
+    name: 'H.P. Shelby Manufacturing, LLC.'
+
+  - value: 0B59
+    name: 'Versa Group B.V.'
+
+  - value: 0B58
+    name: 'TOKAI-DENSHI INC'
+
+  - value: 0B57
+    name: 'CONVERTRONIX TECHNOLOGIES AND SERVICES LLP'
+
+  - value: 0B56
+    name: 'BORA - Vertriebs GmbH & Co KG'
+
+  - value: 0B55
+    name: 'H G M Automotive Electronics, Inc.'
+
+  - value: 0B54
+    name: 'Emotion Fitness GmbH & Co. KG'
+
+  - value: 0B53
+    name: 'SHENZHEN KAADAS INTELLIGENT TECHNOLOGY CO.,Ltd'
+
+  - value: 0B52
+    name: 'ZIIP Inc'
+
+  - value: 0B51
+    name: 'FUN FACTORY GmbH'
+
+  - value: 0B50
+    name: 'Mesh Systems LLC'
+
+  - value: 0B4F
+    name: 'Breezi.io, Inc.'
+
+  - value: 0B4E
+    name: 'ICP Systems B.V.'
+
+  - value: 0B4D
+    name: 'Adam Hall GmbH'
+
+  - value: 0B4C
+    name: 'BiosBob.Biz'
+
+  - value: 0B4B
+    name: 'EMS Integrators, LLC'
+
+  - value: 0B4A
+    name: 'Nomono AS'
+
+  - value: 0B49
+    name: 'SkyHawke Technologies'
+
+  - value: 0B48
+    name: 'NIO USA, Inc.'
+
+  - value: 0B47
+    name: 'Gentex Corporation'
+
+  - value: 0B46
+    name: 'Bird Rides, Inc.'
+
+  - value: 0B45
+    name: 'Electronic Sensors, Inc.'
+
+  - value: 0B44
+    name: 'nFore Technology Co., Ltd.'
+
+  - value: 0B43
+    name: 'INCITAT ENVIRONNEMENT'
+
+  - value: 0B42
+    name: 'TSI'
+
+  - value: 0B41
+    name: 'Sentrax GmbH'
+
+  - value: 0B40
+    name: 'Havells India Limited'
+
+  - value: 0B3F
+    name: 'MindRhythm, Inc.'
+
+  - value: 0B3E
+    name: 'ISEO Serrature S.p.a.'
+
+  - value: 0B3D
+    name: 'REALTIMEID AS'
+
+  - value: 0B3C
+    name: 'Dodge Industrial, Inc.'
+
+  - value: 0B3B
+    name: 'AIC semiconductor (Shanghai) Co., Ltd.'
+
+  - value: 0B3A
+    name: 'Impact Biosystems, Inc.'
+
+  - value: 0B39
+    name: 'Red 100 Lighting Co., ltd.'
+
+  - value: 0B38
+    name: 'WISYCOM S.R.L.'
+
+  - value: 0B37
+    name: 'Omnivoltaic Energy Solutions Limited Company'
+
+  - value: 0B36
+    name: 'SINTEF'
+
+  - value: 0B35
+    name: 'BH SENS'
+
+  - value: 0B34
+    name: 'CONZUMEX INDUSTRIES PRIVATE LIMITED'
+
+  - value: 0B33
+    name: 'ARMATURA LLC'
+
+  - value: 0B32
+    name: 'Hala Systems, Inc.'
+
+  - value: 0B31
+    name: 'Silver Wolf Vehicles Inc.'
+
+  - value: 0B30
+    name: 'ART SPA'
+
+  - value: 0B2F
+    name: 'Duke Manufacturing Co'
+
+  - value: 0B2E
+    name: 'MOCA System Inc.'
+
+  - value: 0B2D
+    name: 'REDARC ELECTRONICS PTY LTD'
+
+  - value: 0B2C
+    name: 'ILLUMAGEAR, Inc.'
+
+  - value: 0B2B
+    name: 'MAINBOT'
+
+  - value: 0B2A
+    name: 'ACL Airshop B.V.'
+
+  - value: 0B29
+    name: 'Tech-Venom Entertainment Private Limited'
+
+  - value: 0B28
+    name: 'CHACON'
+
+  - value: 0B27
+    name: 'Lumi United Technology Co., Ltd'
+
+  - value: 0B26
+    name: 'Baracoda Daily Healthtech.'
+
+  - value: 0B25
+    name: 'NIBROTECH LTD'
+
+  - value: 0B24
+    name: 'BeiJing ZiJie TiaoDong KeJi Co.,Ltd.'
+
+  - value: 0B23
+    name: 'iRhythm Technologies, Inc.'
+
+  - value: 0B22
+    name: 'Hygiene IQ, LLC.'
+
+  - value: 0B21
+    name: 'ams AG'
+
+  - value: 0B20
+    name: 'TKH Security B.V.'
+
+  - value: 0B1F
+    name: 'Beijing ESWIN Computing Technology Co., Ltd.'
+
+  - value: 0B1E
+    name: 'PB INC.'
+
+  - value: 0B1D
+    name: 'Accelerated Systems'
+
+  - value: 0B1C
+    name: 'Nanoleq AG'
+
+  - value: 0B1B
+    name: 'Enerpac Tool Group Corp.'
+
+  - value: 0B1A
+    name: 'Roca Sanitario, S.A.'
+
+  - value: 0B19
+    name: 'WBS PROJECT H PTY LTD'
+
+  - value: 0B18
+    name: 'DECATHLON SE'
+
+  - value: 0B17
+    name: 'SIG SAUER, INC.'
+
+  - value: 0B16
+    name: 'Guard RFID Solutions Inc.'
+
+  - value: 0B15
+    name: 'NAOS JAPAN K.K.'
+
+  - value: 0B14
+    name: 'Olumee'
+
+  - value: 0B13
+    name: 'IOTOOLS'
+
+  - value: 0B12
+    name: 'ToughBuilt Industries LLC'
+
+  - value: 0B11
+    name: 'ThermoWorks, Inc.'
+
+  - value: 0B10
+    name: 'Alfa Laval Corporate AB'
+
+  - value: 0B0F
+    name: 'B.E.A. S.A.'
+
+  - value: 0B0E
+    name: 'Honda Lock Mfg. Co.,Ltd.'
+
+  - value: 0B0D
+    name: 'SANYO DENKO Co.,Ltd.'
+
+  - value: 0B0C
+    name: 'BluPeak'
+
+  - value: 0B0B
+    name: 'Sanistaal A/S'
+
+  - value: 0B0A
+    name: 'Belun Technology Company Limited'
+
+  - value: 0B09
+    name: 'soonisys'
+
+  - value: 0B08
+    name: 'Shenzhen Qianfenyi Intelligent Technology Co., LTD'
+
+  - value: 0B07
+    name: 'Workaround Gmbh'
+
+  - value: 0B06
+    name: 'FAZUA GmbH'
+
+  - value: 0B05
+    name: 'Marquardt GmbH'
+
+  - value: 0B04
+    name: 'I-PERCUT'
+
+  - value: 0B03
+    name: 'Precision Triathlon Systems Limited'
+
+  - value: 0B02
+    name: 'IORA Technology Development Ltd. Sti.'
+
+  - value: 0B01
+    name: 'RESIDEO TECHNOLOGIES, INC.'
+
+  - value: 0B00
+    name: 'Flaircomm Microelectronics Inc.'
+
+  - value: 0AFF
+    name: 'FUSEAWARE LIMITED'
+
+  - value: 0AFE
+    name: 'Earda Technologies Co.,Ltd'
+
+  - value: 0AFD
+    name: 'Weber Sensors, LLC'
+
+  - value: 0AFC
+    name: 'Cerebrum Sensor Technologies Inc.'
+
+  - value: 0AFB
+    name: 'SMT ELEKTRONIK GmbH'
+
+  - value: 0AFA
+    name: 'Chengdu Ambit Technology Co., Ltd.'
+
+  - value: 0AF9
+    name: 'Unisto AG'
+
+  - value: 0AF8
+    name: 'First Design System Inc.'
+
+  - value: 0AF7
+    name: 'Irdeto'
+
+  - value: 0AF6
+    name: 'AMETEK, Inc.'
+
+  - value: 0AF5
+    name: 'Unitech Electronic Inc.'
+
+  - value: 0AF4
+    name: 'Radioworks Microelectronics PTY LTD'
+
+  - value: 0AF3
+    name: '701x Inc.'
+
+  - value: 0AF2
+    name: 'Shanghai All Link Microelectronics Co.,Ltd'
+
+  - value: 0AF1
+    name: 'CRADERS,CO.,LTD'
+
+  - value: 0AF0
+    name: 'Leupold & Stevens, Inc.'
+
+  - value: 0AEF
+    name: 'GLP German Light Products GmbH'
+
+  - value: 0AEE
+    name: 'Velentium, LLC'
+
+  - value: 0AED
+    name: 'Saxonar GmbH'
+
+  - value: 0AEC
+    name: 'FUTEK ADVANCED SENSOR TECHNOLOGY, INC'
+
+  - value: 0AEB
+    name: 'Square, Inc.'
+
+  - value: 0AEA
+    name: 'Borda Technology'
+
+  - value: 0AE9
+    name: 'FLIR Systems AB'
+
+  - value: 0AE8
+    name: 'LEVEL, s.r.o.'
+
+  - value: 0AE7
+    name: 'Sunplus Technology Co., Ltd.'
+
+  - value: 0AE6
+    name: 'Hexology'
+
+  - value: 0AE5
+    name: 'unu GmbH'
+
+  - value: 0AE4
+    name: 'DALI Alliance'
+
+  - value: 0AE3
+    name: 'GlobalMed'
+
+  - value: 0AE2
+    name: 'IMATRIX SYSTEMS, INC.'
+
+  - value: 0AE1
+    name: 'ChengDu ForThink Technology Co., Ltd.'
+
+  - value: 0AE0
+    name: 'Viceroy Devices Corporation'
+
+  - value: 0ADF
+    name: 'Douglas Dynamics L.L.C.'
+
+  - value: 0ADE
+    name: 'Vocera Communications, Inc.'
+
+  - value: 0ADD
+    name: 'Boss Audio'
+
+  - value: 0ADC
+    name: 'Duravit AG'
+
+  - value: 0ADB
+    name: 'Reelables, Inc.'
+
+  - value: 0ADA
+    name: 'Codefabrik GmbH'
+
+  - value: 0AD9
+    name: 'Shenzhen Aimore. Co.,Ltd'
+
+  - value: 0AD8
+    name: 'Franz Kaldewei GmbH&Co KG'
+
+  - value: 0AD7
+    name: 'AL-KO Geraete GmbH'
+
+  - value: 0AD6
+    name: 'nymea GmbH'
+
+  - value: 0AD5
+    name: 'Streamit B.V.'
+
+  - value: 0AD4
+    name: 'Zhuhai Pantum Electronisc Co., Ltd'
+
+  - value: 0AD3
+    name: 'SSV Software Systems GmbH'
+
+  - value: 0AD2
+    name: 'Lautsprecher Teufel GmbH'
+
+  - value: 0AD1
+    name: 'EAGLE KINGDOM TECHNOLOGIES LIMITED'
+
+  - value: 0AD0
+    name: 'Nordic Strong ApS'
+
+  - value: 0ACF
+    name: 'CACI Technologies'
+
+  - value: 0ACE
+    name: 'KOBATA GAUGE MFG. CO., LTD.'
+
+  - value: 0ACD
+    name: 'Visuallex Sport International Limited'
+
+  - value: 0ACC
+    name: 'Nuvoton'
+
+  - value: 0ACB
+    name: 'ise Individuelle Software und Elektronik GmbH'
+
+  - value: 0ACA
+    name: 'Shenzhen CoolKit Technology Co., Ltd'
+
+  - value: 0AC9
+    name: 'Swedlock AB'
+
+  - value: 0AC8
+    name: 'Keepin Co., Ltd.'
+
+  - value: 0AC7
+    name: 'Chengdu Aich Technology Co.,Ltd'
+
+  - value: 0AC6
+    name: 'Barnes Group Inc.'
+
+  - value: 0AC5
+    name: 'Flexoptix GmbH'
+
+  - value: 0AC4
+    name: 'CODIUM'
+
+  - value: 0AC3
+    name: 'Kenzen, Inc.'
+
+  - value: 0AC2
+    name: 'RealMega Microelectronics technology (Shanghai) Co. Ltd.'
+
+  - value: 0AC1
+    name: 'Shenzhen Jingxun Technology Co., Ltd.'
+
+  - value: 0AC0
+    name: 'Omni-ID USA, INC.'
+
+  - value: 0ABF
+    name: 'PAUL HARTMANN AG'
+
+  - value: 0ABE
+    name: 'Robkoo Information & Technologies Co., Ltd.'
+
+  - value: 0ABD
+    name: 'Inventas AS'
+
+  - value: 0ABC
+    name: 'KCCS Mobile Engineering Co., Ltd.'
+
+  - value: 0ABB
+    name: 'R-DAS, s.r.o.'
+
+  - value: 0ABA
+    name: 'Open Bionics Ltd.'
+
+  - value: 0AB9
+    name: 'STL'
+
+  - value: 0AB8
+    name: 'Sens.ai Incorporated'
+
+  - value: 0AB7
+    name: 'LogTag North America Inc.'
+
+  - value: 0AB6
+    name: 'Xenter, Inc.'
+
+  - value: 0AB5
+    name: 'Elstat Electronics Ltd.'
+
+  - value: 0AB4
+    name: 'Ellenby Technologies, Inc.'
+
+  - value: 0AB3
+    name: 'INNER RANGE PTY. LTD.'
+
+  - value: 0AB2
+    name: 'TouchTronics, Inc.'
+
+  - value: 0AB1
+    name: 'InVue Security Products Inc'
+
+  - value: 0AB0
+    name: 'Visiontronic s.r.o.'
+
+  - value: 0AAF
+    name: 'AIAIAI ApS'
+
+  - value: 0AAE
+    name: 'PS Engineering, Inc.'
+
+  - value: 0AAD
+    name: 'Adevo Consulting AB'
+
+  - value: 0AAC
+    name: 'OSM HK Limited'
+
+  - value: 0AAB
+    name: 'Anhui Listenai Co'
+
+  - value: 0AAA
+    name: 'Computime International Ltd'
+
+  - value: 0AA9
+    name: 'Spintly, Inc.'
+
+  - value: 0AA8
+    name: 'Zencontrol Pty Ltd'
+
+  - value: 0AA7
+    name: 'Urbanista AB'
+
+  - value: 0AA6
+    name: 'Realityworks, inc.'
+
+  - value: 0AA5
+    name: 'Shenzhen Uascent Technology Co., Ltd'
+
+  - value: 0AA4
+    name: 'FAZEPRO LLC'
+
+  - value: 0AA3
+    name: 'DIC Corporation'
+
+  - value: 0AA2
+    name: 'Care Bloom, LLC'
+
+  - value: 0AA1
+    name: 'LINCOGN TECHNOLOGY CO. LIMITED'
+
+  - value: 0AA0
+    name: 'Loy Tec electronics GmbH'
+
+  - value: 0A9F
+    name: 'ista International GmbH'
+
+  - value: 0A9E
+    name: 'LifePlus, Inc.'
+
+  - value: 0A9D
+    name: 'Canon Finetech Nisca Inc.'
+
+  - value: 0A9C
+    name: "Xi'an Fengyu Information Technology Co., Ltd."
+
+  - value: 0A9B
+    name: 'Eello LLC'
+
+  - value: 0A9A
+    name: 'TEMKIN ASSOCIATES, LLC'
+
+  - value: 0A99
+    name: 'Shanghai high-flying electronics technology Co.,Ltd'
+
+  - value: 0A98
+    name: 'Foil, Inc.'
+
+  - value: 0A97
+    name: 'SensTek'
+
+  - value: 0A96
+    name: 'Lightricity Ltd'
+
+  - value: 0A95
+    name: 'Pamex Inc.'
+
+  - value: 0A94
+    name: 'OOBIK Inc.'
+
+  - value: 0A93
+    name: 'GiPStech S.r.l.'
+
+  - value: 0A92
+    name: 'Carestream Dental LLC'
+
+  - value: 0A91
+    name: 'Monarch International Inc.'
+
+  - value: 0A90
+    name: 'Shenzhen Grandsun Electronic Co.,Ltd.'
+
+  - value: 0A8F
+    name: 'TOTO LTD.'
+
+  - value: 0A8E
+    name: 'Perfect Company'
+
+  - value: 0A8D
+    name: 'JCM TECHNOLOGIES S.A.'
+
+  - value: 0A8C
+    name: 'DelpSys, s.r.o.'
+
+  - value: 0A8B
+    name: 'SANlight GmbH'
+
+  - value: 0A8A
+    name: 'HAINBUCH GMBH SPANNENDE TECHNIK'
+
+  - value: 0A89
+    name: 'SES-Imagotag'
+
+  - value: 0A88
+    name: 'PSA Peugeot Citroen'
+
+  - value: 0A87
+    name: 'Shanghai Smart System Technology Co., Ltd'
+
+  - value: 0A86
+    name: 'ALIZENT International'
+
+  - value: 0A85
+    name: 'Snowball Technology Co., Ltd.'
+
+  - value: 0A84
+    name: 'Greennote Inc,'
+
+  - value: 0A83
+    name: 'Rivata, Inc.'
+
+  - value: 0A82
+    name: 'Corsair'
+
+  - value: 0A81
+    name: 'Universal Biosensors Pty Ltd'
+
+  - value: 0A80
+    name: 'Cleer Limited'
+
+  - value: 0A7F
+    name: 'Intuity Medical'
+
+  - value: 0A7E
+    name: 'KEBA Handover Automation GmbH'
+
+  - value: 0A7D
+    name: 'Freedman Electronics Pty Ltd'
+
+  - value: 0A7C
+    name: 'WAFERLOCK'
+
+  - value: 0A7B
+    name: 'UniqAir Oy'
+
+  - value: 0A7A
+    name: 'Emlid Limited'
+
+  - value: 0A79
+    name: 'Webasto SE'
+
+  - value: 0A78
+    name: 'Shenzhen Sunricher Technology Limited'
+
+  - value: 0A77
+    name: 'AXTRO PTE. LTD.'
+
+  - value: 0A76
+    name: 'Synaptics Incorporated'
+
+  - value: 0A75
+    name: 'Delta Cycle Corporation'
+
+  - value: 0A74
+    name: 'MICROSON S.A.'
+
+  - value: 0A73
+    name: 'Innohome Oy'
+
+  - value: 0A72
+    name: 'Jumo GmbH & Co. KG'
+
+  - value: 0A71
+    name: 'Senquip Pty Ltd'
+
+  - value: 0A70
+    name: 'Ooma'
+
+  - value: 0A6F
+    name: 'Warner Bros.'
+
+  - value: 0A6E
+    name: 'Pac Sane Limited'
+
+  - value: 0A6D
+    name: 'KUUKANJYOKIN Co.,Ltd.'
+
+  - value: 0A6C
+    name: 'Pokkels'
+
+  - value: 0A6B
+    name: 'Olympic Ophthalmics, Inc.'
+
+  - value: 0A6A
+    name: 'Scribble Design Inc.'
+
+  - value: 0A69
+    name: 'HAPPIEST BABY, INC.'
+
+  - value: 0A68
+    name: 'Focus Ingenieria SRL'
+
+  - value: 0A67
+    name: 'Beijing SuperHexa Century Technology CO. Ltd'
+
+  - value: 0A66
+    name: 'JUSTMORPH PTE. LTD.'
+
+  - value: 0A65
+    name: 'Lytx, INC.'
+
+  - value: 0A64
+    name: 'Geopal system A/S'
+
+  - value: 0A63
+    name: 'Gremsy JSC'
+
+  - value: 0A62
+    name: 'MOKO TECHNOLOGY Ltd'
+
+  - value: 0A61
+    name: 'Smart Parks B.V.'
+
+  - value: 0A60
+    name: 'DATANG SEMICONDUCTOR TECHNOLOGY CO.,LTD'
+
+  - value: 0A5F
+    name: 'stryker'
+
+  - value: 0A5E
+    name: 'LaceClips llc'
+
+  - value: 0A5D
+    name: 'MG Energy Systems B.V.'
+
+  - value: 0A5C
+    name: 'Innovative Design Labs Inc.'
+
+  - value: 0A5B
+    name: 'LEGIC Identsystems AG'
+
+  - value: 0A5A
+    name: 'Sontheim Industrie Elektronik GmbH'
+
+  - value: 0A59
+    name: 'TourBuilt, LLC'
+
+  - value: 0A58
+    name: 'Indigo Diabetes'
+
+  - value: 0A57
+    name: 'Meizhou Guo Wei Electronics Co., Ltd'
+
+  - value: 0A56
+    name: 'ambie'
+
+  - value: 0A55
+    name: 'Inugo Systems Limited'
+
+  - value: 0A54
+    name: 'SQL Technologies Corp.'
+
+  - value: 0A53
+    name: 'KKM COMPANY LIMITED'
+
+  - value: 0A52
+    name: 'Follow Sense Europe B.V.'
+
+  - value: 0A51
+    name: 'CSIRO'
+
+  - value: 0A50
+    name: 'Nextscape Inc.'
+
+  - value: 0A4F
+    name: 'VANMOOF Global Holding B.V.'
+
+  - value: 0A4E
+    name: 'Toytec Corporation'
+
+  - value: 0A4D
+    name: 'Lockn Technologies Private Limited'
+
+  - value: 0A4C
+    name: 'SiFli Technologies (shanghai) Inc.'
+
+  - value: 0A4B
+    name: 'MistyWest Energy and Transport Ltd.'
+
+  - value: 0A4A
+    name: 'Map Large, Inc.'
+
+  - value: 0A49
+    name: 'Venture Research Inc.'
+
+  - value: 0A48
+    name: 'JRC Mobility Inc.'
+
+  - value: 0A47
+    name: 'The Wand Company Ltd'
+
+  - value: 0A46
+    name: 'Beijing HC-Infinite Technology Limited'
+
+  - value: 0A45
+    name: '3SI Security Systems, Inc'
+
+  - value: 0A44
+    name: 'Novidan, Inc.'
+
+  - value: 0A43
+    name: 'Busch Systems International Inc.'
+
+  - value: 0A42
+    name: 'Motionalysis, Inc.'
+
+  - value: 0A41
+    name: 'OPEX Corporation'
+
+  - value: 0A40
+    name: 'GEWISS S.p.A.'
+
+  - value: 0A3F
+    name: 'Shenzhen Yopeak Optoelectronics Technology Co., Ltd.'
+
+  - value: 0A3E
+    name: 'Hefei Yunlian Semiconductor Co., Ltd'
+
+  - value: 0A3D
+    name: 'DELABIE'
+
+  - value: 0A3C
+    name: 'Siteco GmbH'
+
+  - value: 0A3B
+    name: 'Galileo Technology Limited'
+
+  - value: 0A3A
+    name: 'Incotex Co. Ltd.'
+
+  - value: 0A39
+    name: 'BLUETICKETING SRL'
+
+  - value: 0A38
+    name: 'Bouffalo Lab (Nanjing)., Ltd.'
+
+  - value: 0A37
+    name: '2587702 Ontario Inc.'
+
+  - value: 0A36
+    name: 'NGK SPARK PLUG CO., LTD.'
+
+  - value: 0A35
+    name: 'safectory GmbH'
+
+  - value: 0A34
+    name: 'Luxer Corporation'
+
+  - value: 0A33
+    name: 'WMF AG'
+
+  - value: 0A32
+    name: 'Pinnacle Technology, Inc.'
+
+  - value: 0A31
+    name: 'Nevro Corp.'
+
+  - value: 0A30
+    name: 'Air-Weigh'
+
+  - value: 0A2F
+    name: 'Instamic, Inc.'
+
+  - value: 0A2E
+    name: 'Zuma Array Limited'
+
+  - value: 0A2D
+    name: 'Shenzhen Feasycom Technology Co., Ltd.'
+
+  - value: 0A2C
+    name: 'Shenzhen H&T Intelligent Control Co., Ltd'
+
+  - value: 0A2B
+    name: 'PaceBait IVS'
+
+  - value: 0A2A
+    name: 'Yamaha Corporation'
+
+  - value: 0A29
+    name: 'Worthcloud Technology Co.,Ltd'
+
+  - value: 0A28
+    name: 'NanoFlex Power Corporation'
+
+  - value: 0A27
+    name: 'AYU DEVICES PRIVATE LIMITED'
+
+  - value: 0A26
+    name: 'Louis Vuitton'
+
+  - value: 0A25
+    name: 'Eran Financial Services LLC'
+
+  - value: 0A24
+    name: 'Atmosic Technologies, Inc.'
+
+  - value: 0A23
+    name: 'BIXOLON CO.,LTD'
+
+  - value: 0A22
+    name: 'DAIICHIKOSHO CO., LTD.'
+
+  - value: 0A21
+    name: 'Apollogic Sp. z o.o.'
+
+  - value: 0A20
+    name: 'Jiangxi Innotech Technology Co., Ltd'
+
+  - value: 0A1F
+    name: 'DeVilbiss Healthcare LLC'
+
+  - value: 0A1E
+    name: 'CombiQ AB'
+
+  - value: 0A1D
+    name: 'API-K'
+
+  - value: 0A1C
+    name: 'INPEAK S.C.'
+
+  - value: 0A1B
+    name: 'Embrava Pty Ltd'
+
+  - value: 0A1A
+    name: 'Link Labs, Inc.'
+
+  - value: 0A19
+    name: 'Maxell, Ltd.'
+
+  - value: 0A18
+    name: 'Cambridge Animal Technologies Ltd'
+
+  - value: 0A17
+    name: 'Plume Design Inc'
+
+  - value: 0A16
+    name: 'RIDE VISION LTD'
+
+  - value: 0A15
+    name: 'Syng Inc'
+
+  - value: 0A14
+    name: 'CROXEL, INC.'
+
+  - value: 0A13
+    name: 'Tec4med LifeScience GmbH'
+
+  - value: 0A12
+    name: 'Dyson Technology Limited'
+
+  - value: 0A11
+    name: 'Sensolus'
+
+  - value: 0A10
+    name: 'SUBARU Corporation'
+
+  - value: 0A0F
+    name: 'LIXIL Corporation'
+
+  - value: 0A0E
+    name: 'Roland Corporation'
+
+  - value: 0A0D
+    name: 'Blue Peacock GmbH'
+
+  - value: 0A0C
+    name: 'Shanghai Yidian Intelligent Technology Co., Ltd.'
+
+  - value: 0A0B
+    name: 'SIANA Systems'
+
+  - value: 0A0A
+    name: 'Volan Technology Inc.'
+
+  - value: 0A09
+    name: 'ECCT'
+
+  - value: 0A08
+    name: 'Oras Oy'
+
+  - value: 0A07
+    name: 'Reflow Pty Ltd'
+
+  - value: 0A06
+    name: 'Shanghai wuqi microelectronics Co.,Ltd'
+
+  - value: 0A05
+    name: 'Southwire Company, LLC'
+
+  - value: 0A04
+    name: 'Flosonics Medical'
+
+  - value: 0A03
+    name: 'donutrobotics Co., Ltd.'
+
+  - value: 0A02
+    name: 'Ayxon-Dynamics GmbH'
+
+  - value: 0A01
+    name: 'Cleveron AS'
+
+  - value: 0A00
+    name: 'Ampler Bikes OU'
+
+  - value: 09FF
+    name: 'AIRSTAR'
+
+  - value: 09FE
+    name: 'Lichtvision Engineering GmbH'
+
+  - value: 09FD
+    name: 'Keep Technologies, Inc.'
+
+  - value: 09FC
+    name: 'Confidex'
+
+  - value: 09FB
+    name: 'TOITU CO., LTD.'
+
+  - value: 09FA
+    name: 'Listen Technologies Corporation'
+
+  - value: 09F9
+    name: 'Hangzhou Yaguan Technology Co. LTD'
+
+  - value: 09F8
+    name: 'R.O. S.R.L.'
+
+  - value: 09F7
+    name: 'SENSATEC Co., Ltd.'
+
+  - value: 09F6
+    name: 'Mobile Action Technology Inc.'
+
+  - value: 09F5
+    name: 'OKI Electric Industry Co., Ltd'
+
+  - value: 09F4
+    name: 'Spectrum Technologies, Inc.'
+
+  - value: 09F3
+    name: 'Beijing Zero Zero Infinity Technology Co.,Ltd.'
+
+  - value: 09F2
+    name: 'Audeara Pty Ltd'
+
+  - value: 09F1
+    name: 'OM Digital Solutions Corporation'
+
+  - value: 09F0
+    name: 'WatchGas B.V.'
+
+  - value: 09EF
+    name: 'Steinel Solutions AG'
+
+  - value: 09EE
+    name: 'OJMAR SA'
+
+  - value: 09ED
+    name: 'Sibel Inc.'
+
+  - value: 09EC
+    name: 'Yukon advanced optics worldwide, UAB'
+
+  - value: 09EB
+    name: 'KEAN ELECTRONICS PTY LTD'
+
+  - value: 09EA
+    name: 'Athlos Oy'
+
+  - value: 09E9
+    name: 'LumenRadio AB'
+
+  - value: 09E8
+    name: 'Melange Systems Pvt. Ltd.'
+
+  - value: 09E7
+    name: 'Kabushikigaisha HANERON'
+
+  - value: 09E6
+    name: 'Masonite Corporation'
+
+  - value: 09E5
+    name: 'Mobilogix'
+
+  - value: 09E4
+    name: 'CPS AS'
+
+  - value: 09E3
+    name: 'Friday Home Aps'
+
+  - value: 09E2
+    name: 'Wuhan Linptech Co.,Ltd.'
+
+  - value: 09E1
+    name: 'Tag-N-Trac Inc'
+
+  - value: 09E0
+    name: 'Preddio Technologies Inc.'
+
+  - value: 09DF
+    name: 'Magnus Technology Sdn Bhd'
+
+  - value: 09DE
+    name: 'JLD Technology Solutions, LLC'
+
+  - value: 09DD
+    name: 'Innoware Development AB'
+
+  - value: 09DC
+    name: 'AON2 Ltd.'
+
+  - value: 09DB
+    name: 'Bionic Avionics Inc.'
+
+  - value: 09DA
+    name: 'Nagravision SA'
+
+  - value: 09D9
+    name: 'VivoSensMedical GmbH'
+
+  - value: 09D8
+    name: 'Synergy Tecnologia em Sistemas Ltda'
+
+  - value: 09D7
+    name: 'Coyotta'
+
+  - value: 09D6
+    name: 'EAR TEKNIK ISITME VE ODIOMETRI CIHAZLARI SANAYI VE TICARET ANONIM SIRKETI'
+
+  - value: 09D5
+    name: 'GEAR RADIO ELECTRONICS CORP.'
+
+  - value: 09D4
+    name: 'ORBIS Inc.'
+
+  - value: 09D3
+    name: 'HeartHero, inc.'
+
+  - value: 09D2
+    name: 'Temperature Sensitive Solutions Systems Sweden AB'
+
+  - value: 09D1
+    name: 'ABLEPAY TECHNOLOGIES AS'
+
+  - value: 09D0
+    name: 'Chess Wise B.V.'
+
+  - value: 09CF
+    name: 'BlueStreak IoT, LLC'
+
+  - value: 09CE
+    name: 'Julius Blum GmbH'
+
+  - value: 09CD
+    name: 'Blyott'
+
+  - value: 09CC
+    name: 'Senso4s d.o.o.'
+
+  - value: 09CB
+    name: 'Hx Engineering, LLC'
+
+  - value: 09CA
+    name: 'Mobitrace'
+
+  - value: 09C9
+    name: 'CrowdGlow Ltd'
+
+  - value: 09C8
+    name: 'XUNTONG'
+
+  - value: 09C7
+    name: 'Combustion, LLC'
+
+  - value: 09C6
+    name: 'Honor Device Co., Ltd.'
+
+  - value: 09C5
+    name: 'HungYi Microelectronics Co.,Ltd.'
+
+  - value: 09C4
+    name: 'UVISIO'
+
+  - value: 09C3
+    name: 'JAPAN TOBACCO INC.'
+
+  - value: 09C2
+    name: 'Universal Audio, Inc.'
+
+  - value: 09C1
+    name: 'Rosewill'
+
+  - value: 09C0
+    name: 'AnotherBrain inc.'
+
+  - value: 09BF
+    name: 'Span.IO, Inc.'
+
+  - value: 09BE
+    name: 'Vessel Ltd.'
+
+  - value: 09BD
+    name: "Centre Suisse d'Electronique et de Microtechnique SA"
+
+  - value: 09BC
+    name: 'Aerosens LLC'
+
+  - value: 09BB
+    name: 'SkyStream Corporation'
+
+  - value: 09BA
+    name: 'Elimo Engineering Ltd'
+
+  - value: 09B9
+    name: 'SAVOY ELECTRONIC LIGHTING'
+
+  - value: 09B8
+    name: 'PlayerData Limited'
+
+  - value: 09B7
+    name: 'Bout Labs, LLC'
+
+  - value: 09B6
+    name: 'Pegasus Technologies, Inc.'
+
+  - value: 09B5
+    name: 'AUTEC Gesellschaft fuer Automationstechnik mbH'
+
+  - value: 09B4
+    name: 'PentaLock Aps.'
+
+  - value: 09B3
+    name: 'BlueX Microelectronics Corp Ltd.'
+
+  - value: 09B2
+    name: 'DYPHI'
+
+  - value: 09B1
+    name: 'BLINQY'
+
+  - value: 09B0
+    name: 'Deublin Company, LLC'
+
+  - value: 09AF
+    name: 'ifLink Open Community'
+
+  - value: 09AE
+    name: 'Pozyx NV'
+
+  - value: 09AD
+    name: 'Narhwall Inc.'
+
+  - value: 09AC
+    name: 'Ambiq'
+
+  - value: 09AB
+    name: 'DashLogic, Inc.'
+
+  - value: 09AA
+    name: 'PHOTODYNAMIC INCORPORATED'
+
+  - value: 09A9
+    name: 'Nippon Ceramic Co.,Ltd.'
+
+  - value: 09A8
+    name: 'KHN Solutions LLC'
+
+  - value: 09A7
+    name: 'Paybuddy ApS'
+
+  - value: 09A6
+    name: 'BEIJING ELECTRIC VEHICLE CO.,LTD'
+
+  - value: 09A5
+    name: 'Security Enhancement Systems, LLC'
+
+  - value: 09A4
+    name: 'KUMHO ELECTRICS, INC'
+
+  - value: 09A3
+    name: 'ARDUINO SA'
+
+  - value: 09A2
+    name: 'ENGAGENOW DATA SCIENCES PRIVATE LIMITED'
+
+  - value: 09A1
+    name: 'VOS Systems, LLC'
+
+  - value: 09A0
+    name: 'Proof Diagnostics, Inc.'
+
+  - value: 099F
+    name: 'Koya Medical, Inc.'
+
+  - value: 099E
+    name: 'Step One Limited'
+
+  - value: 099D
+    name: 'YKK AP Inc.'
+
+  - value: 099C
+    name: 'deister electronic GmbH'
+
+  - value: 099B
+    name: 'Sendum Wireless Corporation'
+
+  - value: 099A
+    name: 'New Audio LLC'
+
+  - value: 0999
+    name: 'eTactica ehf'
+
+  - value: 0998
+    name: 'Pixie Dust Technologies, Inc.'
+
+  - value: 0997
+    name: 'NextMind'
+
+  - value: 0996
+    name: 'C. & E. Fein GmbH'
+
+  - value: 0995
+    name: 'Bronkhorst High-Tech B.V.'
+
+  - value: 0994
+    name: 'VT42 Pty Ltd'
+
+  - value: 0993
+    name: 'Absolute Audio Labs B.V.'
+
+  - value: 0992
+    name: 'Big Kaiser Precision Tooling Ltd'
+
+  - value: 0991
+    name: 'Telenor ASA'
+
+  - value: 0990
+    name: 'Anton Paar GmbH'
+
+  - value: 098F
+    name: 'Aktiebolaget Regin'
+
+  - value: 098E
+    name: 'ADVEEZ'
+
+  - value: 098D
+    name: 'C3-WIRELESS, LLC'
+
+  - value: 098C
+    name: 'bGrid B.V.'
+
+  - value: 098B
+    name: 'Mequonic Engineering, S.L.'
+
+  - value: 098A
+    name: 'Biovigil'
+
+  - value: 0989
+    name: 'WIKA Alexander Wiegand SE & Co.KG'
+
+  - value: 0988
+    name: 'BHM-Tech Produktionsgesellschaft m.b.H'
+
+  - value: 0987
+    name: 'TSE BRAKES, INC.'
+
+  - value: 0986
+    name: 'Cello Hill, LLC'
+
+  - value: 0985
+    name: 'Lumos Health Inc.'
+
+  - value: 0984
+    name: 'TeraTron GmbH'
+
+  - value: 0983
+    name: 'Feedback Sports LLC'
+
+  - value: 0982
+    name: 'ELPRO-BUCHS AG'
+
+  - value: 0981
+    name: 'Bernard Krone Holding SE & Co.KG'
+
+  - value: 0980
+    name: 'DEKRA TESTING AND CERTIFICATION, S.A.U.'
+
+  - value: 097F
+    name: 'ISEMAR S.R.L.'
+
+  - value: 097E
+    name: 'SonicSensory Inc'
+
+  - value: 097D
+    name: 'CLB B.V.'
+
+  - value: 097C
+    name: 'Thorley Industries, LLC'
+
+  - value: 097B
+    name: 'CTEK Sweden AB'
+
+  - value: 097A
+    name: 'CORE CORPORATION'
+
+  - value: 0979
+    name: 'BIOTRONIK SE & Co. KG'
+
+  - value: 0978
+    name: 'ZifferEins GmbH & Co. KG'
+
+  - value: 0977
+    name: 'TOYOTA motor corporation'
+
+  - value: 0976
+    name: 'Fauna Audio GmbH'
+
+  - value: 0975
+    name: 'BlueIOT(Beijing) Technology Co.,Ltd'
+
+  - value: 0974
+    name: 'ABEYE'
+
+  - value: 0973
+    name: 'Popit Oy'
+
+  - value: 0972
+    name: 'Closed Joint Stock Company "Zavod Flometr" ("Zavod Flometr" CJSC)'
+
+  - value: 0971
+    name: 'GA'
+
+  - value: 0970
+    name: 'IBA Dosimetry GmbH'
+
+  - value: 096F
+    name: 'Lund Motion Products, Inc.'
+
+  - value: 096E
+    name: 'Band Industries, inc.'
+
+  - value: 096D
+    name: 'Gunwerks, LLC'
+
+  - value: 096C
+    name: '9374-7319 Quebec inc'
+
+  - value: 096B
+    name: 'Guide ID B.V.'
+
+  - value: 096A
+    name: 'dricos, Inc.'
+
+  - value: 0969
+    name: 'Woan Technology (Shenzhen) Co., Ltd.'
+
+  - value: 0968
+    name: 'Actev Motors, Inc.'
+
+  - value: 0967
+    name: 'Neo Materials and Consulting Inc.'
+
+  - value: 0966
+    name: 'PointGuard, LLC'
+
+  - value: 0965
+    name: 'Asahi Kasei Corporation'
+
+  - value: 0964
+    name: 'Countrymate Technology Limited'
+
+  - value: 0963
+    name: 'Moonbird BV'
+
+  - value: 0962
+    name: 'GL Solutions K.K.'
+
+  - value: 0961
+    name: 'Linkura AB'
+
+  - value: 0960
+    name: 'Sena Technologies Inc.'
+
+  - value: 095F
+    name: 'NUANCE HEARING LTD'
+
+  - value: 095E
+    name: 'BioEchoNet inc.'
+
+  - value: 095D
+    name: 'Electronic Theatre Controls'
+
+  - value: 095C
+    name: 'LogiLube, LLC'
+
+  - value: 095B
+    name: 'Lismore Instruments Limited'
+
+  - value: 095A
+    name: 'Selekt Bilgisayar, lletisim Urunleri lnsaat Sanayi ve Ticaret Limited Sirketi'
+
+  - value: 0959
+    name: 'HerdDogg, Inc'
+
+  - value: 0958
+    name: 'ZTE Corporation'
+
+  - value: 0957
+    name: 'Ohsung Electronics'
+
+  - value: 0956
+    name: 'Kerlink'
+
+  - value: 0955
+    name: 'Breville Group'
+
+  - value: 0954
+    name: 'Julbo'
+
+  - value: 0953
+    name: 'LogiLube, LLC'
+
+  - value: 0952
+    name: 'Apptricity Corporation'
+
+  - value: 0951
+    name: 'PPRS'
+
+  - value: 0950
+    name: 'Capetech'
+
+  - value: 094F
+    name: 'Limited Liability Company "Mikrotikls"'
+
+  - value: 094E
+    name: 'PassiveBolt, Inc.'
+
+  - value: 094D
+    name: 'tkLABS INC.'
+
+  - value: 094C
+    name: 'GimmiSys GmbH'
+
+  - value: 094B
+    name: 'Kindeva Drug Delivery L.P.'
+
+  - value: 094A
+    name: 'Zwift, Inc.'
+
+  - value: 0949
+    name: 'Metronom Health Europe'
+
+  - value: 0948
+    name: 'Wearable Link Limited'
+
+  - value: 0947
+    name: 'First Light Technologies Ltd.'
+
+  - value: 0946
+    name: 'AMC International Alfa Metalcraft Corporation AG'
+
+  - value: 0945
+    name: 'Globe (Jiangsu) Co., Ltd'
+
+  - value: 0944
+    name: 'Agitron d.o.o.'
+
+  - value: 0942
+    name: 'TRANSSION HOLDINGS LIMITED'
+
+  - value: 0941
+    name: 'Rivian Automotive, LLC'
+
+  - value: 0940
+    name: 'Hero Workout GmbH'
+
+  - value: 093F
+    name: 'JEPICO Corporation'
+
+  - value: 093E
+    name: 'Catalyft Labs, Inc.'
+
+  - value: 093D
+    name: 'Adolf Wuerth GmbH & Co KG'
+
+  - value: 093C
+    name: 'Xenoma Inc.'
+
+  - value: 093B
+    name: 'ENSESO LLC'
+
+  - value: 093A
+    name: 'LinkedSemi Microelectronics (Xiamen) Co., Ltd'
+
+  - value: 0939
+    name: 'ASTEM Co.,Ltd.'
+
+  - value: 0938
+    name: 'Henway Technologies, LTD.'
+
+  - value: 0937
+    name: 'RealThingks GmbH'
+
+  - value: 0936
+    name: 'Elekon AG'
+
+  - value: 0935
+    name: 'Reconnect, Inc.'
+
+  - value: 0934
+    name: 'KiteSpring Inc.'
+
+  - value: 0933
+    name: 'SRAM'
+
+  - value: 0932
+    name: 'BarVision, LLC'
+
+  - value: 0931
+    name: 'BREATHINGS Co., Ltd.'
+
+  - value: 0930
+    name: 'James Walker RotaBolt Limited'
+
+  - value: 092F
+    name: 'C.O.B.O. SpA'
+
+  - value: 092E
+    name: 'PS GmbH'
+
+  - value: 092D
+    name: 'Leggett & Platt, Incorporated'
+
+  - value: 092C
+    name: 'PCI Private Limited'
+
+  - value: 092B
+    name: 'TekHome'
+
+  - value: 092A
+    name: 'Sappl Verwaltungs- und Betriebs GmbH'
+
+  - value: 0929
+    name: 'Qingdao Haier Technology Co., Ltd.'
+
+  - value: 0928
+    name: 'AiRISTA'
+
+  - value: 0927
+    name: 'ROOQ GmbH'
+
+  - value: 0926
+    name: 'Gooligum Technologies Pty Ltd'
+
+  - value: 0925
+    name: 'Yukai Engineering Inc.'
+
+  - value: 0924
+    name: 'Fundacion Tecnalia Research and Innovation'
+
+  - value: 0923
+    name: 'JSB TECH PTE LTD'
+
+  - value: 0922
+    name: 'Shanghai MXCHIP Information Technology Co., Ltd.'
+
+  - value: 0921
+    name: 'KAHA PTE. LTD.'
+
+  - value: 0920
+    name: 'Omnisense Limited'
+
+  - value: 091F
+    name: 'Myzee Technology'
+
+  - value: 091E
+    name: 'Melbot Studios, Sociedad Limitada'
+
+  - value: 091D
+    name: 'Innokind, Inc.'
+
+  - value: 091C
+    name: 'Oblamatik AG'
+
+  - value: 091B
+    name: 'Luminostics, Inc.'
+
+  - value: 091A
+    name: 'Albertronic BV'
+
+  - value: 0919
+    name: 'NO SMD LIMITED'
+
+  - value: 0918
+    name: 'Technosphere Labs Pvt. Ltd.'
+
+  - value: 0917
+    name: 'ASR Microelectronics(ShenZhen)Co., Ltd.'
+
+  - value: 0916
+    name: 'Ambient Sensors LLC'
+
+  - value: 0915
+    name: 'Honda Motor Co., Ltd.'
+
+  - value: 0914
+    name: 'INEO-SENSE'
+
+  - value: 0913
+    name: 'Braveheart Wireless, Inc.'
+
+  - value: 0912
+    name: 'Nerbio Medical Software Platforms Inc'
+
+  - value: 0911
+    name: 'Douglas Lighting Controls Inc.'
+
+  - value: 0910
+    name: 'ASR Microelectronics (Shanghai) Co., Ltd.'
+
+  - value: 090F
+    name: 'VC Inc.'
+
+  - value: 090E
+    name: 'OPTIMUSIOT TECH LLP'
+
+  - value: 090D
+    name: 'IOT Invent GmbH'
+
+  - value: 090C
+    name: 'Radiawave Technologies Co.,Ltd.'
+
+  - value: 090B
+    name: 'EMBR labs, INC'
+
+  - value: 090A
+    name: 'Zhuhai Hoksi Technology CO.,LTD'
+
+  - value: 0909
+    name: '70mai Co.,Ltd.'
+
+  - value: 0908
+    name: 'Pinpoint Innovations Limited'
+
+  - value: 0907
+    name: 'User Hello, LLC'
+
+  - value: 0906
+    name: 'Scope Logistical Solutions'
+
+  - value: 0905
+    name: 'Yandex Services AG'
+
+  - value: 0904
+    name: 'SUNCORPORATION'
+
+  - value: 0903
+    name: 'DATAMARS, Inc.'
+
+  - value: 0902
+    name: 'TSC Auto-ID Technology Co., Ltd.'
+
+  - value: 0901
+    name: 'Lucimed'
+
+  - value: 0900
+    name: 'Beijing Zizai Technology Co., LTD.'
+
+  - value: 08FF
+    name: 'Plastimold Products, Inc'
+
+  - value: 08FE
+    name: 'Ketronixs Sdn Bhd'
+
+  - value: 08FD
+    name: 'BioIntelliSense, Inc.'
+
+  - value: 08FC
+    name: 'Hill-Rom'
+
+  - value: 08FB
+    name: 'Darkglass Electronics Oy'
+
+  - value: 08FA
+    name: 'Troo Corporation'
+
+  - value: 08F9
+    name: 'Spacelabs Medical Inc.'
+
+  - value: 08F8
+    name: 'instagrid GmbH'
+
+  - value: 08F7
+    name: 'MTD Products Inc & Affiliates'
+
+  - value: 08F6
+    name: 'Dermal Photonics Corporation'
+
+  - value: 08F5
+    name: 'Tymtix Technologies Private Limited'
+
+  - value: 08F4
+    name: 'Kodimo Technologies Company Limited'
+
+  - value: 08F3
+    name: 'PSP - Pauli Services & Products GmbH'
+
+  - value: 08F2
+    name: 'Microoled'
+
+  - value: 08F1
+    name: 'The L.S. Starrett Company'
+
+  - value: 08F0
+    name: 'Joovv, Inc.'
+
+  - value: 08EF
+    name: 'Cumulus Digital Systems, Inc'
+
+  - value: 08EE
+    name: 'Askey Computer Corp.'
+
+  - value: 08ED
+    name: 'IMI Hydronic Engineering International SA'
+
+  - value: 08EC
+    name: 'Denso Corporation'
+
+  - value: 08EB
+    name: 'Beijing Big Moment Technology Co., Ltd.'
+
+  - value: 08EA
+    name: 'COWBELL ENGINEERING CO.,LTD.'
+
+  - value: 08E9
+    name: 'Taiwan Intelligent Home Corp.'
+
+  - value: 08E8
+    name: 'Naonext'
+
+  - value: 08E7
+    name: 'Barrot Technology Co.,Ltd.'
+
+  - value: 08E6
+    name: 'Eneso Tecnologia de Adaptacion S.L.'
+
+  - value: 08E5
+    name: 'Crowd Connected Ltd'
+
+  - value: 08E4
+    name: 'Rashidov ltd'
+
+  - value: 08E3
+    name: 'Republic Wireless, Inc.'
+
+  - value: 08E2
+    name: 'Shenzhen Simo Technology co. LTD'
+
+  - value: 08E1
+    name: 'KOZO KEIKAKU ENGINEERING Inc.'
+
+  - value: 08E0
+    name: 'Philia Technology'
+
+  - value: 08DF
+    name: 'IRIS OHYAMA CO.,LTD.'
+
+  - value: 08DE
+    name: 'TE Connectivity Corporation'
+
+  - value: 08DD
+    name: 'code-Q'
+
+  - value: 08DC
+    name: 'SHENZHEN AUKEY E BUSINESS CO., LTD'
+
+  - value: 08DB
+    name: 'Tertium Technology'
+
+  - value: 08DA
+    name: 'Miridia Technology Incorporated'
+
+  - value: 08D9
+    name: 'Pointr Labs Limited'
+
+  - value: 08D8
+    name: 'WARES'
+
+  - value: 08D7
+    name: 'Inovonics Corp'
+
+  - value: 08D6
+    name: 'Nome Oy'
+
+  - value: 08D5
+    name: 'KEYes'
+
+  - value: 08D4
+    name: 'ADATA Technology Co., LTD.'
+
+  - value: 08D3
+    name: 'Novel Bits, LLC'
+
+  - value: 08D2
+    name: 'Virscient Limited'
+
+  - value: 08D1
+    name: 'Sensovium Inc.'
+
+  - value: 08D0
+    name: 'ESTOM Infotech Kft.'
+
+  - value: 08CF
+    name: 'betternotstealmybike UG (with limited liability)'
+
+  - value: 08CE
+    name: 'ZIMI CORPORATION'
+
+  - value: 08CD
+    name: 'ifly'
+
+  - value: 08CC
+    name: 'TGM TECHNOLOGY CO., LTD.'
+
+  - value: 08CB
+    name: 'JT INNOVATIONS LIMITED'
+
+  - value: 08CA
+    name: 'Nubia Technology Co.,Ltd.'
+
+  - value: 08C9
+    name: 'Noventa AG'
+
+  - value: 08C8
+    name: 'Liteboxer Technologies Inc.'
+
+  - value: 08C7
+    name: 'Monadnock Systems Ltd.'
+
+  - value: 08C6
+    name: 'Integra Optics Inc'
+
+  - value: 08C5
+    name: 'J. Wagner GmbH'
+
+  - value: 08C4
+    name: 'CellAssist, LLC'
+
+  - value: 08C3
+    name: 'CHIPOLO d.o.o.'
+
+  - value: 08C2
+    name: 'Lindinvent AB'
+
+  - value: 08C1
+    name: 'Rayden.Earth LTD'
+
+  - value: 08C0
+    name: 'Accent Advanced Systems SLU'
+
+  - value: 08BF
+    name: 'SIRC Co., Ltd.'
+
+  - value: 08BE
+    name: 'ubisys technologies GmbH'
+
+  - value: 08BD
+    name: 'bf1systems limited'
+
+  - value: 08BC
+    name: 'Prevayl Limited'
+
+  - value: 08BB
+    name: 'Tokai-rika co.,ltd.'
+
+  - value: 08BA
+    name: 'HYPER ICE, INC.'
+
+  - value: 08B9
+    name: 'U-Shin Ltd.'
+
+  - value: 08B8
+    name: 'Check Technology Solutions LLC'
+
+  - value: 08B7
+    name: 'ABB Inc'
+
+  - value: 08B6
+    name: 'Boehringer Ingelheim Vetmedica GmbH'
+
+  - value: 08B5
+    name: 'TransferFi'
+
+  - value: 08B4
+    name: 'Sengled Co., Ltd.'
+
+  - value: 08B3
+    name: 'IONIQ Skincare GmbH & Co. KG'
+
+  - value: 08B2
+    name: 'PF SCHWEISSTECHNOLOGIE GMBH'
+
+  - value: 08B1
+    name: 'CORE|vision BV'
+
+  - value: 08B0
+    name: 'Trivedi Advanced Technologies LLC'
+
+  - value: 08AF
+    name: 'Polidea Sp. z o.o.'
+
+  - value: 08AE
+    name: 'Moticon ReGo AG'
+
+  - value: 08AD
+    name: 'Kayamatics Limited'
+
+  - value: 08AC
+    name: 'Topre Corporation'
+
+  - value: 08AB
+    name: 'Coburn Technology, LLC'
+
+  - value: 08AA
+    name: 'SZ DJI TECHNOLOGY CO.,LTD'
+
+  - value: 08A9
+    name: 'Fraunhofer IIS'
+
+  - value: 08A8
+    name: 'Shanghai Kfcube Inc'
+
+  - value: 08A7
+    name: 'TGR 1.618 Limited'
+
+  - value: 08A6
+    name: 'Intelligenceworks Inc.'
+
+  - value: 08A5
+    name: 'UMEHEAL Ltd'
+
+  - value: 08A4
+    name: 'Realme Chongqing Mobile Telecommunications Corp., Ltd.'
+
+  - value: 08A3
+    name: 'Hoffmann SE'
+
+  - value: 08A2
+    name: 'Epic Systems Co., Ltd.'
+
+  - value: 08A1
+    name: 'EXEO TECH CORPORATION'
+
+  - value: 08A0
+    name: 'Aclara Technologies LLC'
+
+  - value: 089F
+    name: 'Witschi Electronic Ltd'
+
+  - value: 089E
+    name: 'i-SENS, inc.'
+
+  - value: 089D
+    name: 'J-J.A.D.E. Enterprise LLC'
+
+  - value: 089C
+    name: 'Embedded Devices Co. Company'
+
+  - value: 089B
+    name: 'Saucon Technologies'
+
+  - value: 089A
+    name: 'Private limited company "Teltonika"'
+
+  - value: 0899
+    name: 'SFS unimarket AG'
+
+  - value: 0898
+    name: 'Sensibo, Inc.'
+
+  - value: 0897
+    name: 'Current Lighting Solutions LLC'
+
+  - value: 0896
+    name: 'Nokian Renkaat Oyj'
+
+  - value: 0895
+    name: 'Gimer medical'
+
+  - value: 0894
+    name: 'EPIFIT'
+
+  - value: 0893
+    name: 'Maytronics Ltd'
+
+  - value: 0892
+    name: 'Ingenieurbuero Birnfeld UG (haftungsbeschraenkt)'
+
+  - value: 0891
+    name: 'SmartWireless GmbH & Co. KG'
+
+  - value: 0890
+    name: 'NICHIEI INTEC CO., LTD.'
+
+  - value: 088F
+    name: 'Tait International Limited'
+
+  - value: 088E
+    name: 'GIGA-TMS INC'
+
+  - value: 088D
+    name: 'Soliton Systems K.K.'
+
+  - value: 088C
+    name: 'GB Solution co.,Ltd'
+
+  - value: 088B
+    name: 'Tricorder Arraay Technologies LLC'
+
+  - value: 088A
+    name: 'sclak s.r.l.'
+
+  - value: 0889
+    name: 'XANTHIO'
+
+  - value: 0888
+    name: 'EnPointe Fencing Pty Ltd'
+
+  - value: 0887
+    name: 'Hydro-Gear Limited Partnership'
+
+  - value: 0886
+    name: 'Movella Technologies B.V.'
+
+  - value: 0885
+    name: 'LEVOLOR INC'
+
+  - value: 0884
+    name: 'Controlid Industria, Comercio de Hardware e Servicos de Tecnologia Ltda'
+
+  - value: 0883
+    name: 'Wintersteiger AG'
+
+  - value: 0882
+    name: 'PSYONIC, Inc.'
+
+  - value: 0881
+    name: 'Optalert'
+
+  - value: 0880
+    name: 'imagiLabs AB'
+
+  - value: 087F
+    name: 'Phillips Connect Technologies LLC'
+
+  - value: 087E
+    name: '1bar.net Limited'
+
+  - value: 087D
+    name: 'Konftel AB'
+
+  - value: 087C
+    name: 'Crosscan GmbH'
+
+  - value: 087B
+    name: 'BYSTAMP'
+
+  - value: 087A
+    name: 'ZRF, LLC'
+
+  - value: 0879
+    name: 'MIZUNO Corporation'
+
+  - value: 0878
+    name: 'The Chamberlain Group, Inc.'
+
+  - value: 0877
+    name: 'Tome, Inc.'
+
+  - value: 0876
+    name: 'SmartResQ ApS'
+
+  - value: 0875
+    name: 'Berner International LLC'
+
+  - value: 0874
+    name: 'Treegreen Limited'
+
+  - value: 0873
+    name: 'Innophase Incorporated'
+
+  - value: 0872
+    name: '11 Health & Technologies Limited'
+
+  - value: 0871
+    name: 'Dension Elektronikai Kft.'
+
+  - value: 0870
+    name: 'Wyze Labs, Inc'
+
+  - value: 086F
+    name: 'Trackunit A/S'
+
+  - value: 086E
+    name: 'Vorwerk Elektrowerke GmbH & Co. KG'
+
+  - value: 086D
+    name: 'Biometrika d.o.o.'
+
+  - value: 086C
+    name: 'Revvo Technologies, Inc.'
+
+  - value: 086B
+    name: 'Pacific Track, LLC'
+
+  - value: 086A
+    name: 'Odic Incorporated'
+
+  - value: 0869
+    name: 'EVVA Sicherheitstechnologie GmbH'
+
+  - value: 0868
+    name: 'WIOsense GmbH & Co. KG'
+
+  - value: 0867
+    name: 'Western Digital Techologies, Inc.'
+
+  - value: 0866
+    name: 'LAONZ Co.,Ltd'
+
+  - value: 0865
+    name: 'Emergency Lighting Products Limited'
+
+  - value: 0864
+    name: 'Rafaelmicro'
+
+  - value: 0863
+    name: 'Yo-tronics Technology Co., Ltd.'
+
+  - value: 0862
+    name: 'SmartDrive'
+
+  - value: 0861
+    name: 'SmartSensor Labs Ltd'
+
+  - value: 0860
+    name: 'Alflex Products B.V.'
+
+  - value: 085F
+    name: 'COMPEGPS TEAM,SOCIEDAD LIMITADA'
+
+  - value: 085E
+    name: 'Krog Systems LLC'
+
+  - value: 085D
+    name: 'Guilin Zhishen Information Technology Co.,Ltd.'
+
+  - value: 085C
+    name: 'ACOS CO.,LTD.'
+
+  - value: 085B
+    name: 'Nisshinbo Micro Devices Inc.'
+
+  - value: 085A
+    name: 'DAKATECH'
+
+  - value: 0859
+    name: 'BlueUp'
+
+  - value: 0858
+    name: 'SOUNDBOKS'
+
+  - value: 0857
+    name: 'Parsyl Inc'
+
+  - value: 0856
+    name: 'Canopy Growth Corporation'
+
+  - value: 0855
+    name: 'Helios Sports, Inc.'
+
+  - value: 0854
+    name: 'Tap Sound System'
+
+  - value: 0853
+    name: 'Pektron Group Limited'
+
+  - value: 0852
+    name: 'Cognosos, Inc.'
+
+  - value: 0851
+    name: 'Subeca, Inc.'
+
+  - value: 0850
+    name: 'Yealink (Xiamen) Network Technology Co.,LTD'
+
+  - value: 084F
+    name: 'Embedded Fitness B.V.'
+
+  - value: 084E
+    name: 'Carol Cole Company'
+
+  - value: 084D
+    name: 'SafePort'
+
+  - value: 084C
+    name: 'ORSO Inc.'
+
+  - value: 084B
+    name: 'Biotechware SRL'
+
+  - value: 084A
+    name: 'ARCOM'
+
+  - value: 0849
+    name: 'Dopple Technologies B.V.'
+
+  - value: 0848
+    name: 'JUJU JOINTS CANADA CORP.'
+
+  - value: 0847
+    name: 'DNANUDGE LIMITED'
+
+  - value: 0846
+    name: 'USound GmbH'
+
+  - value: 0845
+    name: 'Dometic Corporation'
+
+  - value: 0844
+    name: 'Pepperl + Fuchs GmbH'
+
+  - value: 0843
+    name: 'FRAGRANCE DELIVERY TECHNOLOGIES LTD'
+
+  - value: 0842
+    name: 'Tangshan HongJia electronic technology co., LTD.'
+
+  - value: 0841
+    name: 'General Luminaire (Shanghai) Co., Ltd.'
+
+  - value: 0840
+    name: 'Down Range Systems LLC'
+
+  - value: 083F
+    name: 'D-Link Corp.'
+
+  - value: 083E
+    name: 'Zorachka LTD'
+
+  - value: 083D
+    name: 'Tokenize, Inc.'
+
+  - value: 083C
+    name: 'BeerTech LTD'
+
+  - value: 083B
+    name: 'Piaggio Fast Forward'
+
+  - value: 083A
+    name: 'BPW Bergische Achsen Kommanditgesellschaft'
+
+  - value: 0839
+    name: 'A puissance 3'
+
+  - value: 0838
+    name: 'Etymotic Research, Inc.'
+
+  - value: 0837
+    name: 'vivo Mobile Communication Co., Ltd.'
+
+  - value: 0836
+    name: 'Bitwards Oy'
+
+  - value: 0835
+    name: 'Canopy Growth Corporation'
+
+  - value: 0834
+    name: 'RIKEN KEIKI CO., LTD.,'
+
+  - value: 0833
+    name: 'Conneqtech B.V.'
+
+  - value: 0832
+    name: 'Intermotive,Inc.'
+
+  - value: 0831
+    name: 'Foxble, LLC'
+
+  - value: 0830
+    name: 'Core Health and Fitness LLC'
+
+  - value: 082F
+    name: 'Blippit AB'
+
+  - value: 082E
+    name: 'ABB S.p.A.'
+
+  - value: 082D
+    name: 'INCUS PERFORMANCE LTD.'
+
+  - value: 082C
+    name: 'INGICS TECHNOLOGY CO., LTD.'
+
+  - value: 082B
+    name: 'shenzhen fitcare electronics Co.,Ltd'
+
+  - value: 082A
+    name: 'Mitutoyo Corporation'
+
+  - value: 0829
+    name: 'HEXAGON METROLOGY DIVISION ROMER'
+
+  - value: 0828
+    name: 'Shanghai Suisheng Information Technology Co., Ltd.'
+
+  - value: 0827
+    name: 'Kickmaker'
+
+  - value: 0826
+    name: 'Hyundai Motor Company'
+
+  - value: 0825
+    name: 'CME PTE. LTD.'
+
+  - value: 0824
+    name: '8Power Limited'
+
+  - value: 0823
+    name: 'Nexite Ltd'
+
+  - value: 0822
+    name: 'adafruit industries'
+
+  - value: 0821
+    name: 'INOVA Geophysical, Inc.'
+
+  - value: 0820
+    name: 'Brilliant Home Technology, Inc.'
+
+  - value: 081F
+    name: 'eSenseLab LTD'
+
+  - value: 081E
+    name: 'iNFORM Technology GmbH'
+
+  - value: 081D
+    name: 'Potrykus Holdings and Development LLC'
+
+  - value: 081C
+    name: 'Bobrick Washroom Equipment, Inc.'
+
+  - value: 081B
+    name: 'DIM3'
+
+  - value: 081A
+    name: 'Shenzhen Conex'
+
+  - value: 0819
+    name: 'Hunter Douglas Inc'
+
+  - value: 0818
+    name: 'tatwah SA'
+
+  - value: 0817
+    name: 'Wangs Alliance Corporation'
+
+  - value: 0816
+    name: 'SPICA SYSTEMS LLC'
+
+  - value: 0815
+    name: 'SKC Inc'
+
+  - value: 0814
+    name: 'Ossur hf.'
+
+  - value: 0813
+    name: 'Flextronics International USA Inc.'
+
+  - value: 0812
+    name: 'Mstream Technologies., Inc.'
+
+  - value: 0811
+    name: 'Becker Antriebe GmbH'
+
+  - value: 0810
+    name: 'LECO Corporation'
+
+  - value: 080F
+    name: 'Paradox Engineering SA'
+
+  - value: 080E
+    name: 'TATTCOM LLC'
+
+  - value: 080D
+    name: 'Azbil Co.'
+
+  - value: 080C
+    name: 'Ingy B.V.'
+
+  - value: 080B
+    name: 'Nanoleaf Canada Limited'
+
+  - value: 080A
+    name: 'Altaneos'
+
+  - value: 0809
+    name: 'Trulli Audio'
+
+  - value: 0808
+    name: 'SISTEMAS KERN, SOCIEDAD ANÃ“MINA'
+
+  - value: 0807
+    name: 'ECD Electronic Components GmbH Dresden'
+
+  - value: 0806
+    name: 'TYRI Sweden AB'
+
+  - value: 0805
+    name: 'Urbanminded Ltd'
+
+  - value: 0804
+    name: 'Andon Health Co.,Ltd'
+
+  - value: 0803
+    name: 'Domintell s.a.'
+
+  - value: 0802
+    name: 'NantSound, Inc.'
+
+  - value: 0801
+    name: 'CRONUS ELECTRONICS LTD'
+
+  - value: 0800
+    name: 'Optek'
+
+  - value: 07FF
+    name: 'maxon motor ltd.'
+
+  - value: 07FE
+    name: 'BIROTA'
+
+  - value: 07FD
+    name: 'JSK CO., LTD.'
+
+  - value: 07FC
+    name: 'Renault SA'
+
+  - value: 07FB
+    name: 'Access Co., Ltd'
+
+  - value: 07FA
+    name: 'Klipsch Group, Inc.'
+
+  - value: 07F9
+    name: 'Direct Communication Solutions, Inc.'
+
+  - value: 07F8
+    name: 'quip NYC Inc.'
+
+  - value: 07F7
+    name: 'Cesar Systems Ltd.'
+
+  - value: 07F6
+    name: 'Shenzhen TonliScience and Technology Development Co.,Ltd'
+
+  - value: 07F5
+    name: 'Byton North America Corporation'
+
+  - value: 07F4
+    name: 'MEDIRLAB Orvosbiologiai Fejleszto Korlatolt Felelossegu Tarsasag'
+
+  - value: 07F3
+    name: 'DIGISINE ENERGYTECH CO. LTD.'
+
+  - value: 07F2
+    name: 'SERENE GROUP, INC'
+
+  - value: 07F1
+    name: 'Zimi Innovations Pty Ltd'
+
+  - value: 07F0
+    name: 'e-moola.com Pty Ltd'
+
+  - value: 07EF
+    name: 'Aktiebolaget Sandvik Coromant'
+
+  - value: 07EE
+    name: 'KidzTek LLC'
+
+  - value: 07ED
+    name: 'Joule IQ, INC.'
+
+  - value: 07EC
+    name: 'Frecce LLC'
+
+  - value: 07EB
+    name: 'NOVABASE S.R.L.'
+
+  - value: 07EA
+    name: 'ShapeLog, Inc.'
+
+  - value: 07E9
+    name: 'HÃ¤fele GmbH & Co KG'
+
+  - value: 07E8
+    name: 'Packetcraft, Inc.'
+
+  - value: 07E7
+    name: 'Komfort IQ, Inc.'
+
+  - value: 07E6
+    name: 'Waybeyond Limited'
+
+  - value: 07E5
+    name: 'Minut, Inc.'
+
+  - value: 07E4
+    name: 'Geeksme S.L.'
+
+  - value: 07E3
+    name: 'Airoha Technology Corp.'
+
+  - value: 07E2
+    name: 'Alfred Kaercher SE & Co. KG'
+
+  - value: 07E1
+    name: 'Lucie Labs'
+
+  - value: 07E0
+    name: 'Edifier International Limited'
+
+  - value: 07DF
+    name: 'Snap-on Incorporated'
+
+  - value: 07DE
+    name: 'Unlimited Engineering SL'
+
+  - value: 07DD
+    name: 'Linear Circuits'
+
+  - value: 07DC
+    name: 'ThingOS GmbH & Co KG'
+
+  - value: 07DB
+    name: 'Remedee Labs'
+
+  - value: 07DA
+    name: 'STARLITE Co., Ltd.'
+
+  - value: 07D9
+    name: 'Micro-Design, Inc.'
+
+  - value: 07D8
+    name: 'SOLUTIONS AMBRA INC.'
+
+  - value: 07D7
+    name: 'Nanjing Qinheng Microelectronics Co., Ltd'
+
+  - value: 07D6
+    name: 'ecobee Inc.'
+
+  - value: 07D5
+    name: 'hoots classic GmbH'
+
+  - value: 07D4
+    name: 'Kano Computing Limited'
+
+  - value: 07D3
+    name: 'LIVNEX Co.,Ltd.'
+
+  - value: 07D2
+    name: 'React Accessibility Limited'
+
+  - value: 07D1
+    name: 'Shanghai Panchip Microelectronics Co., Ltd'
+
+  - value: 07D0
+    name: 'Hangzhou Tuya Information  Technology Co., Ltd'
+
+  - value: 07CF
+    name: 'NeoSensory, Inc.'
+
+  - value: 07CE
+    name: 'Shanghai Top-Chip Microelectronics Tech. Co., LTD'
+
+  - value: 07CD
+    name: 'Smart Wave Technologies Canada Inc'
+
+  - value: 07CC
+    name: 'Barnacle Systems Inc.'
+
+  - value: 07CB
+    name: 'West Pharmaceutical Services, Inc.'
+
+  - value: 07CA
+    name: 'Modul-System HH AB'
+
+  - value: 07C9
+    name: 'Skullcandy, Inc.'
+
+  - value: 07C8
+    name: 'WRLDS Creations AB'
+
+  - value: 07C7
+    name: 'iaconicDesign Inc.'
+
+  - value: 07C6
+    name: 'Bluenetics GmbH'
+
+  - value: 07C5
+    name: 'June Life, Inc.'
+
+  - value: 07C4
+    name: 'Johnson Health Tech NA'
+
+  - value: 07C3
+    name: 'CIMTechniques, Inc.'
+
+  - value: 07C2
+    name: 'Radinn AB'
+
+  - value: 07C1
+    name: 'A.W. Chesterton Company'
+
+  - value: 07C0
+    name: 'Biral AG'
+
+  - value: 07BF
+    name: 'REGULA Ltd.'
+
+  - value: 07BE
+    name: 'Axentia Technologies AB'
+
+  - value: 07BD
+    name: 'Genedrive Diagnostics Ltd'
+
+  - value: 07BC
+    name: 'KD CIRCUITS LLC'
+
+  - value: 07BB
+    name: 'EPIC S.R.L.'
+
+  - value: 07BA
+    name: 'Battery-Biz Inc.'
+
+  - value: 07B9
+    name: 'Epona Biotec Limited'
+
+  - value: 07B8
+    name: 'iSwip'
+
+  - value: 07B7
+    name: 'ETABLISSEMENTS GEORGES RENAULT'
+
+  - value: 07B6
+    name: 'Soundbrenner Limited'
+
+  - value: 07B5
+    name: 'CRONO CHIP, S.L.'
+
+  - value: 07B4
+    name: 'Hormann KG Antriebstechnik'
+
+  - value: 07B3
+    name: '2N TELEKOMUNIKACE a.s.'
+
+  - value: 07B2
+    name: 'Moeco IOT Inc.'
+
+  - value: 07B1
+    name: 'Thomas Dynamics, LLC'
+
+  - value: 07B0
+    name: 'GV Concepts Inc.'
+
+  - value: 07AF
+    name: 'Hong Kong Bouffalo Lab Limited'
+
+  - value: 07AE
+    name: 'Aurea Solucoes Tecnologicas Ltda.'
+
+  - value: 07AD
+    name: 'New H3C Technologies Co.,Ltd'
+
+  - value: 07AC
+    name: 'LoupeDeck Oy'
+
+  - value: 07AB
+    name: 'Granite River Solutions, Inc.'
+
+  - value: 07AA
+    name: 'The Kroger Co.'
+
+  - value: 07A9
+    name: 'Bruel & Kjaer Sound & Vibration'
+
+  - value: 07A8
+    name: 'conbee GmbH'
+
+  - value: 07A7
+    name: 'Zume, Inc.'
+
+  - value: 07A6
+    name: 'Musen Connect, Inc.'
+
+  - value: 07A5
+    name: 'RAB Lighting, Inc.'
+
+  - value: 07A4
+    name: 'Xiamen Mage Information Technology Co., Ltd.'
+
+  - value: 07A3
+    name: 'Comcast Cable'
+
+  - value: 07A2
+    name: 'Roku, Inc.'
+
+  - value: 07A1
+    name: 'Apollo Neuroscience, Inc.'
+
+  - value: 07A0
+    name: 'Regent Beleuchtungskorper AG'
+
+  - value: 079F
+    name: 'Pune Scientific LLP'
+
+  - value: 079E
+    name: 'Smartloxx GmbH'
+
+  - value: 079D
+    name: 'Digibale Pty Ltd'
+
+  - value: 079C
+    name: 'Sky UK Limited'
+
+  - value: 079B
+    name: 'CST ELECTRONICS (PROPRIETARY) LIMITED'
+
+  - value: 079A
+    name: 'GuangDong Oppo Mobile Telecommunications Corp., Ltd.'
+
+  - value: 0799
+    name: 'PlantChoir Inc.'
+
+  - value: 0798
+    name: 'HoloKit, Inc.'
+
+  - value: 0797
+    name: 'Water-i.d. GmbH'
+
+  - value: 0796
+    name: 'StarLeaf Ltd'
+
+  - value: 0795
+    name: 'GASTEC CORPORATION'
+
+  - value: 0794
+    name: 'The Coca-Cola Company'
+
+  - value: 0793
+    name: 'AEV spol. s r.o.'
+
+  - value: 0792
+    name: 'Cricut, Inc.'
+
+  - value: 0791
+    name: 'Scosche Industries, Inc.'
+
+  - value: 0790
+    name: 'KOMPAN A/S'
+
+  - value: 078F
+    name: 'Hanna Instruments, Inc.'
+
+  - value: 078E
+    name: 'FUJIMIC NIIGATA, INC.'
+
+  - value: 078D
+    name: 'Cybex GmbH'
+
+  - value: 078C
+    name: 'MINIBREW HOLDING B.V'
+
+  - value: 078B
+    name: 'Optikam Tech Inc.'
+
+  - value: 078A
+    name: 'The Wildflower Foundation'
+
+  - value: 0789
+    name: 'PCB Piezotronics, Inc.'
+
+  - value: 0788
+    name: 'BubblyNet, LLC'
+
+  - value: 0787
+    name: 'Pangaea Solution'
+
+  - value: 0786
+    name: 'HLP Controls Pty Limited'
+
+  - value: 0785
+    name: 'O2 Micro, Inc.'
+
+  - value: 0784
+    name: 'audifon GmbH & Co. KG'
+
+  - value: 0783
+    name: 'ESEMBER LIMITED LIABILITY COMPANY'
+
+  - value: 0782
+    name: 'DeviceDrive AS'
+
+  - value: 0781
+    name: 'Qingping Technology (Beijing) Co., Ltd.'
+
+  - value: 0780
+    name: 'Finch Technologies Ltd.'
+
+  - value: 077F
+    name: 'Glenview Software Corporation'
+
+  - value: 077E
+    name: 'Sparkage Inc.'
+
+  - value: 077D
+    name: 'Sensority, s.r.o.'
+
+  - value: 077C
+    name: 'radius co., ltd.'
+
+  - value: 077B
+    name: 'AmaterZ, Inc.'
+
+  - value: 077A
+    name: 'Niruha Systems Private Limited'
+
+  - value: 0779
+    name: 'Loopshore Oy'
+
+  - value: 0778
+    name: 'KOAMTAC INC.'
+
+  - value: 0777
+    name: 'Cue'
+
+  - value: 0776
+    name: 'Cyber Transport Control GmbH'
+
+  - value: 0775
+    name: '4eBusiness GmbH'
+
+  - value: 0774
+    name: 'C-MAX Asia Limited'
+
+  - value: 0773
+    name: 'Echoflex Solutions Inc.'
+
+  - value: 0772
+    name: 'Thirdwayv Inc.'
+
+  - value: 0771
+    name: 'Corvex Connected Safety'
+
+  - value: 0770
+    name: 'InnoCon Medical ApS'
+
+  - value: 076F
+    name: 'Successful Endeavours Pty Ltd'
+
+  - value: 076E
+    name: 'WuQi technologies, Inc.'
+
+  - value: 076D
+    name: 'Graesslin GmbH'
+
+  - value: 076C
+    name: 'Noodle Technology inc'
+
+  - value: 076B
+    name: 'Engineered Medical Technologies'
+
+  - value: 076A
+    name: 'Dmac Mobile Developments, LLC'
+
+  - value: 0769
+    name: 'Force Impact Technologies'
+
+  - value: 0768
+    name: 'Peloton Interactive Inc.'
+
+  - value: 0767
+    name: 'NITTO DENKO ASIA TECHNICAL CENTRE PTE. LTD.'
+
+  - value: 0766
+    name: 'ART AND PROGRAM, INC.'
+
+  - value: 0765
+    name: 'Voxx International'
+
+  - value: 0764
+    name: 'WWZN Information Technology Company Limited'
+
+  - value: 0763
+    name: 'PIKOLIN S.L.'
+
+  - value: 0762
+    name: 'TerOpta Ltd'
+
+  - value: 0761
+    name: 'Mantis Tech LLC'
+
+  - value: 0760
+    name: 'Vimar SpA'
+
+  - value: 075F
+    name: 'Remote Solution Co., LTD.'
+
+  - value: 075E
+    name: 'Katerra Inc.'
+
+  - value: 075D
+    name: 'RHOMBUS SYSTEMS, INC.'
+
+  - value: 075C
+    name: 'Antitronics Inc.'
+
+  - value: 075B
+    name: 'Smart Sensor Devices AB'
+
+  - value: 075A
+    name: 'HARMAN CO.,LTD.'
+
+  - value: 0759
+    name: 'Shanghai InGeek Cyber Security Co., Ltd.'
+
+  - value: 0758
+    name: 'umanSense AB'
+
+  - value: 0757
+    name: 'ELA Innovation'
+
+  - value: 0756
+    name: 'Lumens For Less, Inc'
+
+  - value: 0755
+    name: 'Brother Industries, Ltd'
+
+  - value: 0754
+    name: 'Michael Parkin'
+
+  - value: 0753
+    name: 'JLG Industries, Inc.'
+
+  - value: 0752
+    name: 'Elatec GmbH'
+
+  - value: 0751
+    name: 'Changsha JEMO IC Design Co.,Ltd'
+
+  - value: 0750
+    name: 'Hamilton Professional Services of Canada Incorporated'
+
+  - value: 074F
+    name: 'MEDIATECH S.R.L.'
+
+  - value: 074E
+    name: 'EAGLE DETECTION SA'
+
+  - value: 074D
+    name: 'Amtech Systems, LLC'
+
+  - value: 074C
+    name: 'iopool s.a.'
+
+  - value: 074B
+    name: 'Sarvavid Software Solutions LLP'
+
+  - value: 074A
+    name: 'Illusory Studios LLC'
+
+  - value: 0749
+    name: 'DIAODIAO (Beijing) Technology Co., Ltd.'
+
+  - value: 0748
+    name: 'GuangZhou KuGou Computer Technology Co.Ltd'
+
+  - value: 0747
+    name: 'OR Technologies Pty Ltd'
+
+  - value: 0746
+    name: 'Seitec Elektronik GmbH'
+
+  - value: 0745
+    name: 'WIZNOVA, Inc.'
+
+  - value: 0744
+    name: 'SOCOMEC'
+
+  - value: 0743
+    name: 'Sanofi'
+
+  - value: 0742
+    name: 'DML LLC'
+
+  - value: 0741
+    name: 'MAC SRL'
+
+  - value: 0740
+    name: 'HITIQ LIMITED'
+
+  - value: 073F
+    name: 'Beijing Unisoc Technologies Co., Ltd.'
+
+  - value: 073E
+    name: 'Bluepack S.R.L.'
+
+  - value: 073D
+    name: 'Beijing Hao Heng Tian Tech Co., Ltd.'
+
+  - value: 073C
+    name: 'Acubit ApS'
+
+  - value: 073B
+    name: 'Fantini Cosmi s.p.a.'
+
+  - value: 073A
+    name: 'Chandler Systems Inc.'
+
+  - value: 0739
+    name: 'Jiangsu Qinheng Co., Ltd.'
+
+  - value: 0738
+    name: 'Glass Security Pte Ltd'
+
+  - value: 0737
+    name: 'LLC Navitek'
+
+  - value: 0736
+    name: 'Luna XIO, Inc.'
+
+  - value: 0735
+    name: 'UpRight Technologies LTD'
+
+  - value: 0734
+    name: 'DiUS Computing Pty Ltd'
+
+  - value: 0733
+    name: 'Iguanavation, Inc.'
+
+  - value: 0732
+    name: 'Dairy Tech, Inc.'
+
+  - value: 0731
+    name: 'ABLIC Inc.'
+
+  - value: 0730
+    name: 'Wildlife Acoustics, Inc.'
+
+  - value: 072F
+    name: 'OnePlus Electronics (Shenzhen) Co., Ltd.'
+
+  - value: 072E
+    name: 'Open Platform Systems LLC'
+
+  - value: 072D
+    name: 'Safera Oy'
+
+  - value: 072C
+    name: 'GWA Hygiene GmbH'
+
+  - value: 072B
+    name: 'Bitkey Inc.'
+
+  - value: 072A
+    name: 'JMR embedded systems GmbH'
+
+  - value: 0729
+    name: 'SwaraLink Technologies'
+
+  - value: 0728
+    name: 'Eli Lilly and Company'
+
+  - value: 0727
+    name: 'STALKIT AS'
+
+  - value: 0726
+    name: 'PHC Corporation'
+
+  - value: 0725
+    name: 'Tedee Sp. z o.o.'
+
+  - value: 0724
+    name: 'Guangzhou SuperSound Information Technology Co.,Ltd'
+
+  - value: 0723
+    name: 'Ford Motor Company'
+
+  - value: 0722
+    name: 'Xiamen Eholder Electronics Co.Ltd'
+
+  - value: 0721
+    name: 'Clover Network, Inc.'
+
+  - value: 0720
+    name: 'Oculeve, Inc.'
+
+  - value: 071F
+    name: 'Dongguan Liesheng Electronic Co.Ltd'
+
+  - value: 071E
+    name: 'DONGGUAN HELE ELECTRONICS CO., LTD'
+
+  - value: 071D
+    name: 'exoTIC Systems'
+
+  - value: 071C
+    name: 'F5 Sports, Inc'
+
+  - value: 071B
+    name: 'Precor'
+
+  - value: 071A
+    name: 'REVSMART WEARABLE HK CO LTD'
+
+  - value: 0719
+    name: 'COREIOT PTY LTD'
+
+  - value: 0718
+    name: 'IDIBAIX enginneering'
+
+  - value: 0717
+    name: 'iQsquare BV'
+
+  - value: 0716
+    name: 'Altonics'
+
+  - value: 0715
+    name: 'MBARC LABS Inc'
+
+  - value: 0714
+    name: 'MindPeace Safety LLC'
+
+  - value: 0713
+    name: 'Respiri Limited'
+
+  - value: 0712
+    name: 'Bull Group Company Limited'
+
+  - value: 0711
+    name: 'ABAX AS'
+
+  - value: 0710
+    name: 'Audiodo AB'
+
+  - value: 070F
+    name: 'California Things Inc.'
+
+  - value: 070E
+    name: 'FiveCo Sarl'
+
+  - value: 070D
+    name: 'SmartSnugg Pty Ltd'
+
+  - value: 070C
+    name: 'Beijing Winner Microelectronics Co.,Ltd'
+
+  - value: 070B
+    name: 'Element Products, Inc.'
+
+  - value: 070A
+    name: 'Huf HÃ¼lsbeck & FÃ¼rst GmbH & Co. KG'
+
+  - value: 0709
+    name: 'Carewear Corp.'
+
+  - value: 0708
+    name: 'Be Interactive Co., Ltd'
+
+  - value: 0707
+    name: 'Essity Hygiene and Health Aktiebolag'
+
+  - value: 0706
+    name: 'Wernher von Braun Center for ASdvanced Research'
+
+  - value: 0705
+    name: 'AB Electrolux'
+
+  - value: 0704
+    name: 'JBX Designs Inc.'
+
+  - value: 0703
+    name: 'Beijing Jingdong Century Trading Co., Ltd.'
+
+  - value: 0702
+    name: 'Akciju sabiedriba "SAF TEHNIKA"'
+
+  - value: 0701
+    name: 'PAFERS TECH'
+
+  - value: 0700
+    name: 'TraqFreq LLC'
+
+  - value: 06FF
+    name: 'Redpine Signals Inc'
+
+  - value: 06FE
+    name: 'Mahr GmbH'
+
+  - value: 06FD
+    name: 'ESS Embedded System Solutions Inc.'
+
+  - value: 06FC
+    name: 'Tom Communication Industrial Co.,Ltd.'
+
+  - value: 06FB
+    name: 'Sartorius AG'
+
+  - value: 06FA
+    name: 'Enequi AB'
+
+  - value: 06F9
+    name: 'happybrush GmbH'
+
+  - value: 06F8
+    name: 'BodyPlus Technology Co.,Ltd'
+
+  - value: 06F7
+    name: 'WILKA Schliesstechnik GmbH'
+
+  - value: 06F6
+    name: 'Vitulo Plus BV'
+
+  - value: 06F5
+    name: 'Vigil Technologies Inc.'
+
+  - value: 06F4
+    name: 'TouchÃ© Technology Ltd'
+
+  - value: 06F3
+    name: 'Alfred International Inc.'
+
+  - value: 06F2
+    name: 'Trapper Data AB'
+
+  - value: 06F1
+    name: 'Shibutani Co., Ltd.'
+
+  - value: 06F0
+    name: 'Chargy Technologies, SL'
+
+  - value: 06EF
+    name: 'ALCARE Co., Ltd.'
+
+  - value: 06EE
+    name: 'Avantis Systems Limited'
+
+  - value: 06ED
+    name: 'J Neades Ltd'
+
+  - value: 06EC
+    name: 'Sigur'
+
+  - value: 06EB
+    name: 'Houston Radar LLC'
+
+  - value: 06EA
+    name: 'SafeLine Sweden AB'
+
+  - value: 06E9
+    name: 'Zmartfun Electronics, Inc.'
+
+  - value: 06E8
+    name: 'Almendo Technologies GmbH'
+
+  - value: 06E7
+    name: 'VELUX A/S'
+
+  - value: 06E6
+    name: 'NIHON DENGYO KOUSAKU'
+
+  - value: 06E5
+    name: 'OPTEX CO.,LTD.'
+
+  - value: 06E4
+    name: 'Aluna'
+
+  - value: 06E3
+    name: 'Spinlock Ltd'
+
+  - value: 06E2
+    name: 'Alango Technologies Ltd'
+
+  - value: 06E1
+    name: 'Milestone AV Technologies LLC'
+
+  - value: 06E0
+    name: 'Avaya Inc.'
+
+  - value: 06DF
+    name: 'HLI Solutions Inc.'
+
+  - value: 06DE
+    name: 'Navcast, Inc.'
+
+  - value: 06DD
+    name: 'Intellithings Ltd.'
+
+  - value: 06DC
+    name: 'Industrial Network Controls, LLC'
+
+  - value: 06DB
+    name: 'Automatic Labs, Inc.'
+
+  - value: 06DA
+    name: 'Zliide Technologies ApS'
+
+  - value: 06D9
+    name: 'Shanghai Mountain View Silicon Co.,Ltd.'
+
+  - value: 06D8
+    name: 'AW Company'
+
+  - value: 06D7
+    name: 'FUBA Automotive Electronics GmbH'
+
+  - value: 06D6
+    name: 'JCT Healthcare Pty Ltd'
+
+  - value: 06D5
+    name: 'Sensirion AG'
+
+  - value: 06D4
+    name: 'DYNAKODE TECHNOLOGY PRIVATE LIMITED'
+
+  - value: 06D3
+    name: 'TriTeq Lock and Security, LLC'
+
+  - value: 06D2
+    name: 'CeoTronics AG'
+
+  - value: 06D1
+    name: 'Meyer Sound Laboratories, Incorporated'
+
+  - value: 06D0
+    name: 'Etekcity Corporation'
+
+  - value: 06CF
+    name: 'Belparts N.V.'
+
+  - value: 06CE
+    name: 'FIOR & GENTZ'
+
+  - value: 06CD
+    name: 'DIG Corporation'
+
+  - value: 06CC
+    name: 'Dongguan SmartAction Technology Co.,Ltd.'
+
+  - value: 06CB
+    name: 'Dyeware, LLC'
+
+  - value: 06CA
+    name: 'Shenzhen Zhongguang Infotech Technology Development Co., Ltd'
+
+  - value: 06C9
+    name: 'MYLAPS B.V.'
+
+  - value: 06C8
+    name: 'Storz & Bickel GmbH & Co. KG'
+
+  - value: 06C7
+    name: 'Somatix Inc'
+
+  - value: 06C6
+    name: 'Simm Tronic Limited'
+
+  - value: 06C5
+    name: 'Urban Compass, Inc'
+
+  - value: 06C4
+    name: 'Dream Labs GmbH'
+
+  - value: 06C3
+    name: 'King I Electronics.Co.,Ltd'
+
+  - value: 06C2
+    name: 'Measurlogic Inc.'
+
+  - value: 06C1
+    name: 'Alarm.com Holdings, Inc'
+
+  - value: 06C0
+    name: 'CAME S.p.A.'
+
+  - value: 06BF
+    name: 'Delcom Products Inc.'
+
+  - value: 06BE
+    name: 'HitSeed Oy'
+
+  - value: 06BD
+    name: 'ABB Oy'
+
+  - value: 06BC
+    name: 'TWS Srl'
+
+  - value: 06BB
+    name: 'Leaftronix Analogic Solutions Private Limited'
+
+  - value: 06BA
+    name: 'Beaconzone Ltd'
+
+  - value: 06B9
+    name: 'Beflex Inc.'
+
+  - value: 06B8
+    name: 'ShadeCraft, Inc'
+
+  - value: 06B7
+    name: 'iCOGNIZE GmbH'
+
+  - value: 06B6
+    name: 'Sociometric Solutions, Inc.'
+
+  - value: 06B5
+    name: 'Wabilogic Ltd.'
+
+  - value: 06B4
+    name: 'Sencilion Oy'
+
+  - value: 06B3
+    name: 'The Hablab ApS'
+
+  - value: 06B2
+    name: 'Tussock Innovation 2013 Limited'
+
+  - value: 06B1
+    name: 'SimpliSafe, Inc.'
+
+  - value: 06B0
+    name: 'BRK Brands, Inc.'
+
+  - value: 06AF
+    name: 'Shoof Technologies'
+
+  - value: 06AE
+    name: 'SenseQ Inc.'
+
+  - value: 06AD
+    name: 'InnovaSea Systems Inc.'
+
+  - value: 06AC
+    name: 'Ingchips Technology Co., Ltd.'
+
+  - value: 06AB
+    name: 'HMS Industrial Networks AB'
+
+  - value: 06AA
+    name: 'Produal Oy'
+
+  - value: 06A9
+    name: 'Soundmax Electronics Limited'
+
+  - value: 06A8
+    name: 'GD Midea Air-Conditioning Equipment Co., Ltd.'
+
+  - value: 06A7
+    name: 'Chipsea Technologies (ShenZhen) Corp.'
+
+  - value: 06A6
+    name: 'Roambee Corporation'
+
+  - value: 06A5
+    name: 'TEKZITEL PTY LTD'
+
+  - value: 06A4
+    name: 'LIMNO Co. Ltd.'
+
+  - value: 06A3
+    name: 'Nymbus, LLC'
+
+  - value: 06A2
+    name: 'Globalworx GmbH'
+
+  - value: 06A1
+    name: 'Cardo Systems, Ltd'
+
+  - value: 06A0
+    name: 'OBIQ Location Technology Inc.'
+
+  - value: 069F
+    name: 'FlowMotion Technologies AS'
+
+  - value: 069E
+    name: 'Delta Electronics, Inc.'
+
+  - value: 069D
+    name: 'Vakaros LLC'
+
+  - value: 069C
+    name: 'Noomi AB'
+
+  - value: 069B
+    name: 'Dragonchip Limited'
+
+  - value: 069A
+    name: 'Adero, Inc.'
+
+  - value: 0699
+    name: 'RandomLab SAS'
+
+  - value: 0698
+    name: 'Wood IT Security, LLC'
+
+  - value: 0697
+    name: 'Stemco Products Inc'
+
+  - value: 0696
+    name: 'Gunakar Private Limited'
+
+  - value: 0695
+    name: 'Koki Holdings Co., Ltd.'
+
+  - value: 0694
+    name: 'T&A Laboratories LLC'
+
+  - value: 0693
+    name: 'Hach - Danaher'
+
+  - value: 0692
+    name: 'Georg Fischer AG'
+
+  - value: 0691
+    name: 'Curie Point AB'
+
+  - value: 0690
+    name: 'Eccrine Systems, Inc.'
+
+  - value: 068F
+    name: 'JRM Group Limited'
+
+  - value: 068E
+    name: 'Razer Inc.'
+
+  - value: 068D
+    name: 'JetBeep Inc.'
+
+  - value: 068C
+    name: 'Changzhou Sound Dragon Electronics and Acoustics Co., Ltd'
+
+  - value: 068B
+    name: 'Jiangsu Teranovo Tech Co., Ltd.'
+
+  - value: 068A
+    name: 'Raytac Corporation'
+
+  - value: 0689
+    name: 'Tacx b.v.'
+
+  - value: 0688
+    name: 'Amsted Digital Solutions Inc.'
+
+  - value: 0687
+    name: 'Cherry GmbH'
+
+  - value: 0686
+    name: 'inQs Co., Ltd.'
+
+  - value: 0685
+    name: 'Greenwald Industries'
+
+  - value: 0684
+    name: 'Dermalapps, LLC'
+
+  - value: 0683
+    name: 'Eltako GmbH'
+
+  - value: 0682
+    name: 'Photron Limited'
+
+  - value: 0681
+    name: 'Trade FIDES a.s.'
+
+  - value: 0680
+    name: 'Mannkind Corporation'
+
+  - value: 067F
+    name: 'NETGRID S.N.C. DI BISSOLI MATTEO, CAMPOREALE SIMONE, TOGNETTI FEDERICO'
+
+  - value: 067E
+    name: 'MbientLab Inc'
+
+  - value: 067D
+    name: 'Form Athletica Inc.'
+
+  - value: 067C
+    name: 'Tile, Inc.'
+
+  - value: 067B
+    name: 'I.FARM, INC.'
+
+  - value: 067A
+    name: 'The Energy Conservatory, Inc.'
+
+  - value: 0679
+    name: '4iiii Innovations Inc.'
+
+  - value: 0678
+    name: 'SABIK Offshore GmbH'
+
+  - value: 0677
+    name: 'Innovation First, Inc.'
+
+  - value: 0676
+    name: 'Expai Solutions Private Limited'
+
+  - value: 0675
+    name: 'Deco Enterprises, Inc.'
+
+  - value: 0674
+    name: 'BeSpoon'
+
+  - value: 0673
+    name: 'Innova Ideas Limited'
+
+  - value: 0672
+    name: 'Kopi'
+
+  - value: 0671
+    name: 'Buzz Products Ltd.'
+
+  - value: 0670
+    name: 'Gema Switzerland GmbH'
+
+  - value: 066F
+    name: 'Hug Technology Ltd'
+
+  - value: 066E
+    name: 'Eurotronik Kranj d.o.o.'
+
+  - value: 066D
+    name: 'Venso EcoSolutions AB'
+
+  - value: 066C
+    name: 'Ztove ApS'
+
+  - value: 066B
+    name: 'DewertOkin GmbH'
+
+  - value: 066A
+    name: 'Brady Worldwide Inc.'
+
+  - value: 0669
+    name: 'Livanova USA, Inc.'
+
+  - value: 0668
+    name: 'Bleb Technology srl'
+
+  - value: 0667
+    name: 'Spark Technology Labs Inc.'
+
+  - value: 0666
+    name: 'WTO Werkzeug-Einrichtungen GmbH'
+
+  - value: 0665
+    name: 'Pure International Limited'
+
+  - value: 0664
+    name: 'RHA TECHNOLOGIES LTD'
+
+  - value: 0663
+    name: 'Advanced Telemetry Systems, Inc.'
+
+  - value: 0662
+    name: 'Particle Industries, Inc.'
+
+  - value: 0661
+    name: 'Mode Lighting Limited'
+
+  - value: 0660
+    name: 'RTC Industries, Inc.'
+
+  - value: 065F
+    name: 'Ricoh Company Ltd'
+
+  - value: 065E
+    name: 'Alo AB'
+
+  - value: 065D
+    name: 'Panduit Corp.'
+
+  - value: 065C
+    name: 'PixArt Imaging Inc.'
+
+  - value: 065B
+    name: 'Sesam Solutions BV'
+
+  - value: 065A
+    name: 'Zound Industries International AB'
+
+  - value: 0659
+    name: 'UnSeen Technologies Oy'
+
+  - value: 0658
+    name: 'Payex Norge AS'
+
+  - value: 0657
+    name: 'Meshtronix Limited'
+
+  - value: 0656
+    name: 'ZhuHai AdvanPro Technology Company Limited'
+
+  - value: 0655
+    name: 'Renishaw PLC'
+
+  - value: 0654
+    name: 'Ledlenser GmbH & Co. KG'
+
+  - value: 0653
+    name: 'Meggitt SA'
+
+  - value: 0652
+    name: 'ITZ Innovations- und Technologiezentrum GmbH'
+
+  - value: 0651
+    name: 'Stasis Labs, Inc.'
+
+  - value: 0650
+    name: 'Coravin, Inc.'
+
+  - value: 064F
+    name: 'Digital Matter Pty Ltd'
+
+  - value: 064E
+    name: 'KRUXWorks Technologies Private Limited'
+
+  - value: 064D
+    name: 'iLOQ Oy'
+
+  - value: 064C
+    name: 'Zumtobel Group AG'
+
+  - value: 064B
+    name: 'Scale-Tec, Ltd'
+
+  - value: 064A
+    name: 'Open Research Institute, Inc.'
+
+  - value: 0649
+    name: 'Ryeex Technology Co.,Ltd.'
+
+  - value: 0648
+    name: 'Ultune Technologies'
+
+  - value: 0647
+    name: 'MED-EL'
+
+  - value: 0646
+    name: 'SGV Group Holding GmbH & Co. KG'
+
+  - value: 0645
+    name: 'BM3'
+
+  - value: 0644
+    name: 'Apogee Instruments'
+
+  - value: 0643
+    name: 'makita corporation'
+
+  - value: 0642
+    name: 'Bluetrum Technology Co.,Ltd'
+
+  - value: 0641
+    name: 'Revenue Collection Systems FRANCE SAS'
+
+  - value: 0640
+    name: 'Dish Network LLC'
+
+  - value: 063F
+    name: 'LDL TECHNOLOGY'
+
+  - value: 063E
+    name: 'The Indoor Lab, LLC'
+
+  - value: 063D
+    name: 'Xradio Technology Co.,Ltd.'
+
+  - value: 063C
+    name: 'Contec Medical Systems Co., Ltd.'
+
+  - value: 063B
+    name: 'Kromek Group Plc'
+
+  - value: 063A
+    name: 'Prolojik Limited'
+
+  - value: 0639
+    name: 'Shenzhen Minew Technologies Co., Ltd.'
+
+  - value: 0638
+    name: 'LX SOLUTIONS PTY LIMITED'
+
+  - value: 0637
+    name: 'GiP Innovation Tools GmbH'
+
+  - value: 0636
+    name: 'ELECTRONICA INTEGRAL DE SONIDO S.A.'
+
+  - value: 0635
+    name: 'Crookwood'
+
+  - value: 0634
+    name: 'Fanstel Corp'
+
+  - value: 0633
+    name: 'Wangi Lai PLT'
+
+  - value: 0632
+    name: 'Hugo Muller GmbH & Co KG'
+
+  - value: 0631
+    name: 'Fortiori Design LLC'
+
+  - value: 0630
+    name: 'Asthrea D.O.O.'
+
+  - value: 062F
+    name: 'ONKYO Corporation'
+
+  - value: 062E
+    name: 'Procept'
+
+  - value: 062D
+    name: 'Vossloh-Schwabe Deutschland GmbH'
+
+  - value: 062C
+    name: 'ASPion GmbH'
+
+  - value: 062B
+    name: 'MinebeaMitsumi Inc.'
+
+  - value: 062A
+    name: 'Lunatico Astronomia SL'
+
+  - value: 0629
+    name: 'PHONEPE PVT LTD'
+
+  - value: 0628
+    name: 'Ensto Oy'
+
+  - value: 0627
+    name: 'WEG S.A.'
+
+  - value: 0626
+    name: 'Amplifico'
+
+  - value: 0625
+    name: 'Square Panda, Inc.'
+
+  - value: 0624
+    name: 'Biovotion AG'
+
+  - value: 0623
+    name: 'Philadelphia Scientific (U.K.) Limited'
+
+  - value: 0622
+    name: 'Beam Labs, LLC'
+
+  - value: 0621
+    name: 'Noordung d.o.o.'
+
+  - value: 0620
+    name: 'Forciot Oy'
+
+  - value: 061F
+    name: 'Phrame Inc.'
+
+  - value: 061E
+    name: 'Diamond Kinetics, Inc.'
+
+  - value: 061D
+    name: 'SENS Innovation ApS'
+
+  - value: 061C
+    name: 'Univations Limited'
+
+  - value: 061B
+    name: 'silex technology, inc.'
+
+  - value: 061A
+    name: 'R.W. Beckett Corporation'
+
+  - value: 0619
+    name: 'Six Guys Labs, s.r.o.'
+
+  - value: 0618
+    name: 'Audio-Technica Corporation'
+
+  - value: 0617
+    name: 'WIZCONNECTED COMPANY LIMITED'
+
+  - value: 0616
+    name: 'OS42 UG (haftungsbeschraenkt)'
+
+  - value: 0615
+    name: 'INTER ACTION Corporation'
+
+  - value: 0614
+    name: 'OnAsset Intelligence, Inc.'
+
+  - value: 0613
+    name: 'Hans Dinslage GmbH'
+
+  - value: 0612
+    name: 'Playfinity AS'
+
+  - value: 0611
+    name: 'Beurer GmbH'
+
+  - value: 0610
+    name: 'ADH GUARDIAN USA LLC'
+
+  - value: 060F
+    name: 'Signify Netherlands B.V.'
+
+  - value: 060E
+    name: 'Blueair AB'
+
+  - value: 060D
+    name: 'TDK Corporation'
+
+  - value: 060C
+    name: 'Vuzix Corporation'
+
+  - value: 060B
+    name: 'Triax Technologies Inc'
+
+  - value: 060A
+    name: 'IQAir AG'
+
+  - value: 0609
+    name: 'BUCHI Labortechnik AG'
+
+  - value: 0608
+    name: 'KeySafe-Cloud'
+
+  - value: 0607
+    name: 'Rookery Technology Ltd'
+
+  - value: 0606
+    name: 'John Deere'
+
+  - value: 0605
+    name: 'FMW electronic Futterer u. Maier-Wolf OHG'
+
+  - value: 0604
+    name: 'Cell2Jack LLC'
+
+  - value: 0603
+    name: 'Fourth Evolution Inc'
+
+  - value: 0602
+    name: 'Geberit International AG'
+
+  - value: 0601
+    name: 'Schrader Electronics'
+
+  - value: 0600
+    name: 'iRobot Corporation'
+
+  - value: 05FF
+    name: 'Wellnomics Ltd'
+
+  - value: 05FE
+    name: 'Niko nv'
+
+  - value: 05FD
+    name: 'Innoseis'
+
+  - value: 05FC
+    name: 'Masbando GmbH'
+
+  - value: 05FB
+    name: 'Arblet Inc.'
+
+  - value: 05FA
+    name: 'Konami Sports Life Co., Ltd.'
+
+  - value: 05F9
+    name: 'Hagleitner Hygiene International GmbH'
+
+  - value: 05F8
+    name: 'Anki Inc.'
+
+  - value: 05F7
+    name: 'TRACMO, INC.'
+
+  - value: 05F6
+    name: 'DPTechnics'
+
+  - value: 05F5
+    name: 'GS TAG'
+
+  - value: 05F4
+    name: 'Clearity, LLC'
+
+  - value: 05F3
+    name: 'SeeScan'
+
+  - value: 05F2
+    name: 'Try and E CO.,LTD.'
+
+  - value: 05F1
+    name: 'The Linux Foundation'
+
+  - value: 05F0
+    name: 'beken'
+
+  - value: 05EF
+    name: 'SIKOM AS'
+
+  - value: 05EE
+    name: 'Wristcam Inc.'
+
+  - value: 05ED
+    name: 'Fuji Xerox Co., Ltd'
+
+  - value: 05EC
+    name: 'Gycom Svenska AB'
+
+  - value: 05EB
+    name: 'Bayerische Motoren Werke AG'
+
+  - value: 05EA
+    name: 'ACS-Control-System GmbH'
+
+  - value: 05E9
+    name: 'iconmobile GmbH'
+
+  - value: 05E8
+    name: 'COWBOY'
+
+  - value: 05E7
+    name: 'PressurePro'
+
+  - value: 05E6
+    name: 'Motion Instruments Inc.'
+
+  - value: 05E5
+    name: 'INEO ENERGY& SYSTEMS'
+
+  - value: 05E4
+    name: 'Taiyo Yuden Co., Ltd'
+
+  - value: 05E3
+    name: 'Elemental Machines, Inc.'
+
+  - value: 05E2
+    name: 'stAPPtronics GmbH'
+
+  - value: 05E1
+    name: 'Human, Incorporated'
+
+  - value: 05E0
+    name: 'Viper Design LLC'
+
+  - value: 05DF
+    name: 'VIRTUALCLINIC.DIRECT LIMITED'
+
+  - value: 05DE
+    name: 'QT Medical INC.'
+
+  - value: 05DD
+    name: 'essentim GmbH'
+
+  - value: 05DC
+    name: 'Petronics Inc.'
+
+  - value: 05DB
+    name: 'Avid Identification Systems, Inc.'
+
+  - value: 05DA
+    name: 'Applied Neural Research Corp'
+
+  - value: 05D9
+    name: 'Toyo Electronics Corporation'
+
+  - value: 05D8
+    name: 'Farm Jenny LLC'
+
+  - value: 05D7
+    name: 'modum.io AG'
+
+  - value: 05D6
+    name: 'Zhuhai Jieli technology Co.,Ltd'
+
+  - value: 05D5
+    name: 'TEGAM, Inc.'
+
+  - value: 05D4
+    name: 'LAMPLIGHT Co., Ltd.'
+
+  - value: 05D3
+    name: 'Acurable Limited'
+
+  - value: 05D2
+    name: 'frogblue TECHNOLOGY GmbH'
+
+  - value: 05D1
+    name: 'Lindab AB'
+
+  - value: 05D0
+    name: 'Anova Applied Electronics'
+
+  - value: 05CF
+    name: 'Biowatch SA'
+
+  - value: 05CE
+    name: 'V-ZUG Ltd'
+
+  - value: 05CD
+    name: 'RJ Brands LLC'
+
+  - value: 05CC
+    name: 'WATTS ELECTRONICS'
+
+  - value: 05CB
+    name: 'LucentWear LLC'
+
+  - value: 05CA
+    name: 'MHL Custom Inc'
+
+  - value: 05C9
+    name: 'TBS Electronics B.V.'
+
+  - value: 05C8
+    name: 'SOMFY SAS'
+
+  - value: 05C7
+    name: 'Lippert Components, INC'
+
+  - value: 05C6
+    name: 'Smart Animal Training Systems, LLC'
+
+  - value: 05C5
+    name: 'SELVE GmbH & Co. KG'
+
+  - value: 05C4
+    name: 'Codecoup sp. z o.o. sp. k.'
+
+  - value: 05C3
+    name: 'Runtime, Inc.'
+
+  - value: 05C2
+    name: 'Grote Industries'
+
+  - value: 05C1
+    name: 'P.I.Engineering'
+
+  - value: 05C0
+    name: 'Nalu Medical, Inc.'
+
+  - value: 05BF
+    name: 'Real-World-Systems Corporation'
+
+  - value: 05BE
+    name: 'RFID Global by Softwork SrL'
+
+  - value: 05BD
+    name: 'ULC Robotics Inc.'
+
+  - value: 05BC
+    name: 'Leviton Mfg. Co., Inc.'
+
+  - value: 05BB
+    name: 'Oxford Metrics plc'
+
+  - value: 05BA
+    name: 'igloohome'
+
+  - value: 05B9
+    name: 'Suzhou Pairlink Network Technology'
+
+  - value: 05B8
+    name: 'Ambystoma Labs Inc.'
+
+  - value: 05B7
+    name: 'Beijing Pinecone Electronics Co.,Ltd.'
+
+  - value: 05B6
+    name: 'Elecs Industry Co.,Ltd.'
+
+  - value: 05B5
+    name: 'verisilicon'
+
+  - value: 05B4
+    name: 'White Horse Scientific ltd'
+
+  - value: 05B3
+    name: 'Parabit Systems, Inc.'
+
+  - value: 05B2
+    name: 'CAREL INDUSTRIES S.P.A.'
+
+  - value: 05B1
+    name: 'Medallion Instrumentation Systems'
+
+  - value: 05B0
+    name: 'NewTec GmbH'
+
+  - value: 05AF
+    name: 'OV LOOP, INC.'
+
+  - value: 05AE
+    name: 'CARMATE MFG.CO.,LTD'
+
+  - value: 05AD
+    name: 'INIA'
+
+  - value: 05AC
+    name: 'GoerTek Dynaudio Co., Ltd.'
+
+  - value: 05AB
+    name: 'Nofence AS'
+
+  - value: 05AA
+    name: 'Tramex Limited'
+
+  - value: 05A9
+    name: 'Monidor'
+
+  - value: 05A8
+    name: 'Tom Allebrandi Consulting'
+
+  - value: 05A7
+    name: 'Sonos Inc'
+
+  - value: 05A6
+    name: 'Telecon Mobile Limited'
+
+  - value: 05A5
+    name: 'Kiiroo BV'
+
+  - value: 05A4
+    name: 'O. E. M. Controls, Inc.'
+
+  - value: 05A3
+    name: 'Axiomware Systems Incorporated'
+
+  - value: 05A2
+    name: 'ADHERIUM(NZ) LIMITED'
+
+  - value: 05A1
+    name: 'Shanghai Xiaoyi Technology Co.,Ltd.'
+
+  - value: 05A0
+    name: 'RCP Software Oy'
+
+  - value: 059F
+    name: 'Fisher & Paykel Healthcare'
+
+  - value: 059E
+    name: 'Polycom, Inc.'
+
+  - value: 059D
+    name: 'Tandem Diabetes Care'
+
+  - value: 059C
+    name: 'Macrogiga Electronics'
+
+  - value: 059B
+    name: 'Dataflow Systems Limited'
+
+  - value: 059A
+    name: 'Teledyne Lecroy, Inc.'
+
+  - value: 0599
+    name: 'Lazlo326, LLC.'
+
+  - value: 0598
+    name: 'rapitag GmbH'
+
+  - value: 0597
+    name: 'RadioPulse Inc'
+
+  - value: 0596
+    name: 'My Smart Blinds'
+
+  - value: 0595
+    name: 'Inor Process AB'
+
+  - value: 0594
+    name: 'Kohler Company'
+
+  - value: 0593
+    name: 'Spaulding Clinical Research'
+
+  - value: 0592
+    name: 'IZITHERM'
+
+  - value: 0591
+    name: 'Viasat Group S.p.A.'
+
+  - value: 0590
+    name: 'Pur3 Ltd'
+
+  - value: 058F
+    name: 'HENDON SEMICONDUCTORS PTY LTD'
+
+  - value: 058E
+    name: 'Meta Platforms Technologies, LLC'
+
+  - value: 058D
+    name: 'Jungheinrich Aktiengesellschaft'
+
+  - value: 058C
+    name: 'Fracarro Radioindustrie SRL'
+
+  - value: 058B
+    name: 'Maxim Integrated Products'
+
+  - value: 058A
+    name: 'START TODAY CO.,LTD.'
+
+  - value: 0589
+    name: 'Star Technologies'
+
+  - value: 0588
+    name: 'ALT-TEKNIK LLC'
+
+  - value: 0587
+    name: 'Derichs GmbH'
+
+  - value: 0586
+    name: 'LEGRAND'
+
+  - value: 0585
+    name: 'Hearing Lab Technology'
+
+  - value: 0584
+    name: 'Gira Giersiepen GmbH & Co. KG'
+
+  - value: 0583
+    name: 'Code Blue Communications'
+
+  - value: 0582
+    name: 'Breakwall Analytics, LLC'
+
+  - value: 0581
+    name: 'LYS TECHNOLOGIES LTD'
+
+  - value: 0580
+    name: 'ARANZ Medical Limited'
+
+  - value: 057F
+    name: 'Scuf Gaming International, LLC'
+
+  - value: 057E
+    name: 'Beco, Inc'
+
+  - value: 057D
+    name: 'Instinct Performance'
+
+  - value: 057C
+    name: 'Toor Technologies LLC'
+
+  - value: 057B
+    name: 'Duracell U.S. Operations Inc.'
+
+  - value: 057A
+    name: 'OMNI Remotes'
+
+  - value: 0579
+    name: 'Ensemble Tech Private Limited'
+
+  - value: 0578
+    name: 'Wellington Drive Technologies Ltd'
+
+  - value: 0577
+    name: 'True Wearables, Inc.'
+
+  - value: 0576
+    name: 'Globalstar, Inc.'
+
+  - value: 0575
+    name: 'Integral Memroy Plc'
+
+  - value: 0574
+    name: 'AFFORDABLE ELECTRONICS INC'
+
+  - value: 0573
+    name: 'Lighting Science Group Corp.'
+
+  - value: 0572
+    name: 'AntTail.com'
+
+  - value: 0571
+    name: 'PSIKICK, INC.'
+
+  - value: 0570
+    name: 'Consumer Sleep Solutions LLC'
+
+  - value: 056F
+    name: 'BikeFinder AS'
+
+  - value: 056E
+    name: 'VIZPIN INC.'
+
+  - value: 056D
+    name: 'Redmond Industrial Group LLC'
+
+  - value: 056C
+    name: 'Long Range Systems, LLC'
+
+  - value: 056B
+    name: 'Rion Co., Ltd.'
+
+  - value: 056A
+    name: 'Flipnavi Co.,Ltd.'
+
+  - value: 0569
+    name: 'Audionics System, INC.'
+
+  - value: 0568
+    name: 'Bodyport Inc.'
+
+  - value: 0567
+    name: 'Xiamen Everesports Goods Co., Ltd'
+
+  - value: 0566
+    name: 'CORE TRANSPORT TECHNOLOGIES NZ LIMITED'
+
+  - value: 0565
+    name: 'Beijing Smartspace Technologies Inc.'
+
+  - value: 0564
+    name: 'Beghelli Spa'
+
+  - value: 0563
+    name: 'Steinel Vertrieb GmbH'
+
+  - value: 0562
+    name: 'Thalmic Labs Inc.'
+
+  - value: 0561
+    name: 'Finder S.p.A.'
+
+  - value: 0560
+    name: 'Sarita CareTech APS'
+
+  - value: 055F
+    name: 'PROTECH S.A.S. DI GIRARDI ANDREA & C.'
+
+  - value: 055E
+    name: 'Hekatron Vertriebs GmbH'
+
+  - value: 055D
+    name: 'Valve Corporation'
+
+  - value: 055C
+    name: 'Lely'
+
+  - value: 055B
+    name: 'FRANKLIN TECHNOLOGY INC'
+
+  - value: 055A
+    name: 'CANDY HOUSE, Inc.'
+
+  - value: 0559
+    name: 'Newcon Optik'
+
+  - value: 0558
+    name: 'benegear, inc.'
+
+  - value: 0557
+    name: 'Arwin Technology Limited'
+
+  - value: 0556
+    name: 'Otodynamics Ltd'
+
+  - value: 0555
+    name: 'KROHNE Messtechnik GmbH'
+
+  - value: 0554
+    name: 'National Instruments'
+
+  - value: 0553
+    name: 'Nintendo Co., Ltd.'
+
+  - value: 0552
+    name: 'Avempace SARL'
+
+  - value: 0551
+    name: 'Sylero'
+
+  - value: 0550
+    name: 'Versa Networks, Inc.'
+
+  - value: 054F
+    name: 'Sinnoz'
+
+  - value: 054E
+    name: 'FORTRONIK storitve d.o.o.'
+
+  - value: 054D
+    name: 'Sensome'
+
+  - value: 054C
+    name: 'Carefree Scott Fetzer Co Inc'
+
+  - value: 054B
+    name: 'Advanced Electronic Designs, Inc.'
+
+  - value: 054A
+    name: 'Linough Inc.'
+
+  - value: 0549
+    name: 'Smart Technologies and Investment Limited'
+
+  - value: 0548
+    name: 'Knick Elektronische Messgeraete GmbH & Co. KG'
+
+  - value: 0547
+    name: 'LOGICDATA Electronic & Software Entwicklungs GmbH'
+
+  - value: 0546
+    name: 'Apexar Technologies S.A.'
+
+  - value: 0545
+    name: 'Candy Hoover Group s.r.l'
+
+  - value: 0544
+    name: 'OrthoSensor, Inc.'
+
+  - value: 0543
+    name: 'MIWA LOCK CO.,Ltd'
+
+  - value: 0542
+    name: 'Mist Systems, Inc.'
+
+  - value: 0541
+    name: 'Sharknet srl'
+
+  - value: 0540
+    name: 'SilverPlus, Inc'
+
+  - value: 053F
+    name: 'Silergy Corp'
+
+  - value: 053E
+    name: 'CLIM8 LIMITED'
+
+  - value: 053D
+    name: 'TESA SA'
+
+  - value: 053C
+    name: 'Screenovate Technologies Ltd'
+
+  - value: 053B
+    name: 'prodigy'
+
+  - value: 053A
+    name: 'Savitech Corp.,'
+
+  - value: 0539
+    name: 'OPPLE Lighting Co., Ltd'
+
+  - value: 0538
+    name: 'Medela AG'
+
+  - value: 0537
+    name: 'MetaLogics Corporation'
+
+  - value: 0536
+    name: 'ZTR Control Systems LLC'
+
+  - value: 0535
+    name: 'Smart Component Technologies Limited'
+
+  - value: 0534
+    name: 'Frontiergadget, Inc.'
+
+  - value: 0533
+    name: 'Nura Operations Pty Ltd'
+
+  - value: 0532
+    name: 'CRESCO Wireless, Inc.'
+
+  - value: 0531
+    name: 'D&M Holdings Inc.'
+
+  - value: 0530
+    name: 'Adolene, Inc.'
+
+  - value: 052F
+    name: 'Center ID Corp.'
+
+  - value: 052E
+    name: 'LEDVANCE GmbH'
+
+  - value: 052D
+    name: 'EXFO, Inc.'
+
+  - value: 052C
+    name: 'Geosatis SA'
+
+  - value: 052B
+    name: 'Novartis AG'
+
+  - value: 052A
+    name: 'Keynes Controls Ltd'
+
+  - value: 0529
+    name: 'Lumen UAB'
+
+  - value: 0528
+    name: 'Lunera Lighting Inc.'
+
+  - value: 0527
+    name: 'Albrecht JUNG'
+
+  - value: 0526
+    name: 'Honeywell International Inc.'
+
+  - value: 0525
+    name: 'HONGKONG NANO IC TECHNOLOGIES  CO., LIMITED'
+
+  - value: 0524
+    name: 'Hangzhou iMagic Technology Co., Ltd'
+
+  - value: 0523
+    name: 'MTG Co., Ltd.'
+
+  - value: 0522
+    name: 'NS Tech, Inc.'
+
+  - value: 0521
+    name: 'IAI Corporation'
+
+  - value: 0520
+    name: 'Target Corporation'
+
+  - value: 051F
+    name: 'Setec Pty Ltd'
+
+  - value: 051E
+    name: 'Detect Blue Limited'
+
+  - value: 051D
+    name: 'OFF Line Co., Ltd.'
+
+  - value: 051C
+    name: 'EDPS'
+
+  - value: 051B
+    name: 'Angee Technologies Ltd.'
+
+  - value: 051A
+    name: 'Leica Camera AG'
+
+  - value: 0519
+    name: 'Tyto Life LLC'
+
+  - value: 0518
+    name: 'MAMORIO.inc'
+
+  - value: 0517
+    name: 'Amtronic Sverige AB'
+
+  - value: 0516
+    name: 'Footmarks'
+
+  - value: 0515
+    name: 'RB Controls Co., Ltd.'
+
+  - value: 0514
+    name: 'FIBRO GmbH'
+
+  - value: 0513
+    name: '9974091 Canada Inc.'
+
+  - value: 0512
+    name: 'Soprod SA'
+
+  - value: 0511
+    name: 'Brookfield Equinox LLC'
+
+  - value: 0510
+    name: 'UNI-ELECTRONICS, INC.'
+
+  - value: 050F
+    name: 'Foundation Engineering LLC'
+
+  - value: 050E
+    name: 'Yichip Microelectronics (Hangzhou) Co.,Ltd.'
+
+  - value: 050D
+    name: 'TRSystems GmbH'
+
+  - value: 050C
+    name: 'OSRAM GmbH'
+
+  - value: 050B
+    name: 'Vibrissa Inc.'
+
+  - value: 050A
+    name: 'Shake-on B.V.'
+
+  - value: 0509
+    name: 'Garage Smart, Inc.'
+
+  - value: 0508
+    name: 'Axes System sp. z o. o.'
+
+  - value: 0507
+    name: 'Yellowcog'
+
+  - value: 0506
+    name: 'Hager'
+
+  - value: 0505
+    name: 'InPlay, Inc.'
+
+  - value: 0504
+    name: 'PHYPLUS Inc'
+
+  - value: 0503
+    name: 'Locoroll, Inc'
+
+  - value: 0502
+    name: 'Specifi-Kali LLC'
+
+  - value: 0501
+    name: 'Polaris IND'
+
+  - value: 0500
+    name: 'Wiliot LTD.'
+
+  - value: 04FF
+    name: 'Microsemi Corporation'
+
+  - value: 04FE
+    name: 'Woosim Systems Inc.'
+
+  - value: 04FD
+    name: 'Tapkey GmbH'
+
+  - value: 04FC
+    name: 'SwingLync L. L. C.'
+
+  - value: 04FB
+    name: 'Benchmark Drives GmbH & Co. KG'
+
+  - value: 04FA
+    name: 'Androtec GmbH'
+
+  - value: 04F9
+    name: 'Interactio'
+
+  - value: 04F8
+    name: 'Convergence Systems Limited'
+
+  - value: 04F7
+    name: 'Shenzhen Goodix Technology Co., Ltd'
+
+  - value: 04F6
+    name: 'McLear Limited'
+
+  - value: 04F5
+    name: 'Pirelli Tyre S.P.A.'
+
+  - value: 04F4
+    name: 'ZanCompute Inc.'
+
+  - value: 04F3
+    name: 'Cerevast Medical'
+
+  - value: 04F2
+    name: 'InDreamer Techsol Private Limited'
+
+  - value: 04F1
+    name: 'Theben AG'
+
+  - value: 04F0
+    name: 'Kosi Limited'
+
+  - value: 04EF
+    name: 'DaisyWorks, Inc'
+
+  - value: 04EE
+    name: 'Auxivia'
+
+  - value: 04ED
+    name: 'R9 Technology, Inc.'
+
+  - value: 04EC
+    name: 'Motorola Solutions'
+
+  - value: 04EB
+    name: 'Bird Home Automation GmbH'
+
+  - value: 04EA
+    name: 'Pacific Bioscience Laboratories, Inc'
+
+  - value: 04E9
+    name: 'Busch Jaeger Elektro GmbH'
+
+  - value: 04E8
+    name: 'STABILO International'
+
+  - value: 04E7
+    name: 'REHABTRONICS INC.'
+
+  - value: 04E6
+    name: 'Smart Solution Technology, Inc.'
+
+  - value: 04E5
+    name: 'Avack Oy'
+
+  - value: 04E4
+    name: 'Woodenshark'
+
+  - value: 04E3
+    name: 'Under Armour'
+
+  - value: 04E2
+    name: 'EllieGrid'
+
+  - value: 04E1
+    name: 'REACTEC LIMITED'
+
+  - value: 04E0
+    name: 'Guardtec, Inc.'
+
+  - value: 04DF
+    name: 'Emerson Electric Co.'
+
+  - value: 04DE
+    name: 'Lutron Electronics Co., Inc.'
+
+  - value: 04DD
+    name: '4MOD Technology'
+
+  - value: 04DC
+    name: 'IOTTIVE (OPC) PRIVATE LIMITED'
+
+  - value: 04DB
+    name: 'Engineered Audio, LLC.'
+
+  - value: 04DA
+    name: 'Franceschi Marina snc'
+
+  - value: 04D9
+    name: 'RM Acquisition LLC'
+
+  - value: 04D8
+    name: 'FUJIFILM Corporation'
+
+  - value: 04D7
+    name: 'Blincam, Inc.'
+
+  - value: 04D6
+    name: 'LUGLOC LLC'
+
+  - value: 04D5
+    name: 'Gooee Limited'
+
+  - value: 04D4
+    name: '5th Element Ltd'
+
+  - value: 04D3
+    name: 'Queercon, Inc'
+
+  - value: 04D2
+    name: 'Anloq Technologies Inc.'
+
+  - value: 04D1
+    name: 'KTS GmbH'
+
+  - value: 04D0
+    name: 'Olympus Corporation'
+
+  - value: 04CF
+    name: 'DOM Sicherheitstechnik GmbH & Co. KG'
+
+  - value: 04CE
+    name: 'GOOOLED S.R.L.'
+
+  - value: 04CD
+    name: 'Safetech Products LLC'
+
+  - value: 04CC
+    name: 'Enflux Inc.'
+
+  - value: 04CB
+    name: 'Novo Nordisk A/S'
+
+  - value: 04CA
+    name: 'Steiner-Optik GmbH'
+
+  - value: 04C9
+    name: 'Thornwave Labs Inc'
+
+  - value: 04C8
+    name: 'Shanghai Flyco Electrical Appliance Co., Ltd.'
+
+  - value: 04C7
+    name: 'Svantek Sp. z o.o.'
+
+  - value: 04C6
+    name: 'Insta GmbH'
+
+  - value: 04C5
+    name: 'Seibert Williams Glass, LLC'
+
+  - value: 04C4
+    name: 'TeAM Hutchins AB'
+
+  - value: 04C3
+    name: 'Mantracourt Electronics Limited'
+
+  - value: 04C2
+    name: 'Dmet Products Corp.'
+
+  - value: 04C1
+    name: 'Sospitas, s.r.o.'
+
+  - value: 04C0
+    name: 'Statsports International'
+
+  - value: 04BF
+    name: 'VIT Initiative, LLC'
+
+  - value: 04BE
+    name: 'Averos FZCO'
+
+  - value: 04BD
+    name: 'AlbynMedical'
+
+  - value: 04BC
+    name: 'Draegerwerk AG & Co. KGaA'
+
+  - value: 04BB
+    name: 'Neatebox Ltd'
+
+  - value: 04BA
+    name: 'Crestron Electronics, Inc.'
+
+  - value: 04B9
+    name: 'CSR Building Products Limited'
+
+  - value: 04B8
+    name: 'Soraa Inc.'
+
+  - value: 04B7
+    name: 'Analog Devices, Inc.'
+
+  - value: 04B6
+    name: 'Diagnoptics Technologies'
+
+  - value: 04B5
+    name: 'Swiftronix AB'
+
+  - value: 04B4
+    name: 'Inuheat Group AB'
+
+  - value: 04B3
+    name: 'mobike (Hong Kong) Limited'
+
+  - value: 04B2
+    name: 'The Shadow on the Moon'
+
+  - value: 04B1
+    name: 'Kartographers Technologies Pvt. Ltd.'
+
+  - value: 04B0
+    name: 'Weba Sport und Med. Artikel GmbH'
+
+  - value: 04AF
+    name: 'BIOROWER Handelsagentur GmbH'
+
+  - value: 04AE
+    name: 'ERM Electronic Systems LTD'
+
+  - value: 04AD
+    name: 'Shure Inc'
+
+  - value: 04AC
+    name: 'Undagrid B.V.'
+
+  - value: 04AB
+    name: 'Harbortronics, Inc.'
+
+  - value: 04AA
+    name: 'LINKIO SAS'
+
+  - value: 04A9
+    name: 'DISCOVERY SOUND TECHNOLOGY, LLC'
+
+  - value: 04A8
+    name: 'BioTex, Inc.'
+
+  - value: 04A7
+    name: 'Dallas Logic Corporation'
+
+  - value: 04A6
+    name: 'Vinetech Co., Ltd'
+
+  - value: 04A5
+    name: 'Guangzhou FiiO Electronics Technology Co.,Ltd'
+
+  - value: 04A4
+    name: 'Herbert Waldmann GmbH & Co. KG'
+
+  - value: 04A3
+    name: 'GT-tronics HK Ltd'
+
+  - value: 04A2
+    name: 'ovrEngineered, LLC'
+
+  - value: 04A1
+    name: 'PNI Sensor Corporation'
+
+  - value: 04A0
+    name: 'Vypin, LLC'
+
+  - value: 049F
+    name: 'Popper Pay AB'
+
+  - value: 049E
+    name: 'AND!XOR LLC'
+
+  - value: 049D
+    name: 'Uhlmann & Zacher GmbH'
+
+  - value: 049C
+    name: 'DyOcean'
+
+  - value: 049B
+    name: 'nVisti, LLC'
+
+  - value: 049A
+    name: 'Situne AS'
+
+  - value: 0499
+    name: 'Ruuvi Innovations Ltd.'
+
+  - value: 0498
+    name: 'METER Group, Inc. USA'
+
+  - value: 0497
+    name: 'Cochlear Limited'
+
+  - value: 0496
+    name: 'Polymorphic Labs LLC'
+
+  - value: 0495
+    name: 'LMT Mercer Group, Inc'
+
+  - value: 0494
+    name: 'SENNHEISER electronic GmbH & Co. KG'
+
+  - value: 0493
+    name: 'Lynxemi Pte Ltd'
+
+  - value: 0492
+    name: 'ADC Technology, Inc.'
+
+  - value: 0491
+    name: 'SOREX - Wireless Solutions GmbH'
+
+  - value: 0490
+    name: 'Matting AB'
+
+  - value: 048F
+    name: 'BlueKitchen GmbH'
+
+  - value: 048E
+    name: 'Companion Medical, Inc.'
+
+  - value: 048D
+    name: 'S-Labs Sp. z o.o.'
+
+  - value: 048C
+    name: 'Vectronix AG'
+
+  - value: 048B
+    name: 'CP Electronics Limited'
+
+  - value: 048A
+    name: 'Taelek Oy'
+
+  - value: 0489
+    name: 'Igarashi Engineering'
+
+  - value: 0488
+    name: 'Automotive Data Solutions Inc'
+
+  - value: 0487
+    name: 'Centrica Connected Home'
+
+  - value: 0486
+    name: 'DEV TECNOLOGIA INDUSTRIA, COMERCIO E MANUTENCAO DE EQUIPAMENTOS LTDA. - ME'
+
+  - value: 0485
+    name: 'SKIDATA AG'
+
+  - value: 0484
+    name: 'Revol Technologies Inc'
+
+  - value: 0483
+    name: 'Multi Care Systems B.V.'
+
+  - value: 0482
+    name: 'POS Tuning Udo Vosshenrich GmbH & Co. KG'
+
+  - value: 0481
+    name: 'Quintrax Limited'
+
+  - value: 0480
+    name: 'Dynometrics Inc.'
+
+  - value: 047F
+    name: 'Pro-Mark, Inc.'
+
+  - value: 047E
+    name: 'OurHub Dev IvS'
+
+  - value: 047D
+    name: 'Occly LLC'
+
+  - value: 047C
+    name: 'POWERMAT LTD'
+
+  - value: 047B
+    name: 'MIYOSHI ELECTRONICS CORPORATION'
+
+  - value: 047A
+    name: 'Sinosun Technology Co., Ltd.'
+
+  - value: 0479
+    name: 'mywerk system GmbH'
+
+  - value: 0478
+    name: 'FarSite Communications Limited'
+
+  - value: 0477
+    name: 'Blue Spark Technologies'
+
+  - value: 0476
+    name: 'Oxstren Wearable Technologies Private Limited'
+
+  - value: 0475
+    name: 'Icom inc.'
+
+  - value: 0474
+    name: 'iApartment co., ltd.'
+
+  - value: 0473
+    name: 'Steelcase, Inc.'
+
+  - value: 0472
+    name: 'Control-J Pty Ltd'
+
+  - value: 0471
+    name: 'TiVo Corp'
+
+  - value: 0470
+    name: 'iDesign s.r.l.'
+
+  - value: 046F
+    name: 'Develco Products A/S'
+
+  - value: 046E
+    name: 'Pambor Ltd.'
+
+  - value: 046D
+    name: 'BEGA Gantenbrink-Leuchten KG'
+
+  - value: 046C
+    name: 'Qingdao Realtime Technology Co., Ltd.'
+
+  - value: 046B
+    name: 'PMD Solutions'
+
+  - value: 046A
+    name: 'INSIGMA INC.'
+
+  - value: 0469
+    name: 'Palago AB'
+
+  - value: 0468
+    name: 'Kynesim Ltd'
+
+  - value: 0467
+    name: 'Codenex Oy'
+
+  - value: 0466
+    name: 'CycleLabs Solutions inc.'
+
+  - value: 0465
+    name: 'International Forte Group LLC'
+
+  - value: 0464
+    name: 'Bellman & Symfon'
+
+  - value: 0463
+    name: 'Fathom Systems Inc.'
+
+  - value: 0462
+    name: 'Bonsai Systems GmbH'
+
+  - value: 0461
+    name: 'vhf elektronik GmbH'
+
+  - value: 0460
+    name: 'Kolibree'
+
+  - value: 045F
+    name: 'Real Time Automation, Inc.'
+
+  - value: 045E
+    name: 'Nuviz, Inc.'
+
+  - value: 045D
+    name: 'Boston Scientific Corporation'
+
+  - value: 045C
+    name: 'Delta T Corporation'
+
+  - value: 045B
+    name: 'SPACEEK LTD'
+
+  - value: 045A
+    name: '2048450 Ontario Inc'
+
+  - value: 0459
+    name: 'Lumenetix, Inc'
+
+  - value: 0458
+    name: 'Mini Solution Co., Ltd.'
+
+  - value: 0457
+    name: 'RF INNOVATION'
+
+  - value: 0456
+    name: 'Nemik Consulting Inc'
+
+  - value: 0455
+    name: 'Atomation'
+
+  - value: 0454
+    name: 'Sphinx Electronics GmbH & Co KG'
+
+  - value: 0453
+    name: 'Qorvo Utrecht B.V.'
+
+  - value: 0452
+    name: 'Svep Design Center AB'
+
+  - value: 0451
+    name: 'Tunstall Nordic AB'
+
+  - value: 0450
+    name: 'Teenage Engineering AB'
+
+  - value: 044F
+    name: 'TTS Tooltechnic Systems AG & Co. KG'
+
+  - value: 044E
+    name: 'Xtrava Inc.'
+
+  - value: 044D
+    name: 'VEGA Grieshaber KG'
+
+  - value: 044C
+    name: 'LifeStyle Lock, LLC'
+
+  - value: 044B
+    name: 'Nain Inc.'
+
+  - value: 044A
+    name: 'SHIMANO INC.'
+
+  - value: 0449
+    name: '1UP USA.com llc'
+
+  - value: 0448
+    name: 'Grand Centrix GmbH'
+
+  - value: 0447
+    name: 'Fabtronics Australia Pty Ltd'
+
+  - value: 0446
+    name: 'NETGEAR, Inc.'
+
+  - value: 0445
+    name: 'Kobian Canada Inc.'
+
+  - value: 0444
+    name: 'Metanate Limited'
+
+  - value: 0443
+    name: 'Tucker International LLC'
+
+  - value: 0442
+    name: 'SECOM CO., LTD.'
+
+  - value: 0441
+    name: 'iProtoXi Oy'
+
+  - value: 0440
+    name: 'Valencell, Inc.'
+
+  - value: 043F
+    name: 'Tentacle Sync GmbH'
+
+  - value: 043E
+    name: 'Thermomedics, Inc.'
+
+  - value: 043D
+    name: 'Coiler Corporation'
+
+  - value: 043C
+    name: 'DeLaval'
+
+  - value: 043B
+    name: 'Appside co., ltd.'
+
+  - value: 043A
+    name: 'Nuheara Limited'
+
+  - value: 0439
+    name: 'Radiance Technologies'
+
+  - value: 0438
+    name: 'Helvar Ltd'
+
+  - value: 0437
+    name: 'eBest IOT Inc.'
+
+  - value: 0436
+    name: 'Drayson Technologies (Europe) Limited'
+
+  - value: 0435
+    name: 'Blocks Wearables Ltd.'
+
+  - value: 0434
+    name: 'Hatch Baby, Inc.'
+
+  - value: 0433
+    name: 'Pillsy Inc.'
+
+  - value: 0432
+    name: 'Silk Labs, Inc.'
+
+  - value: 0431
+    name: 'Alticor Inc.'
+
+  - value: 0430
+    name: 'SnapStyk Inc.'
+
+  - value: 042F
+    name: 'Danfoss A/S'
+
+  - value: 042E
+    name: 'MemCachier Inc.'
+
+  - value: 042D
+    name: 'Meshtech AS'
+
+  - value: 042C
+    name: 'Ticto N.V.'
+
+  - value: 042B
+    name: 'iMicroMed Incorporated'
+
+  - value: 042A
+    name: 'BD Medical'
+
+  - value: 0429
+    name: 'Prolon Inc.'
+
+  - value: 0428
+    name: 'SmallLoop, LLC'
+
+  - value: 0427
+    name: 'Focus fleet and fuel management inc'
+
+  - value: 0426
+    name: 'Husqvarna AB'
+
+  - value: 0425
+    name: 'Unify Software and Solutions GmbH & Co. KG'
+
+  - value: 0424
+    name: 'Trainesense Ltd.'
+
+  - value: 0423
+    name: 'Chargifi Limited'
+
+  - value: 0422
+    name: 'DELSEY SA'
+
+  - value: 0421
+    name: 'Backbone Labs, Inc.'
+
+  - value: 0420
+    name: 'TecBakery GmbH'
+
+  - value: 041F
+    name: 'Kopin Corporation'
+
+  - value: 041E
+    name: 'Dell Computer Corporation'
+
+  - value: 041D
+    name: 'Benning Elektrotechnik und Elektronik GmbH & Co. KG'
+
+  - value: 041C
+    name: 'WaterGuru, Inc.'
+
+  - value: 041B
+    name: 'OrthoAccel Technologies'
+
+  - value: 041A
+    name: 'Friday Labs Limited'
+
+  - value: 0419
+    name: 'Novalogy LTD'
+
+  - value: 0417
+    name: 'Fatigue Science'
+
+  - value: 0416
+    name: 'SODA GmbH'
+
+  - value: 0415
+    name: 'Uber Technologies Inc'
+
+  - value: 0414
+    name: 'Lightning Protection International Pty Ltd'
+
+  - value: 0413
+    name: 'Wireless Cables Inc'
+
+  - value: 0412
+    name: 'SEFAM'
+
+  - value: 0411
+    name: 'Luidia Inc'
+
+  - value: 0410
+    name: 'Fender Musical Instruments'
+
+  - value: 040F
+    name: 'CO-AX Technology, Inc.'
+
+  - value: 040E
+    name: 'SKF (U.K.) Limited'
+
+  - value: 040D
+    name: 'NorthStar Battery Company, LLC'
+
+  - value: 040C
+    name: 'Senix Corporation'
+
+  - value: 040B
+    name: 'Jana Care Inc.'
+
+  - value: 040A
+    name: 'ZF OPENMATICS s.r.o.'
+
+  - value: 0409
+    name: 'RYSE INC.'
+
+  - value: 0408
+    name: 'ToGetHome Inc.'
+
+  - value: 0407
+    name: 'Swiss Audio SA'
+
+  - value: 0406
+    name: 'Airtago'
+
+  - value: 0405
+    name: 'Vertex International, Inc.'
+
+  - value: 0404
+    name: 'Authomate Inc'
+
+  - value: 0403
+    name: 'Gantner Electronic GmbH'
+
+  - value: 0402
+    name: 'Sears Holdings Corporation'
+
+  - value: 0401
+    name: 'Relations Inc.'
+
+  - value: 0400
+    name: 'i-developer IT Beratung UG'
+
+  - value: 03FF
+    name: 'Withings'
+
+  - value: 03FE
+    name: 'Littelfuse'
+
+  - value: 03FD
+    name: 'Trimble Inc.'
+
+  - value: 03FC
+    name: 'Kimberly-Clark'
+
+  - value: 03FB
+    name: 'Nox Medical'
+
+  - value: 03FA
+    name: 'Vyassoft Technologies Inc'
+
+  - value: 03F9
+    name: 'Becon Technologies Co.,Ltd.'
+
+  - value: 03F8
+    name: 'Rockford Corp.'
+
+  - value: 03F7
+    name: 'Owl Labs Inc.'
+
+  - value: 03F6
+    name: 'Iton Technology Corp.'
+
+  - value: 03F5
+    name: 'WHERE, Inc.'
+
+  - value: 03F4
+    name: 'PAL Technologies Ltd'
+
+  - value: 03F3
+    name: 'Flowscape AB'
+
+  - value: 03F2
+    name: 'WindowMaster A/S'
+
+  - value: 03F1
+    name: 'Hestan Smart Cooking Inc.'
+
+  - value: 03F0
+    name: 'CLINK'
+
+  - value: 03EF
+    name: 'foolography GmbH'
+
+  - value: 03EE
+    name: 'CUBE TECHNOLOGIES'
+
+  - value: 03ED
+    name: 'BASIC MICRO.COM,INC.'
+
+  - value: 03EC
+    name: 'Jigowatts Inc.'
+
+  - value: 03EB
+    name: 'Ozo Edu, Inc.'
+
+  - value: 03EA
+    name: 'Hello Inc.'
+
+  - value: 03E9
+    name: 'SHENZHEN LEMONJOY TECHNOLOGY CO., LTD.'
+
+  - value: 03E8
+    name: 'Reiner Kartengeraete GmbH & Co. KG.'
+
+  - value: 03E7
+    name: 'TRUE Fitness Technology'
+
+  - value: 03E6
+    name: 'IoT Instruments Oy'
+
+  - value: 03E5
+    name: 'ffly4u'
+
+  - value: 03E4
+    name: 'Chip-ing AG'
+
+  - value: 03E3
+    name: 'Qualcomm Life Inc'
+
+  - value: 03E2
+    name: 'Sensoan Oy'
+
+  - value: 03E1
+    name: 'SPD Development Company Ltd'
+
+  - value: 03E0
+    name: 'Actions (Zhuhai) Technology Co., Limited'
+
+  - value: 03DF
+    name: 'Grob Technologies, LLC'
+
+  - value: 03DE
+    name: 'Nathan Rhoades LLC'
+
+  - value: 03DD
+    name: 'Andreas Stihl AG & Co. KG'
+
+  - value: 03DC
+    name: 'Nima Labs'
+
+  - value: 03DB
+    name: 'Instabeat, Inc'
+
+  - value: 03DA
+    name: 'EnOcean GmbH'
+
+  - value: 03D9
+    name: '3IWare Co., Ltd.'
+
+  - value: 03D8
+    name: 'Zen-Me Labs Ltd'
+
+  - value: 03D7
+    name: 'FINSECUR'
+
+  - value: 03D6
+    name: 'Yota Devices LTD'
+
+  - value: 03D5
+    name: 'Wyzelink Systems Inc.'
+
+  - value: 03D4
+    name: 'PEG PEREGO SPA'
+
+  - value: 03D3
+    name: 'Sigma Connectivity AB'
+
+  - value: 03D2
+    name: 'IOT Pot India Private Limited'
+
+  - value: 03D1
+    name: 'Density Inc.'
+
+  - value: 03D0
+    name: 'Watteam Ltd'
+
+  - value: 03CF
+    name: 'MIRA, Inc.'
+
+  - value: 03CE
+    name: 'CONTRINEX S.A.'
+
+  - value: 03CD
+    name: 'Wynd Technologies, Inc.'
+
+  - value: 03CC
+    name: 'Vonkil Technologies Ltd'
+
+  - value: 03CB
+    name: 'SYSDEV Srl'
+
+  - value: 03CA
+    name: 'In2things Automation Pvt. Ltd.'
+
+  - value: 03C9
+    name: 'Gallagher Group'
+
+  - value: 03C8
+    name: 'Avvel International'
+
+  - value: 03C7
+    name: 'Structural Health Systems, Inc.'
+
+  - value: 03C6
+    name: 'Intricon'
+
+  - value: 03C5
+    name: 'St. Jude Medical, Inc.'
+
+  - value: 03C4
+    name: 'Pico Technology Inc.'
+
+  - value: 03C3
+    name: 'Casambi Technologies Oy'
+
+  - value: 03C2
+    name: 'Snapchat Inc'
+
+  - value: 03C1
+    name: 'Ember Technologies, Inc.'
+
+  - value: 03C0
+    name: 'Arch Systems Inc.'
+
+  - value: 03BF
+    name: 'iLumi Solutions Inc.'
+
+  - value: 03BE
+    name: 'Applied Science, Inc.'
+
+  - value: 03BD
+    name: 'amadas'
+
+  - value: 03BC
+    name: 'ASB Bank Ltd'
+
+  - value: 03BB
+    name: 'Abbott'
+
+  - value: 03BA
+    name: 'Maxscend Microelectronics Company Limited'
+
+  - value: 03B9
+    name: 'FREDERIQUE CONSTANT SA'
+
+  - value: 03B8
+    name: 'A-Safe Limited'
+
+  - value: 03B7
+    name: 'Airbly Inc.'
+
+  - value: 03B6
+    name: 'Mattel'
+
+  - value: 03B5
+    name: 'petPOMM, Inc'
+
+  - value: 03B4
+    name: 'Alpha Nodus, inc.'
+
+  - value: 03B3
+    name: 'Midwest Instruments & Controls'
+
+  - value: 03B2
+    name: 'Propagation Systems Limited'
+
+  - value: 03B1
+    name: 'Otodata Wireless Network Inc.'
+
+  - value: 03B0
+    name: 'VIBRADORM GmbH'
+
+  - value: 03AF
+    name: 'Comm-N-Sense Corp DBA Verigo'
+
+  - value: 03AE
+    name: 'Allswell Inc.'
+
+  - value: 03AD
+    name: 'XiQ'
+
+  - value: 03AC
+    name: 'Smablo LTD'
+
+  - value: 03AB
+    name: 'Meizu Technology Co., Ltd.'
+
+  - value: 03AA
+    name: 'Exon Sp. z o.o.'
+
+  - value: 03A9
+    name: 'THINKERLY SRL'
+
+  - value: 03A8
+    name: 'Esrille Inc.'
+
+  - value: 03A7
+    name: 'AeroScout'
+
+  - value: 03A6
+    name: 'Medela, Inc'
+
+  - value: 03A5
+    name: 'ACE CAD Enterprise Co., Ltd. (ACECAD)'
+
+  - value: 03A4
+    name: 'Token Zero Ltd'
+
+  - value: 03A3
+    name: 'SmartMovt Technology Co., Ltd'
+
+  - value: 03A2
+    name: 'Candura Instruments'
+
+  - value: 03A1
+    name: 'Alpine Labs LLC'
+
+  - value: 03A0
+    name: 'IVT Wireless Limited'
+
+  - value: 039F
+    name: 'Molex Corporation'
+
+  - value: 039E
+    name: 'SchoolBoard Limited'
+
+  - value: 039D
+    name: 'CareView Communications, Inc.'
+
+  - value: 039C
+    name: 'ALE International'
+
+  - value: 039B
+    name: 'South Silicon Valley Microelectronics'
+
+  - value: 039A
+    name: 'NeST'
+
+  - value: 0399
+    name: 'Nikon Corporation'
+
+  - value: 0398
+    name: 'Thetatronics Ltd'
+
+  - value: 0397
+    name: 'LEGO System A/S'
+
+  - value: 0396
+    name: 'BLOKS GmbH'
+
+  - value: 0395
+    name: 'SDATAWAY'
+
+  - value: 0394
+    name: 'Netclearance Systems, Inc.'
+
+  - value: 0393
+    name: 'LAVAZZA S.p.A.'
+
+  - value: 0392
+    name: 'T&D'
+
+  - value: 0391
+    name: 'Thingsquare AB'
+
+  - value: 0390
+    name: 'INFOTECH s.r.o.'
+
+  - value: 038F
+    name: 'Xiaomi Inc.'
+
+  - value: 038E
+    name: 'Crownstone B.V.'
+
+  - value: 038D
+    name: 'Resmed Ltd'
+
+  - value: 038C
+    name: 'Appion Inc.'
+
+  - value: 038B
+    name: 'Noke'
+
+  - value: 038A
+    name: 'Kohler Mira Limited'
+
+  - value: 0389
+    name: 'ActiveBlu Corporation'
+
+  - value: 0388
+    name: 'Kapsch TrafficCom AB'
+
+  - value: 0387
+    name: 'BluStor PMC, Inc.'
+
+  - value: 0386
+    name: 'Aterica Inc.'
+
+  - value: 0385
+    name: 'Embedded Electronic Solutions Ltd. dba e2Solutions'
+
+  - value: 0384
+    name: 'OCOSMOS Co., Ltd.'
+
+  - value: 0383
+    name: 'Kronos Incorporated'
+
+  - value: 0382
+    name: 'Precision Outcomes Ltd'
+
+  - value: 0381
+    name: 'Sharp Corporation'
+
+  - value: 0380
+    name: 'LLC "MEGA-F service"'
+
+  - value: 037F
+    name: 'SociÃ©tÃ© des Produits NestlÃ© S.A.'
+
+  - value: 037E
+    name: 'lulabytes S.L.'
+
+  - value: 037D
+    name: 'MICRODIA Ltd.'
+
+  - value: 037C
+    name: 'Cronologics Corporation'
+
+  - value: 037B
+    name: 'Apption Labs Inc.'
+
+  - value: 037A
+    name: 'Algoria'
+
+  - value: 0379
+    name: 'Shenzhen iMCO Electronic Technology Co.,Ltd'
+
+  - value: 0378
+    name: 'Propeller Health'
+
+  - value: 0377
+    name: 'Plejd AB'
+
+  - value: 0376
+    name: 'Electronic Temperature Instruments Ltd'
+
+  - value: 0375
+    name: 'Expain AS'
+
+  - value: 0374
+    name: 'Holman Industries'
+
+  - value: 0373
+    name: 'AppNearMe Ltd'
+
+  - value: 0372
+    name: 'Nixie Labs, Inc.'
+
+  - value: 0371
+    name: 'ORBCOMM'
+
+  - value: 0370
+    name: 'Wazombi Labs OÃœ'
+
+  - value: 036F
+    name: 'Motiv, Inc.'
+
+  - value: 036E
+    name: 'MOTIVE TECHNOLOGIES, INC.'
+
+  - value: 036D
+    name: 'AirBolt Pty Ltd'
+
+  - value: 036C
+    name: 'Zipcar'
+
+  - value: 036B
+    name: 'BRControls Products BV'
+
+  - value: 036A
+    name: 'SetPoint Medical'
+
+  - value: 0369
+    name: 'littleBits'
+
+  - value: 0368
+    name: 'Metormote AB'
+
+  - value: 0367
+    name: 'Saphe International'
+
+  - value: 0366
+    name: 'BOLTT Sports technologies Private limited'
+
+  - value: 0365
+    name: 'BioMech Sensor LLC'
+
+  - value: 0364
+    name: 'Favero Electronics Srl'
+
+  - value: 0363
+    name: 'FREELAP SA'
+
+  - value: 0362
+    name: 'ON Semiconductor'
+
+  - value: 0361
+    name: 'Wellinks Inc.'
+
+  - value: 0360
+    name: 'Insulet Corporation'
+
+  - value: 035F
+    name: 'Acromag'
+
+  - value: 035E
+    name: 'Naya Health, Inc.'
+
+  - value: 035D
+    name: 'KYS'
+
+  - value: 035C
+    name: 'Eaton Corporation'
+
+  - value: 035B
+    name: 'Matrix Inc.'
+
+  - value: 035A
+    name: 'Phillips-Medisize A/S'
+
+  - value: 0359
+    name: 'Novotec Medical GmbH'
+
+  - value: 0358
+    name: 'MagniWare Ltd.'
+
+  - value: 0357
+    name: 'Polymap Wireless'
+
+  - value: 0356
+    name: 'Spectrum Brands, Inc.'
+
+  - value: 0355
+    name: 'Sigma Designs, Inc.'
+
+  - value: 0354
+    name: 'TOPPAN FORMS CO.,LTD.'
+
+  - value: 0353
+    name: 'Alpha Audiotronics, Inc.'
+
+  - value: 0352
+    name: 'iRiding(Xiamen)Technology Co.,Ltd.'
+
+  - value: 0351
+    name: 'Pieps GmbH'
+
+  - value: 0350
+    name: 'Bitstrata Systems Inc.'
+
+  - value: 034F
+    name: 'Heartland Payment Systems'
+
+  - value: 034E
+    name: 'SafeTrust Inc.'
+
+  - value: 034D
+    name: 'TASER International, Inc.'
+
+  - value: 034C
+    name: 'HM Electronics, Inc.'
+
+  - value: 034B
+    name: 'Libratone A/S'
+
+  - value: 034A
+    name: 'Vaddio'
+
+  - value: 0349
+    name: 'VersaMe'
+
+  - value: 0348
+    name: 'Arioneo'
+
+  - value: 0347
+    name: 'Prevent Biometrics'
+
+  - value: 0346
+    name: 'Acuity Brands Lighting, Inc'
+
+  - value: 0345
+    name: 'Locus Positioning'
+
+  - value: 0344
+    name: 'Whirl Inc'
+
+  - value: 0343
+    name: 'Drekker Development Pty. Ltd.'
+
+  - value: 0342
+    name: 'GERTEC BRASIL LTDA.'
+
+  - value: 0341
+    name: 'Etesian Technologies LLC'
+
+  - value: 0340
+    name: 'Letsense s.r.l.'
+
+  - value: 033F
+    name: 'Automation Components, Inc.'
+
+  - value: 033E
+    name: 'Monitra SA'
+
+  - value: 033D
+    name: 'TPV Technology Limited'
+
+  - value: 033C
+    name: 'Virtuosys'
+
+  - value: 033B
+    name: 'Courtney Thorne Limited'
+
+  - value: 033A
+    name: 'Appception, Inc.'
+
+  - value: 0339
+    name: 'Blue Sky Scientific, LLC'
+
+  - value: 0338
+    name: 'COBI GmbH'
+
+  - value: 0337
+    name: 'AJP2 Holdings, LLC'
+
+  - value: 0336
+    name: 'GISTIC'
+
+  - value: 0335
+    name: 'Enlighted Inc'
+
+  - value: 0334
+    name: 'Airthings ASA'
+
+  - value: 0333
+    name: 'Mul-T-Lock'
+
+  - value: 0332
+    name: 'Electrocompaniet A.S.'
+
+  - value: 0331
+    name: '3flares Technologies Inc.'
+
+  - value: 0330
+    name: 'North Pole Engineering'
+
+  - value: 032F
+    name: 'OttoQ Inc'
+
+  - value: 032E
+    name: 'indoormap'
+
+  - value: 032D
+    name: 'BM innovations GmbH'
+
+  - value: 032C
+    name: 'NIPPON SMT.CO.,Ltd'
+
+  - value: 032B
+    name: 'ESYLUX'
+
+  - value: 032A
+    name: 'Electronic Design Lab'
+
+  - value: 0329
+    name: 'Eargo, Inc.'
+
+  - value: 0328
+    name: 'Grundfos A/S'
+
+  - value: 0327
+    name: 'Essex Electronics'
+
+  - value: 0326
+    name: 'Healthwear Technologies (Changzhou)Ltd'
+
+  - value: 0325
+    name: 'Amotus Solutions'
+
+  - value: 0324
+    name: 'Astro, Inc.'
+
+  - value: 0323
+    name: 'Rotor Bike Components'
+
+  - value: 0322
+    name: 'Compumedics Limited'
+
+  - value: 0321
+    name: 'Jewelbots'
+
+  - value: 0320
+    name: 'SONO ELECTRONICS. CO., LTD'
+
+  - value: 031F
+    name: 'MetaSystem S.p.A.'
+
+  - value: 031E
+    name: 'Eyefi, Inc.'
+
+  - value: 031D
+    name: 'Enterlab ApS'
+
+  - value: 031C
+    name: 'Lab Sensor Solutions'
+
+  - value: 031B
+    name: 'HQ Inc'
+
+  - value: 031A
+    name: 'Wurth Elektronik eiSos GmbH & Co. KG'
+
+  - value: 0319
+    name: 'Eugster Frismag AG'
+
+  - value: 0318
+    name: 'Aspenta International'
+
+  - value: 0317
+    name: 'CHUO Electronics CO., LTD.'
+
+  - value: 0316
+    name: 'AG Measurematics Pvt. Ltd.'
+
+  - value: 0315
+    name: 'Thermo Fisher Scientific'
+
+  - value: 0314
+    name: 'RIIG AI Sp. z o.o.'
+
+  - value: 0313
+    name: 'DiveNav, Inc.'
+
+  - value: 0312
+    name: 'Ducere Technologies Pvt Ltd'
+
+  - value: 0311
+    name: 'PEEQ DATA'
+
+  - value: 0310
+    name: 'SGL Italia S.r.l.'
+
+  - value: 030F
+    name: 'Shortcut Labs'
+
+  - value: 030E
+    name: 'Deviceworx'
+
+  - value: 030D
+    name: 'Devdata S.r.l.'
+
+  - value: 030C
+    name: 'Hilti AG'
+
+  - value: 030B
+    name: 'Magnitude Lighting Converters'
+
+  - value: 030A
+    name: 'Ellisys'
+
+  - value: 0309
+    name: 'Dolby Labs'
+
+  - value: 0308
+    name: 'Surefire, LLC'
+
+  - value: 0307
+    name: 'FUJI INDUSTRIAL CO.,LTD.'
+
+  - value: 0306
+    name: 'Life Laboratory Inc.'
+
+  - value: 0305
+    name: 'Swipp ApS'
+
+  - value: 0304
+    name: 'Proxy Technologies, Inc.'
+
+  - value: 0303
+    name: 'IACA electronique'
+
+  - value: 0302
+    name: 'Loop Devices, Inc'
+
+  - value: 0301
+    name: 'Giatec Scientific Inc.'
+
+  - value: 0300
+    name: 'World Moto Inc.'
+
+  - value: 02FF
+    name: 'Silicon Laboratories'
+
+  - value: 02FE
+    name: 'Lierda Science & Technology Group Co., Ltd.'
+
+  - value: 02FD
+    name: 'Uwanna, Inc.'
+
+  - value: 02FC
+    name: 'Shanghai Frequen Microelectronics Co., Ltd.'
+
+  - value: 02FB
+    name: 'Clarius Mobile Health Corp.'
+
+  - value: 02FA
+    name: 'CoSTAR TEchnologies'
+
+  - value: 02F9
+    name: 'IMAGINATION TECHNOLOGIES LTD'
+
+  - value: 02F8
+    name: 'Runteq Oy Ltd'
+
+  - value: 02F7
+    name: 'DreamVisions co., Ltd.'
+
+  - value: 02F6
+    name: 'Intemo Technologies'
+
+  - value: 02F5
+    name: 'Indagem Tech LLC'
+
+  - value: 02F4
+    name: 'Vensi, Inc.'
+
+  - value: 02F3
+    name: 'AuthAir, Inc'
+
+  - value: 02F2
+    name: 'GoPro, Inc.'
+
+  - value: 02F1
+    name: 'The Idea Cave, LLC'
+
+  - value: 02F0
+    name: 'Blackrat Software'
+
+  - value: 02EF
+    name: 'SMART-INNOVATION.inc'
+
+  - value: 02EE
+    name: 'Citizen Holdings Co., Ltd.'
+
+  - value: 02ED
+    name: 'HTC Corporation'
+
+  - value: 02EC
+    name: 'Delta Systems, Inc'
+
+  - value: 02EB
+    name: 'Ardic Technology'
+
+  - value: 02EA
+    name: 'Fujitsu Limited'
+
+  - value: 02E9
+    name: 'Sensogram Technologies, Inc.'
+
+  - value: 02E8
+    name: 'American Music Environments'
+
+  - value: 02E7
+    name: 'Connected Yard, Inc.'
+
+  - value: 02E6
+    name: 'Unwire'
+
+  - value: 02E5
+    name: 'Espressif Systems (Shanghai) Co., Ltd.'
+
+  - value: 02E4
+    name: 'Bytestorm Ltd.'
+
+  - value: 02E3
+    name: 'Carmanah Technologies Corp.'
+
+  - value: 02E2
+    name: 'NTT docomo'
+
+  - value: 02E1
+    name: 'Victron Energy BV'
+
+  - value: 02E0
+    name: 'University of Michigan'
+
+  - value: 02DF
+    name: 'Blur Product Development'
+
+  - value: 02DE
+    name: 'Samsung SDS Co., Ltd.'
+
+  - value: 02DD
+    name: 'Flint Rehabilitation Devices, LLC'
+
+  - value: 02DC
+    name: 'DeWalch Technologies, Inc.'
+
+  - value: 02DB
+    name: 'Digi International Inc (R)'
+
+  - value: 02DA
+    name: 'Gilvader'
+
+  - value: 02D9
+    name: 'Fliegl Agrartechnik GmbH'
+
+  - value: 02D8
+    name: 'Neosfar'
+
+  - value: 02D7
+    name: 'NIPPON SYSTEMWARE CO.,LTD.'
+
+  - value: 02D6
+    name: 'Send Solutions'
+
+  - value: 02D5
+    name: 'OMRON Corporation'
+
+  - value: 02D4
+    name: 'Secuyou ApS'
+
+  - value: 02D3
+    name: 'Powercast Corporation'
+
+  - value: 02D2
+    name: 'Afero, Inc.'
+
+  - value: 02D1
+    name: 'Empatica Srl'
+
+  - value: 02D0
+    name: '3M'
+
+  - value: 02CF
+    name: 'Anima'
+
+  - value: 02CE
+    name: 'Teva Branded Pharmaceutical Products R&D, Inc.'
+
+  - value: 02CD
+    name: 'BMA ergonomics b.v.'
+
+  - value: 02CC
+    name: 'Eijkelkamp Soil & Water'
+
+  - value: 02CB
+    name: 'AINA-Wireless Inc.'
+
+  - value: 02CA
+    name: 'ABOV Semiconductor'
+
+  - value: 02C9
+    name: 'PayRange Inc.'
+
+  - value: 02C8
+    name: 'OneSpan'
+
+  - value: 02C7
+    name: 'Electronics Tomorrow Limited'
+
+  - value: 02C6
+    name: 'Ayatan Sensors'
+
+  - value: 02C5
+    name: 'Lenovo (Singapore) Pte Ltd.'
+
+  - value: 02C4
+    name: 'Wilson Sporting Goods'
+
+  - value: 02C3
+    name: 'Techtronic Power Tools Technology Limited'
+
+  - value: 02C2
+    name: 'Guillemot Corporation'
+
+  - value: 02C1
+    name: 'LINE Corporation'
+
+  - value: 02C0
+    name: 'Dash Robotics'
+
+  - value: 02BF
+    name: 'Redbird Flight Simulations'
+
+  - value: 02BE
+    name: 'Seguro Technology Sp. z o.o.'
+
+  - value: 02BD
+    name: 'Chemtronics'
+
+  - value: 02BC
+    name: 'Genevac Ltd'
+
+  - value: 02BB
+    name: 'Koha.,Co.Ltd'
+
+  - value: 02BA
+    name: 'Swissprime Technologies AG'
+
+  - value: 02B9
+    name: 'Rinnai Corporation'
+
+  - value: 02B8
+    name: 'Chrono Therapeutics'
+
+  - value: 02B7
+    name: 'Oort Technologies LLC'
+
+  - value: 02B6
+    name: 'Schneider Electric'
+
+  - value: 02B5
+    name: 'HANSHIN ELECTRIC RAILWAY CO.,LTD.'
+
+  - value: 02B4
+    name: 'Hyginex, Inc.'
+
+  - value: 02B3
+    name: 'CLABER S.P.A.'
+
+  - value: 02B2
+    name: 'Oura Health Oy'
+
+  - value: 02B1
+    name: 'Raden Inc'
+
+  - value: 02B0
+    name: 'Bestechnic(Shanghai),Ltd'
+
+  - value: 02AF
+    name: 'Technicolor USA Inc.'
+
+  - value: 02AE
+    name: 'WeatherFlow, Inc.'
+
+  - value: 02AD
+    name: 'Rx Networks, Inc.'
+
+  - value: 02AC
+    name: 'RTB Elektronik GmbH & Co. KG'
+
+  - value: 02AB
+    name: 'BBPOS Limited'
+
+  - value: 02AA
+    name: 'Doppler Lab'
+
+  - value: 02A9
+    name: 'Chargelib'
+
+  - value: 02A8
+    name: 'miSport Ltd.'
+
+  - value: 02A7
+    name: 'Illuxtron international B.V.'
+
+  - value: 02A6
+    name: 'Robert Bosch GmbH'
+
+  - value: 02A5
+    name: 'Tendyron Corporation'
+
+  - value: 02A4
+    name: 'Pacific Lock Company'
+
+  - value: 02A3
+    name: 'Itude'
+
+  - value: 02A2
+    name: 'Sera4 Ltd.'
+
+  - value: 02A1
+    name: 'InventureTrack Systems'
+
+  - value: 02A0
+    name: 'Impossible Camera GmbH'
+
+  - value: 029F
+    name: 'Areus Engineering GmbH'
+
+  - value: 029E
+    name: 'Kupson spol. s r.o.'
+
+  - value: 029D
+    name: 'ALOTTAZS LABS, LLC'
+
+  - value: 029C
+    name: 'Blue Sky Scientific, LLC'
+
+  - value: 029B
+    name: 'C2 Development, Inc.'
+
+  - value: 029A
+    name: 'Currant, Inc.'
+
+  - value: 0299
+    name: 'Inexess Technology Simma KG'
+
+  - value: 0298
+    name: 'EISST Ltd'
+
+  - value: 0297
+    name: 'storm power ltd'
+
+  - value: 0296
+    name: 'Petzl'
+
+  - value: 0295
+    name: 'Sivantos GmbH'
+
+  - value: 0294
+    name: 'ELIAS GmbH'
+
+  - value: 0293
+    name: 'Blue Bite'
+
+  - value: 0292
+    name: 'SwiftSensors'
+
+  - value: 0291
+    name: 'CliniCloud Inc'
+
+  - value: 0290
+    name: 'Multibit Oy'
+
+  - value: 028F
+    name: 'Church & Dwight Co., Inc'
+
+  - value: 028E
+    name: 'RF Digital Corp'
+
+  - value: 028D
+    name: 'IF, LLC'
+
+  - value: 028C
+    name: 'NANOLINK APS'
+
+  - value: 028B
+    name: 'Code Gears LTD'
+
+  - value: 028A
+    name: 'Jetro AS'
+
+  - value: 0289
+    name: 'SK Telecom'
+
+  - value: 0288
+    name: 'Willowbank Electronics Ltd'
+
+  - value: 0287
+    name: 'Wally Ventures S.L.'
+
+  - value: 0286
+    name: 'RF Code, Inc.'
+
+  - value: 0285
+    name: 'WOWTech Canada Ltd.'
+
+  - value: 0284
+    name: 'Synapse Electronics'
+
+  - value: 0283
+    name: 'Maven Machines, Inc.'
+
+  - value: 0282
+    name: 'Sonova AG'
+
+  - value: 0281
+    name: 'StoneL'
+
+  - value: 0280
+    name: 'ITEC corporation'
+
+  - value: 027F
+    name: 'ruwido austria gmbh'
+
+  - value: 027E
+    name: 'HabitAware, LLC'
+
+  - value: 027D
+    name: 'HUAWEI Technologies Co., Ltd.'
+
+  - value: 027C
+    name: 'Aseptika Ltd'
+
+  - value: 027B
+    name: 'DEFA AS'
+
+  - value: 027A
+    name: 'Ekomini inc.'
+
+  - value: 0279
+    name: 'steute Schaltgerate GmbH & Co. KG'
+
+  - value: 0278
+    name: 'Johnson Outdoors Inc'
+
+  - value: 0277
+    name: 'bewhere inc'
+
+  - value: 0276
+    name: 'E.G.O. Elektro-Geraetebau GmbH'
+
+  - value: 0275
+    name: 'Geotab'
+
+  - value: 0274
+    name: 'Motsai Research'
+
+  - value: 0273
+    name: 'OCEASOFT'
+
+  - value: 0272
+    name: 'Alps Alpine Co., Ltd.'
+
+  - value: 0271
+    name: 'Animas Corp'
+
+  - value: 0270
+    name: 'LSI ADL Technology'
+
+  - value: 026F
+    name: 'Aptcode Solutions'
+
+  - value: 026E
+    name: 'FLEURBAEY BVBA'
+
+  - value: 026D
+    name: 'Technogym SPA'
+
+  - value: 026C
+    name: 'Domster Tadeusz Szydlowski'
+
+  - value: 026B
+    name: 'DEKA Research & Development Corp.'
+
+  - value: 026A
+    name: 'Gemalto'
+
+  - value: 0269
+    name: 'Torrox GmbH & Co KG'
+
+  - value: 0268
+    name: 'Cerevo'
+
+  - value: 0267
+    name: 'XMI Systems SA'
+
+  - value: 0266
+    name: 'Schawbel Technologies LLC'
+
+  - value: 0265
+    name: 'SMK Corporation'
+
+  - value: 0264
+    name: 'DDS, Inc.'
+
+  - value: 0263
+    name: 'Identiv, Inc.'
+
+  - value: 0262
+    name: 'Glacial Ridge Technologies'
+
+  - value: 0261
+    name: 'SECVRE GmbH'
+
+  - value: 0260
+    name: 'SensaRx'
+
+  - value: 025F
+    name: 'Yardarm Technologies'
+
+  - value: 025E
+    name: 'Fluke Corporation'
+
+  - value: 025D
+    name: 'Lexmark International Inc.'
+
+  - value: 025C
+    name: 'NetEaseï¼ˆHangzhouï¼‰Network co.Ltd.'
+
+  - value: 025B
+    name: 'Five Interactive, LLC dba Zendo'
+
+  - value: 025A
+    name: 'University of Applied Sciences Valais/Haute Ecole Valaisanne'
+
+  - value: 0259
+    name: 'ALTYOR'
+
+  - value: 0258
+    name: 'Devialet SA'
+
+  - value: 0257
+    name: 'AdBabble Local Commerce Inc.'
+
+  - value: 0256
+    name: 'G24 Power Limited'
+
+  - value: 0255
+    name: 'Dai Nippon Printing Co., Ltd.'
+
+  - value: 0254
+    name: 'Playbrush'
+
+  - value: 0253
+    name: 'Xicato Inc.'
+
+  - value: 0252
+    name: 'UKC Technosolution'
+
+  - value: 0251
+    name: 'Lumo Bodytech Inc.'
+
+  - value: 0250
+    name: 'Sapphire Circuits LLC'
+
+  - value: 024F
+    name: 'Schneider SchreibgerÃ¤te GmbH'
+
+  - value: 024E
+    name: 'Microtronics Engineering GmbH'
+
+  - value: 024D
+    name: 'M-Way Solutions GmbH'
+
+  - value: 024C
+    name: 'Blue Clover Devices'
+
+  - value: 024B
+    name: 'Orlan LLC'
+
+  - value: 024A
+    name: 'Uwatec AG'
+
+  - value: 0249
+    name: 'Transcranial Ltd'
+
+  - value: 0248
+    name: 'Parker Hannifin Corp'
+
+  - value: 0247
+    name: 'FiftyThree Inc.'
+
+  - value: 0246
+    name: 'ACKme Networks, Inc.'
+
+  - value: 0245
+    name: 'Endress+Hauser'
+
+  - value: 0244
+    name: 'Iotera Inc'
+
+  - value: 0243
+    name: 'Masimo Corp'
+
+  - value: 0242
+    name: '16Lab Inc'
+
+  - value: 0241
+    name: 'Bragi GmbH'
+
+  - value: 0240
+    name: 'Argenox Technologies'
+
+  - value: 023F
+    name: 'WaveWare Technologies Inc.'
+
+  - value: 023E
+    name: 'Raven Industries'
+
+  - value: 023D
+    name: 'ViCentra B.V.'
+
+  - value: 023C
+    name: 'Awarepoint'
+
+  - value: 023B
+    name: 'Beijing CarePulse Electronic Technology Co, Ltd'
+
+  - value: 023A
+    name: 'Alatech Tehnology'
+
+  - value: 0239
+    name: 'JIN CO, Ltd'
+
+  - value: 0238
+    name: 'Trakm8 Ltd'
+
+  - value: 0237
+    name: 'MSHeli s.r.l.'
+
+  - value: 0236
+    name: 'Pitpatpet Ltd'
+
+  - value: 0235
+    name: 'Qrio Inc'
+
+  - value: 0234
+    name: 'FengFan (BeiJing) Technology Co, Ltd'
+
+  - value: 0233
+    name: 'Shenzhen SuLong Communication Ltd'
+
+  - value: 0232
+    name: 'x-Senso Solutions Kft'
+
+  - value: 0231
+    name: 'ETA SA'
+
+  - value: 0230
+    name: 'Foster Electric Company, Ltd'
+
+  - value: 022F
+    name: 'Huami (Shanghai) Culture Communication CO., LTD'
+
+  - value: 022E
+    name: 'Siemens AG'
+
+  - value: 022D
+    name: 'Lupine'
+
+  - value: 022C
+    name: 'Pharynks Corporation'
+
+  - value: 022B
+    name: 'Tesla, Inc.'
+
+  - value: 022A
+    name: 'Stamer Musikanlagen GMBH'
+
+  - value: 0229
+    name: 'Muoverti Limited'
+
+  - value: 0228
+    name: 'Twocanoes Labs, LLC'
+
+  - value: 0227
+    name: 'LifeBEAM Technologies'
+
+  - value: 0226
+    name: 'Merlinia A/S'
+
+  - value: 0225
+    name: 'NestlÃ© Nespresso S.A.'
+
+  - value: 0224
+    name: 'Comarch SA'
+
+  - value: 0223
+    name: 'Philip Morris Products S.A.'
+
+  - value: 0222
+    name: 'Praxis Dynamics'
+
+  - value: 0221
+    name: 'Mobiquity Networks Inc'
+
+  - value: 0220
+    name: 'Manus Machina BV'
+
+  - value: 021F
+    name: 'Luster Leaf Products  Inc'
+
+  - value: 021E
+    name: 'Goodnet, Ltd'
+
+  - value: 021D
+    name: 'Edamic'
+
+  - value: 021C
+    name: 'Mobicomm Inc'
+
+  - value: 021B
+    name: 'Cisco Systems, Inc'
+
+  - value: 021A
+    name: 'Blue Speck Labs, LLC'
+
+  - value: 0219
+    name: 'DOTT Limited'
+
+  - value: 0218
+    name: 'Hiotech AB'
+
+  - value: 0217
+    name: 'Tech4home, Lda'
+
+  - value: 0216
+    name: 'MTI Ltd'
+
+  - value: 0215
+    name: 'Lukoton Experience Oy'
+
+  - value: 0214
+    name: 'IK Multimedia Production srl'
+
+  - value: 0213
+    name: 'Wyler AG'
+
+  - value: 0212
+    name: 'Interplan Co., Ltd'
+
+  - value: 0211
+    name: 'Telink Semiconductor Co. Ltd'
+
+  - value: 0210
+    name: 'ikeGPS'
+
+  - value: 020F
+    name: 'Comodule GMBH'
+
+  - value: 020E
+    name: 'Omron Healthcare Co., LTD'
+
+  - value: 020D
+    name: 'Simplo Technology Co., LTD'
+
+  - value: 020C
+    name: 'CoroWare Technologies, Inc'
+
+  - value: 020B
+    name: 'Jaguar Land Rover Limited'
+
+  - value: 020A
+    name: 'Macnica Inc.'
+
+  - value: 0209
+    name: 'InvisionHeart Inc.'
+
+  - value: 0208
+    name: 'LumiGeek LLC'
+
+  - value: 0207
+    name: 'STEMP Inc.'
+
+  - value: 0206
+    name: 'Otter Products, LLC'
+
+  - value: 0205
+    name: 'Smartbotics Inc.'
+
+  - value: 0204
+    name: 'Tapcentive Inc.'
+
+  - value: 0203
+    name: 'Kemppi Oy'
+
+  - value: 0202
+    name: 'Rigado LLC'
+
+  - value: 0201
+    name: 'AR Timing'
+
+  - value: 0200
+    name: 'Verifone Systems Pte Ltd. Taiwan Branch'
+
+  - value: 01FF
+    name: 'Freescale Semiconductor, Inc.'
+
+  - value: 01FE
+    name: 'Radio Systems Corporation'
+
+  - value: 01FD
+    name: 'Kontakt Micro-Location Sp. z o.o.'
+
+  - value: 01FC
+    name: 'Wahoo Fitness, LLC'
+
+  - value: 01FB
+    name: 'Form Lifting, LLC'
+
+  - value: 01FA
+    name: 'Gozio Inc.'
+
+  - value: 01F9
+    name: 'Medtronic Inc.'
+
+  - value: 01F8
+    name: 'Anyka (Guangzhou) Microelectronics Technology Co, LTD'
+
+  - value: 01F7
+    name: 'Gelliner Limited'
+
+  - value: 01F6
+    name: 'DJO Global'
+
+  - value: 01F5
+    name: 'Cool Webthings Limited'
+
+  - value: 01F4
+    name: 'UTC Fire and Security'
+
+  - value: 01F3
+    name: 'The University of Tokyo'
+
+  - value: 01F2
+    name: 'Itron, Inc.'
+
+  - value: 01F1
+    name: 'Zebra Technologies Corporation'
+
+  - value: 01F0
+    name: 'KloudNation'
+
+  - value: 01EF
+    name: 'Fullpower Technologies, Inc.'
+
+  - value: 01EE
+    name: 'Valeo Service'
+
+  - value: 01ED
+    name: 'CuteCircuit LTD'
+
+  - value: 01EC
+    name: 'Spreadtrum Communications Shanghai Ltd'
+
+  - value: 01EB
+    name: 'AutoMap LLC'
+
+  - value: 01EA
+    name: 'Advanced Application Design, Inc.'
+
+  - value: 01E9
+    name: 'Sano, Inc.'
+
+  - value: 01E8
+    name: 'STIR'
+
+  - value: 01E7
+    name: 'IPS Group Inc.'
+
+  - value: 01E6
+    name: 'Technology Solutions (UK) Ltd'
+
+  - value: 01E5
+    name: 'Dynamic Devices Ltd'
+
+  - value: 01E4
+    name: 'Freedom Innovations'
+
+  - value: 01E3
+    name: 'Caterpillar Inc'
+
+  - value: 01E2
+    name: 'Lectronix, Inc.'
+
+  - value: 01E1
+    name: 'Jolla Ltd'
+
+  - value: 01E0
+    name: 'Widex A/S'
+
+  - value: 01DF
+    name: 'Bison Group Ltd.'
+
+  - value: 01DE
+    name: 'Minelab Electronics Pty Limited'
+
+  - value: 01DD
+    name: 'Koninklijke Philips N.V.'
+
+  - value: 01DC
+    name: 'iParking Ltd.'
+
+  - value: 01DB
+    name: 'Innblue Consulting'
+
+  - value: 01DA
+    name: 'Logitech International SA'
+
+  - value: 01D9
+    name: 'Savant Systems LLC'
+
+  - value: 01D8
+    name: 'Code Corporation'
+
+  - value: 01D7
+    name: 'Squadrone Systems Inc.'
+
+  - value: 01D6
+    name: 'G-wearables inc.'
+
+  - value: 01D5
+    name: 'ELAD srl'
+
+  - value: 01D4
+    name: 'Newlab S.r.l.'
+
+  - value: 01D3
+    name: 'Sky Wave Design'
+
+  - value: 01D2
+    name: 'Gill Electronics'
+
+  - value: 01D1
+    name: 'August Home, Inc'
+
+  - value: 01D0
+    name: 'Primus Inter Pares Ltd'
+
+  - value: 01CF
+    name: 'BSH'
+
+  - value: 01CE
+    name: 'HOUWA SYSTEM DESIGN, k.k.'
+
+  - value: 01CD
+    name: 'Chengdu Synwing Technology Ltd'
+
+  - value: 01CC
+    name: 'Sam Labs Ltd.'
+
+  - value: 01CB
+    name: 'Fetch My Pet'
+
+  - value: 01CA
+    name: 'Laerdal Medical AS'
+
+  - value: 01C9
+    name: 'Avi-on'
+
+  - value: 01C8
+    name: 'Poly-Control ApS'
+
+  - value: 01C7
+    name: 'Abiogenix Inc.'
+
+  - value: 01C6
+    name: 'HASWARE Inc.'
+
+  - value: 01C5
+    name: 'Bitcraze AB'
+
+  - value: 01C4
+    name: 'DME Microelectronics'
+
+  - value: 01C3
+    name: 'Bunch'
+
+  - value: 01C2
+    name: 'Transenergooil AG'
+
+  - value: 01C1
+    name: 'BRADATECH Corp.'
+
+  - value: 01C0
+    name: 'pironex GmbH'
+
+  - value: 01BF
+    name: 'Hongkong OnMicro Electronics Limited'
+
+  - value: 01BE
+    name: 'Pulsate Mobile Ltd.'
+
+  - value: 01BD
+    name: 'Syszone Co., Ltd'
+
+  - value: 01BC
+    name: 'SenionLab AB'
+
+  - value: 01BB
+    name: 'Cochlear Bone Anchored Solutions AB'
+
+  - value: 01BA
+    name: 'Stages Cycling LLC'
+
+  - value: 01B9
+    name: 'HANA Micron'
+
+  - value: 01B8
+    name: 'i+D3 S.L.'
+
+  - value: 01B7
+    name: 'General Electric Company'
+
+  - value: 01B6
+    name: 'LM Technologies Ltd'
+
+  - value: 01B5
+    name: 'Nest Labs Inc.'
+
+  - value: 01B4
+    name: 'Trineo Sp. z o.o.'
+
+  - value: 01B3
+    name: 'Nytec, Inc.'
+
+  - value: 01B2
+    name: 'Nymi Inc.'
+
+  - value: 01B1
+    name: 'Netizens Sp. z o.o.'
+
+  - value: 01B0
+    name: 'Star Micronics Co., Ltd.'
+
+  - value: 01AF
+    name: 'Sunrise Micro Devices, Inc.'
+
+  - value: 01AE
+    name: 'Earlens Corporation'
+
+  - value: 01AD
+    name: 'FlightSafety International'
+
+  - value: 01AC
+    name: 'Trividia Health, Inc.'
+
+  - value: 01AB
+    name: 'Meta Platforms, Inc.'
+
+  - value: 01AA
+    name: 'Geophysical Technology Inc.'
+
+  - value: 01A9
+    name: 'Canon Inc.'
+
+  - value: 01A8
+    name: 'Taobao'
+
+  - value: 01A7
+    name: 'ENERGOUS CORPORATION'
+
+  - value: 01A6
+    name: 'Wille Engineering'
+
+  - value: 01A5
+    name: 'Icon Health and Fitness'
+
+  - value: 01A4
+    name: 'MSA Innovation, LLC'
+
+  - value: 01A3
+    name: 'EROAD'
+
+  - value: 01A2
+    name: 'GIGALANE.CO.,LTD'
+
+  - value: 01A1
+    name: 'FIAMM'
+
+  - value: 01A0
+    name: 'Channel Enterprises (HK) Ltd.'
+
+  - value: 019F
+    name: 'Strainstall Ltd'
+
+  - value: 019E
+    name: 'Ceruus'
+
+  - value: 019D
+    name: 'CVS Health'
+
+  - value: 019C
+    name: 'Cokiya Incorporated'
+
+  - value: 019B
+    name: 'CUBETECH s.r.o.'
+
+  - value: 019A
+    name: 'TRON Forum'
+
+  - value: 0199
+    name: 'SALTO SYSTEMS S.L.'
+
+  - value: 0198
+    name: 'VENGIT Korlatolt Felelossegu Tarsasag'
+
+  - value: 0197
+    name: 'WiSilica Inc.'
+
+  - value: 0196
+    name: 'Paxton Access Ltd'
+
+  - value: 0195
+    name: 'Zuli'
+
+  - value: 0194
+    name: 'Acoustic Stream Corporation'
+
+  - value: 0193
+    name: 'Maveric Automation LLC'
+
+  - value: 0192
+    name: 'Cloudleaf, Inc'
+
+  - value: 0191
+    name: 'FDK CORPORATION'
+
+  - value: 0190
+    name: 'Intelletto Technologies Inc.'
+
+  - value: 018F
+    name: 'Fireflies Systems'
+
+  - value: 018E
+    name: 'Fitbit, Inc.'
+
+  - value: 018D
+    name: 'Extron Design Services'
+
+  - value: 018C
+    name: 'Wilo SE'
+
+  - value: 018B
+    name: 'Konica Minolta, Inc.'
+
+  - value: 018A
+    name: 'Able Trend Technology Limited'
+
+  - value: 0189
+    name: 'Physical Enterprises Inc.'
+
+  - value: 0188
+    name: 'Unico RBC'
+
+  - value: 0187
+    name: 'Seraphim Sense Ltd'
+
+  - value: 0186
+    name: 'CORE Lighting Ltd'
+
+  - value: 0185
+    name: "bel'apps LLC"
+
+  - value: 0184
+    name: 'Nectar'
+
+  - value: 0183
+    name: 'Walt Disney'
+
+  - value: 0182
+    name: 'HOP Ubiquitous'
+
+  - value: 0181
+    name: 'Gecko Health Innovations, Inc.'
+
+  - value: 0180
+    name: 'Gigaset Communications GmbH'
+
+  - value: 017F
+    name: 'XTel Wireless ApS'
+
+  - value: 017E
+    name: 'BluDotz Ltd'
+
+  - value: 017D
+    name: 'BatAndCat'
+
+  - value: 017C
+    name: 'Mercedes-Benz Group AG'
+
+  - value: 017B
+    name: 'taskit GmbH'
+
+  - value: 017A
+    name: 'Telemonitor, Inc.'
+
+  - value: 0179
+    name: 'LAPIS Semiconductor Co.,Ltd'
+
+  - value: 0178
+    name: 'CASIO COMPUTER CO., LTD.'
+
+  - value: 0177
+    name: 'I-SYST inc.'
+
+  - value: 0176
+    name: 'SentriLock'
+
+  - value: 0175
+    name: 'Dynamic Controls'
+
+  - value: 0174
+    name: 'Everykey Inc.'
+
+  - value: 0173
+    name: 'Kocomojo, LLC'
+
+  - value: 0172
+    name: 'Connovate Technology Private Limited'
+
+  - value: 0171
+    name: 'Amazon.com Services LLC'
+
+  - value: 0170
+    name: 'Roche Diabetes Care AG'
+
+  - value: 016F
+    name: 'Podo Labs, Inc'
+
+  - value: 016E
+    name: 'Volantic AB'
+
+  - value: 016D
+    name: 'LifeScan Inc'
+
+  - value: 016C
+    name: 'MYSPHERA'
+
+  - value: 016B
+    name: 'Qblinks'
+
+  - value: 016A
+    name: 'Emerson Digital Cold Chain, Inc.'
+
+  - value: 0169
+    name: 'emberlight'
+
+  - value: 0168
+    name: 'Spicebox LLC'
+
+  - value: 0167
+    name: 'Ascensia Diabetes Care US Inc.'
+
+  - value: 0166
+    name: 'MISHIK Pte Ltd'
+
+  - value: 0165
+    name: 'Milwaukee Electric Tools'
+
+  - value: 0164
+    name: 'Qingdao Yeelink Information Technology Co., Ltd.'
+
+  - value: 0163
+    name: 'PCH International'
+
+  - value: 0162
+    name: 'MADSGlobalNZ Ltd.'
+
+  - value: 0161
+    name: 'yikes'
+
+  - value: 0160
+    name: 'AwoX'
+
+  - value: 015F
+    name: 'Timer Cap Co.'
+
+  - value: 015E
+    name: 'Unikey Technologies, Inc.'
+
+  - value: 015D
+    name: 'Estimote, Inc.'
+
+  - value: 015C
+    name: 'Pitius Tec S.L.'
+
+  - value: 015B
+    name: 'Biomedical Research Ltd.'
+
+  - value: 015A
+    name: 'micas AG'
+
+  - value: 0159
+    name: 'ChefSteps, Inc.'
+
+  - value: 0158
+    name: 'Inmite s.r.o.'
+
+  - value: 0157
+    name: 'Anhui Huami Information Technology Co., Ltd.'
+
+  - value: 0156
+    name: 'Accumulate AB'
+
+  - value: 0155
+    name: 'NETATMO'
+
+  - value: 0154
+    name: 'Pebble Technology'
+
+  - value: 0153
+    name: 'ROL Ergo'
+
+  - value: 0152
+    name: 'Vernier Software & Technology'
+
+  - value: 0151
+    name: 'OnBeep'
+
+  - value: 0150
+    name: 'Pioneer Corporation'
+
+  - value: 014F
+    name: 'B&W Group Ltd.'
+
+  - value: 014E
+    name: 'Tangerine, Inc.'
+
+  - value: 014D
+    name: 'HUIZHOU DESAY SV AUTOMOTIVE CO., LTD.'
+
+  - value: 014C
+    name: 'Mesh-Net Ltd'
+
+  - value: 014B
+    name: 'Master Lock'
+
+  - value: 014A
+    name: 'Tivoli Audio, LLC'
+
+  - value: 0149
+    name: 'Perytons Ltd.'
+
+  - value: 0148
+    name: 'Ambimat Electronics'
+
+  - value: 0147
+    name: 'Mighty Cast, Inc.'
+
+  - value: 0146
+    name: 'Ciright'
+
+  - value: 0145
+    name: 'Novatel Wireless'
+
+  - value: 0144
+    name: 'Lintech GmbH'
+
+  - value: 0143
+    name: 'Bkon Connect'
+
+  - value: 0142
+    name: 'Grape Systems Inc.'
+
+  - value: 0141
+    name: 'FedEx Services'
+
+  - value: 0140
+    name: 'Alpine Electronics (China) Co., Ltd'
+
+  - value: 013F
+    name: 'B&B Manufacturing Company'
+
+  - value: 013E
+    name: 'Nod, Inc.'
+
+  - value: 013D
+    name: 'WirelessWERX'
+
+  - value: 013C
+    name: 'Murata Manufacturing Co., Ltd.'
+
+  - value: 013B
+    name: 'Allegion'
+
+  - value: 013A
+    name: 'Tencent Holdings Ltd.'
+
+  - value: 0139
+    name: 'Focus Systems Corporation'
+
+  - value: 0138
+    name: 'NTEO Inc.'
+
+  - value: 0137
+    name: 'Prestigio Plaza Ltd.'
+
+  - value: 0136
+    name: 'Silvair, Inc.'
+
+  - value: 0135
+    name: 'Aireware LLC'
+
+  - value: 0134
+    name: 'Resolution Products, Ltd.'
+
+  - value: 0133
+    name: 'Blue Maestro Limited'
+
+  - value: 0132
+    name: 'MADS Inc'
+
+  - value: 0131
+    name: 'Cypress Semiconductor'
+
+  - value: 0130
+    name: 'Warehouse Innovations'
+
+  - value: 012F
+    name: 'Clarion Co. Inc.'
+
+  - value: 012E
+    name: 'ASSA ABLOY'
+
+  - value: 012D
+    name: 'Sony Corporation'
+
+  - value: 012C
+    name: 'TEMEC Instruments B.V.'
+
+  - value: 012B
+    name: 'SportIQ'
+
+  - value: 012A
+    name: 'Changzhou Yongse Infotech  Co., Ltd.'
+
+  - value: 0129
+    name: 'Nimble Devices Oy'
+
+  - value: 0128
+    name: 'GPSI Group Pty Ltd'
+
+  - value: 0127
+    name: 'Salutica Allied Solutions'
+
+  - value: 0126
+    name: 'Promethean Ltd.'
+
+  - value: 0125
+    name: 'SEAT es'
+
+  - value: 0124
+    name: 'HID Global'
+
+  - value: 0123
+    name: 'Kinsa, Inc'
+
+  - value: 0122
+    name: 'AirTurn, Inc.'
+
+  - value: 0121
+    name: 'Sino Wealth Electronic Ltd.'
+
+  - value: 0120
+    name: 'Porsche AG'
+
+  - value: 011F
+    name: 'Volkswagen AG'
+
+  - value: 011E
+    name: 'Skoda Auto a.s.'
+
+  - value: 011D
+    name: 'Arendi AG'
+
+  - value: 011C
+    name: 'Baidu'
+
+  - value: 011B
+    name: 'Hewlett Packard Enterprise'
+
+  - value: 011A
+    name: 'Qualcomm Labs, Inc.'
+
+  - value: 0119
+    name: 'Wize Technology Co., Ltd.'
+
+  - value: 0118
+    name: 'Radius Networks, Inc.'
+
+  - value: 0117
+    name: 'Wimoto Technologies Inc'
+
+  - value: 0116
+    name: '10AK Technologies'
+
+  - value: 0115
+    name: 'e.solutions'
+
+  - value: 0114
+    name: 'Xensr'
+
+  - value: 0113
+    name: 'Openbrain Technologies, Co., Ltd.'
+
+  - value: 0112
+    name: 'Visybl Inc.'
+
+  - value: 0111
+    name: 'Steelseries ApS'
+
+  - value: 0110
+    name: 'Nippon Seiki Co., Ltd.'
+
+  - value: 010F
+    name: 'HiSilicon Technologies CO., LIMITED'
+
+  - value: 010E
+    name: 'Audi AG'
+
+  - value: 010D
+    name: 'DENSO TEN Limited'
+
+  - value: 010C
+    name: 'Transducers Direct, LLC'
+
+  - value: 010B
+    name: 'ERi, Inc'
+
+  - value: 010A
+    name: 'Codegate Ltd'
+
+  - value: 0109
+    name: 'Atus BV'
+
+  - value: 0108
+    name: 'Chicony Electronics Co., Ltd.'
+
+  - value: 0107
+    name: 'Demant A/S'
+
+  - value: 0106
+    name: 'Innovative Yachtter Solutions'
+
+  - value: 0105
+    name: 'Ubiquitous Computing Technology Corporation'
+
+  - value: 0104
+    name: 'PLUS Location Systems Pty Ltd'
+
+  - value: 0103
+    name: 'Bang & Olufsen A/S'
+
+  - value: 0102
+    name: 'Keiser Corporation'
+
+  - value: 0101
+    name: 'Fugoo, Inc.'
+
+  - value: 0100
+    name: 'TomTom International BV'
+
+  - value: 00FF
+    name: 'Typo Products, LLC'
+
+  - value: 00FE
+    name: 'Stanley Black and Decker'
+
+  - value: 00FD
+    name: 'ValenceTech Limited'
+
+  - value: 00FC
+    name: 'Delphi Corporation'
+
+  - value: 00FB
+    name: 'KOUKAAM a.s.'
+
+  - value: 00FA
+    name: 'Crystal Alarm AB'
+
+  - value: 00F9
+    name: 'StickNFind'
+
+  - value: 00F8
+    name: 'AceUni Corp., Ltd.'
+
+  - value: 00F7
+    name: 'VSN Technologies, Inc.'
+
+  - value: 00F6
+    name: 'Elcometer Limited'
+
+  - value: 00F5
+    name: 'Smartifier Oy'
+
+  - value: 00F4
+    name: 'Nautilus Inc.'
+
+  - value: 00F3
+    name: 'Kent Displays Inc.'
+
+  - value: 00F2
+    name: 'Morse Project Inc.'
+
+  - value: 00F1
+    name: 'Witron Technology Limited'
+
+  - value: 00F0
+    name: 'PayPal, Inc.'
+
+  - value: 00EF
+    name: 'Bitsplitters GmbH'
+
+  - value: 00EE
+    name: 'Above Average Outcomes, Inc.'
+
+  - value: 00ED
+    name: 'Jolly Logic, LLC'
+
+  - value: 00EC
+    name: 'BioResearch Associates'
+
+  - value: 00EB
+    name: 'Server Technology Inc.'
+
+  - value: 00EA
+    name: 'www.vtracksystems.com'
+
+  - value: 00E9
+    name: 'Vtrack Systems'
+
+  - value: 00E8
+    name: 'ACTS Technologies'
+
+  - value: 00E7
+    name: 'KS Technologies'
+
+  - value: 00E6
+    name: 'Freshtemp'
+
+  - value: 00E5
+    name: 'Eden Software Consultants Ltd.'
+
+  - value: 00E4
+    name: 'L.S. Research, Inc.'
+
+  - value: 00E3
+    name: 'inMusic Brands, Inc'
+
+  - value: 00E2
+    name: 'Semilink Inc'
+
+  - value: 00E1
+    name: 'Danlers Ltd'
+
+  - value: 00E0
+    name: 'Google'
+
+  - value: 00DF
+    name: 'Misfit Wearables Corp'
+
+  - value: 00DE
+    name: 'Muzik LLC'
+
+  - value: 00DD
+    name: 'Hosiden Corporation'
+
+  - value: 00DC
+    name: 'Procter & Gamble'
+
+  - value: 00DB
+    name: 'Snuza (Pty) Ltd'
+
+  - value: 00DA
+    name: 'txtr GmbH'
+
+  - value: 00D9
+    name: 'Voyetra Turtle Beach'
+
+  - value: 00D8
+    name: 'Qualcomm Connected Experiences, Inc.'
+
+  - value: 00D7
+    name: 'Qualcomm Technologies, Inc.'
+
+  - value: 00D6
+    name: 'Timex Group USA, Inc.'
+
+  - value: 00D5
+    name: 'Austco Communication Systems'
+
+  - value: 00D4
+    name: 'Kawantech'
+
+  - value: 00D3
+    name: 'Taixingbang Technology (HK) Co,. LTD.'
+
+  - value: 00D2
+    name: 'Dialog Semiconductor B.V.'
+
+  - value: 00D1
+    name: 'Polar Electro Europe B.V.'
+
+  - value: 00D0
+    name: 'Dexcom, Inc.'
+
+  - value: 00CF
+    name: 'ARCHOS SA'
+
+  - value: 00CE
+    name: 'Eve Systems GmbH'
+
+  - value: 00CD
+    name: 'Microchip Technology Inc.'
+
+  - value: 00CC
+    name: 'Beats Electronics'
+
+  - value: 00CB
+    name: 'Binauric SE'
+
+  - value: 00CA
+    name: 'MC10'
+
+  - value: 00C9
+    name: 'Evluma'
+
+  - value: 00C8
+    name: 'GeLo Inc'
+
+  - value: 00C7
+    name: 'Quuppa Oy.'
+
+  - value: 00C6
+    name: 'Selfly BV'
+
+  - value: 00C5
+    name: 'Onset Computer Corporation'
+
+  - value: 00C4
+    name: 'LG Electronics'
+
+  - value: 00C3
+    name: 'adidas AG'
+
+  - value: 00C2
+    name: 'Geneq Inc.'
+
+  - value: 00C1
+    name: 'Shenzhen Excelsecu Data Technology Co.,Ltd'
+
+  - value: 00C0
+    name: 'AMICCOM Electronics Corporation'
+
+  - value: 00BF
+    name: 'Stalmart Technology Limited'
+
+  - value: 00BE
+    name: 'AAMP of America'
+
+  - value: 00BD
+    name: 'Aplix Corporation'
+
+  - value: 00BC
+    name: 'Ace Sensor Inc'
+
+  - value: 00BB
+    name: 'S-Power Electronics Limited'
+
+  - value: 00BA
+    name: 'Starkey Hearing Technologies'
+
+  - value: 00B9
+    name: 'Johnson Controls, Inc.'
+
+  - value: 00B8
+    name: 'Qualcomm Innovation Center, Inc. (QuIC)'
+
+  - value: 00B7
+    name: 'TreLab Ltd'
+
+  - value: 00B6
+    name: 'Meso international'
+
+  - value: 00B5
+    name: 'Swirl Networks'
+
+  - value: 00B4
+    name: 'BDE Technology Co., Ltd.'
+
+  - value: 00B3
+    name: 'Clarinox Technologies Pty. Ltd.'
+
+  - value: 00B2
+    name: 'Bekey A/S'
+
+  - value: 00B1
+    name: 'Saris Cycling Group, Inc'
+
+  - value: 00B0
+    name: 'Passif Semiconductor Corp'
+
+  - value: 00AF
+    name: 'Cinetix'
+
+  - value: 00AE
+    name: 'Omegawave Oy'
+
+  - value: 00AD
+    name: 'Peter Systemtechnik GmbH'
+
+  - value: 00AC
+    name: 'Green Throttle Games'
+
+  - value: 00AB
+    name: 'Ingenieur-Systemgruppe Zahn GmbH'
+
+  - value: 00AA
+    name: 'CAEN RFID srl'
+
+  - value: 00A9
+    name: 'MARELLI EUROPE S.P.A.'
+
+  - value: 00A8
+    name: 'ARP Devices Limited'
+
+  - value: 00A7
+    name: 'Visteon Corporation'
+
+  - value: 00A6
+    name: 'Panda Ocean Inc.'
+
+  - value: 00A5
+    name: 'OTL Dynamics LLC'
+
+  - value: 00A4
+    name: 'LINAK A/S'
+
+  - value: 00A3
+    name: 'Meta Watch Ltd.'
+
+  - value: 00A2
+    name: 'Vertu Corporation Limited'
+
+  - value: 00A1
+    name: 'SR-Medizinelektronik'
+
+  - value: 00A0
+    name: 'Kensington Computer Products Group'
+
+  - value: 009F
+    name: 'Suunto Oy'
+
+  - value: 009E
+    name: 'Bose Corporation'
+
+  - value: 009D
+    name: 'Geoforce Inc.'
+
+  - value: 009C
+    name: 'Colorfy, Inc.'
+
+  - value: 009B
+    name: 'Jiangsu Toppower Automotive Electronics Co., Ltd.'
+
+  - value: 009A
+    name: 'Alpwise'
+
+  - value: 0099
+    name: 'i.Tech Dynamic Global Distribution Ltd.'
+
+  - value: 0098
+    name: 'zero1.tv GmbH'
+
+  - value: 0097
+    name: 'ConnecteDevice Ltd.'
+
+  - value: 0096
+    name: 'ODM Technology, Inc.'
+
+  - value: 0095
+    name: 'NEC Lighting, Ltd.'
+
+  - value: 0094
+    name: 'Airoha Technology Corp.'
+
+  - value: 0093
+    name: 'Universal Electronics, Inc.'
+
+  - value: 0092
+    name: 'ThinkOptics, Inc.'
+
+  - value: 0091
+    name: 'Advanced PANMOBIL systems GmbH & Co. KG'
+
+  - value: 0090
+    name: 'Funai Electric Co., Ltd.'
+
+  - value: 008F
+    name: 'Telit Wireless Solutions GmbH'
+
+  - value: 008E
+    name: 'Quintic Corp'
+
+  - value: 008D
+    name: 'Zscan Software'
+
+  - value: 008C
+    name: 'Gimbal Inc.'
+
+  - value: 008B
+    name: 'Topcon Positioning Systems, LLC'
+
+  - value: 008A
+    name: 'Jawbone'
+
+  - value: 0089
+    name: 'GN Hearing A/S'
+
+  - value: 0088
+    name: 'Ecotest'
+
+  - value: 0087
+    name: 'Garmin International, Inc.'
+
+  - value: 0086
+    name: 'Equinux AG'
+
+  - value: 0085
+    name: 'BlueRadios, Inc.'
+
+  - value: 0084
+    name: 'Ludus Helsinki Ltd.'
+
+  - value: 0083
+    name: 'TimeKeeping Systems, Inc.'
+
+  - value: 0082
+    name: 'DSEA A/S'
+
+  - value: 0081
+    name: 'WuXi Vimicro'
+
+  - value: 0080
+    name: 'DeLorme Publishing Company, Inc.'
+
+  - value: 007F
+    name: 'Autonet Mobile'
+
+  - value: 007E
+    name: 'Sports Tracking Technologies Ltd.'
+
+  - value: 007D
+    name: 'Seers Technology Co., Ltd.'
+
+  - value: 007C
+    name: 'A & R Cambridge'
+
+  - value: 007B
+    name: 'Hanlynn Technologies'
+
+  - value: 007A
+    name: 'MStar Semiconductor, Inc.'
+
+  - value: 0079
+    name: 'lesswire AG'
+
+  - value: 0078
+    name: 'Nike, Inc.'
+
+  - value: 0077
+    name: 'Laird Connectivity LLC'
+
+  - value: 0076
+    name: 'Creative Technology Ltd.'
+
+  - value: 0075
+    name: 'Samsung Electronics Co. Ltd.'
+
+  - value: 0074
+    name: 'Zomm, LLC'
+
+  - value: 0073
+    name: 'Group Sense Ltd.'
+
+  - value: 0072
+    name: 'ShangHai Super Smart Electronics Co. Ltd.'
+
+  - value: 0071
+    name: 'connectBlue AB'
+
+  - value: 0070
+    name: 'Monster, LLC'
+
+  - value: 006F
+    name: 'Sound ID'
+
+  - value: 006E
+    name: 'Summit Data Communications, Inc.'
+
+  - value: 006D
+    name: 'BriarTek, Inc'
+
+  - value: 006C
+    name: 'Beautiful Enterprise Co., Ltd.'
+
+  - value: 006B
+    name: 'Polar Electro OY'
+
+  - value: 006A
+    name: 'MindTree Ltd.'
+
+  - value: 0069
+    name: 'A&D Engineering, Inc.'
+
+  - value: 0068
+    name: 'General Motors'
+
+  - value: 0067
+    name: 'GN Audio A/S'
+
+  - value: 0066
+    name: '9Solutions Oy'
+
+  - value: 0065
+    name: 'HP, Inc.'
+
+  - value: 0064
+    name: 'Band XI International, LLC'
+
+  - value: 0063
+    name: 'MiCommand Inc.'
+
+  - value: 0062
+    name: 'Gibson Guitars'
+
+  - value: 0061
+    name: 'RDA Microelectronics'
+
+  - value: 0060
+    name: 'RivieraWaves S.A.S'
+
+  - value: 005F
+    name: 'Wicentric, Inc.'
+
+  - value: 005E
+    name: 'Stonestreet One, LLC'
+
+  - value: 005D
+    name: 'Realtek Semiconductor Corporation'
+
+  - value: 005C
+    name: 'Belkin International, Inc.'
+
+  - value: 005B
+    name: 'Ralink Technology Corporation'
+
+  - value: 005A
+    name: 'EM Microelectronic-Marin SA'
+
+  - value: 0059
+    name: 'Nordic Semiconductor ASA'
+
+  - value: 0058
+    name: 'Vizio, Inc.'
+
+  - value: 0057
+    name: 'Harman International Industries, Inc.'
+
+  - value: 0056
+    name: 'Sony Ericsson Mobile Communications'
+
+  - value: 0055
+    name: 'Plantronics, Inc.'
+
+  - value: 0054
+    name: '3DiJoy Corporation'
+
+  - value: 0053
+    name: 'Free2move AB'
+
+  - value: 0052
+    name: 'J&M Corporation'
+
+  - value: 0051
+    name: 'Tzero Technologies, Inc.'
+
+  - value: 0050
+    name: 'SiRF Technology, Inc.'
+
+  - value: 004F
+    name: 'APT Ltd.'
+
+  - value: 004E
+    name: 'Avago Technologies'
+
+  - value: 004D
+    name: 'Staccato Communications, Inc.'
+
+  - value: 004C
+    name: 'Apple, Inc.'
+
+  - value: 004B
+    name: 'Continental Automotive Systems'
+
+  - value: 004A
+    name: 'Accel Semiconductor Ltd.'
+
+  - value: 0049
+    name: '3DSP Corporation'
+
+  - value: 0048
+    name: 'Marvell Technology Group Ltd.'
+
+  - value: 0047
+    name: 'Bluegiga'
+
+  - value: 0046
+    name: 'MediaTek, Inc.'
+
+  - value: 0045
+    name: 'Atheros Communications, Inc.'
+
+  - value: 0044
+    name: 'Socket Mobile'
+
+  - value: 0043
+    name: 'PARROT AUTOMOTIVE SAS'
+
+  - value: 0042
+    name: 'CONWISE Technology Corporation Ltd'
+
+  - value: 0041
+    name: 'Integrated Silicon Solution Taiwan, Inc.'
+
+  - value: 0040
+    name: 'Seiko Epson Corporation'
+
+  - value: 003F
+    name: 'Bluetooth SIG, Inc'
+
+  - value: 003E
+    name: 'Systems and Chips, Inc'
+
+  - value: 003D
+    name: 'IPextreme, Inc.'
+
+  - value: 003C
+    name: 'BlackBerry Limited'
+
+  - value: 003B
+    name: 'Gennum Corporation'
+
+  - value: 003A
+    name: 'Panasonic Holdings Corporation'
+
+  - value: 0039
+    name: 'Integrated System Solution Corp.'
+
+  - value: 0038
+    name: 'Syntronix Corporation'
+
+  - value: 0037
+    name: 'Mobilian Corporation'
+
+  - value: 0036
+    name: 'Renesas Electronics Corporation'
+
+  - value: 0035
+    name: 'Eclipse (HQ Espana) S.L.'
+
+  - value: 0034
+    name: 'Computer Access Technology Corporation (CATC)'
+
+  - value: 0033
+    name: 'Commil Ltd'
+
+  - value: 0032
+    name: 'Red-M (Communications) Ltd'
+
+  - value: 0031
+    name: 'Synopsys, Inc.'
+
+  - value: 0030
+    name: 'ST Microelectronics'
+
+  - value: 002F
+    name: 'MewTel Technology Inc.'
+
+  - value: 002E
+    name: 'Norwood Systems'
+
+  - value: 002D
+    name: 'GCT Semiconductor'
+
+  - value: 002C
+    name: 'Macronix International Co. Ltd.'
+
+  - value: 002B
+    name: 'Tenovis'
+
+  - value: 002A
+    name: 'Symbol Technologies, Inc.'
+
+  - value: 0029
+    name: 'Hitachi Ltd'
+
+  - value: 0028
+    name: 'R F Micro Devices'
+
+  - value: 0027
+    name: 'Open Interface'
+
+  - value: 0026
+    name: 'C Technologies'
+
+  - value: 0025
+    name: 'NXP B.V.'
+
+  - value: 0024
+    name: 'Alcatel'
+
+  - value: 0023
+    name: 'WavePlus Technology Co., Ltd.'
+
+  - value: 0022
+    name: 'NEC Corporation'
+
+  - value: 0021
+    name: 'Mansella Ltd'
+
+  - value: 0020
+    name: 'BandSpeed, Inc.'
+
+  - value: 001F
+    name: 'AVM Berlin'
+
+  - value: 001E
+    name: 'Inventel'
+
+  - value: 001D
+    name: 'Qualcomm'
+
+  - value: 001C
+    name: 'Conexant Systems Inc.'
+
+  - value: 001B
+    name: 'Signia Technologies, Inc.'
+
+  - value: 001A
+    name: 'TTPCom Limited'
+
+  - value: 0019
+    name: 'Rohde & Schwarz GmbH & Co. KG'
+
+  - value: 0018
+    name: 'Transilica, Inc.'
+
+  - value: 0017
+    name: 'Newlogic'
+
+  - value: 0016
+    name: 'KC Technology Inc.'
+
+  - value: 0015
+    name: 'RTX A/S'
+
+  - value: 0014
+    name: 'Mitsubishi Electric Corporation'
+
+  - value: 0013
+    name: 'Atmel Corporation'
+
+  - value: 0012
+    name: 'Zeevo, Inc.'
+
+  - value: 0011
+    name: 'Widcomm, Inc.'
+
+  - value: 0010
+    name: 'Mitel Semiconductor'
+
+  - value: 000F
+    name: 'Broadcom Corporation'
+
+  - value: 000E
+    name: 'Parthus Technologies Inc.'
+
+  - value: 000D
+    name: 'Texas Instruments Inc.'
+
+  - value: 000C
+    name: 'Digianswer A/S'
+
+  - value: 000B
+    name: 'Silicon Wave'
+
+  - value: 000A
+    name: 'Qualcomm Technologies International, Ltd. (QTIL)'
+
+  - value: 0009
+    name: 'Infineon Technologies AG'
+
+  - value: 0008
+    name: 'Motorola'
+
+  - value: 0007
+    name: 'Lucent'
+
+  - value: 0006
+    name: 'Microsoft'
+
+  - value: 0005
+    name: '3Com'
+
+  - value: 0004
+    name: 'Toshiba Corp.'
+
+  - value: 0003
+    name: 'IBM Corp.'
+
+  - value: 0002
+    name: 'Intel Corp.'
+
+  - value: 0001
+    name: 'Nokia Mobile Phones'
+
+  - value: 0000
+    name: 'Ericsson AB'
+

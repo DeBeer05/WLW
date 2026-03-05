@@ -1,0 +1,155 @@
+
+ad_types:
+ - value: 01
+   name: Flags
+   reference: Core Specification Supplement, Part A, Section 1.3
+ - value: 02
+   name: Incomplete List of 16-bit Service Class UUIDs
+   reference: Core Specification Supplement, Part A, Section 1.1
+ - value: 03
+   name: Complete List of 16-bit Service Class UUIDs
+   reference: Core Specification Supplement, Part A, Section 1.1
+ - value: 04
+   name: Incomplete List of 32-bit Service Class UUIDs
+   reference: Core Specification Supplement, Part A, Section 1.1
+ - value: 05
+   name: Complete List of 32-bit Service Class UUIDs
+   reference: Core Specification Supplement, Part A, Section 1.1
+ - value: 06
+   name: Incomplete List of 128-bit Service Class UUIDs
+   reference: Core Specification Supplement, Part A, Section 1.1
+ - value: 07
+   name: Complete List of 128-bit Service Class UUIDs
+   reference: Core Specification Supplement, Part A, Section 1.1
+ - value: 08
+   name: Shortened Local Name
+   reference: Core Specification Supplement, Part A, Section 1.2
+ - value: 09
+   name: Complete Local Name
+   reference: Core Specification Supplement, Part A, Section 1.2
+ - value: 0A
+   name: Tx Power Level
+   reference: Core Specification Supplement, Part A, Section 1.5
+ - value: 0D
+   name: Class of Device
+   reference: Core Specification Supplement, Part A, Section 1.6
+ - value: 0E
+   name: Simple Pairing Hash C-192
+   reference: Core Specification Supplement, Part A, Section 1.6
+ - value: 0F
+   name: Simple Pairing Randomizer R-192
+   reference: Core Specification Supplement, Part A, Section 1.6
+ - value: 10
+   name: Device ID
+   reference: Device ID Profile
+ - value: 10
+   name: Security Manager TK Value
+   reference: Core Specification Supplement, Part A, Section 1.8
+ - value: 11
+   name: Security Manager Out of Band Flags
+   reference: Core Specification Supplement, Part A, Section 1.7
+ - value: 12
+   name: Peripheral Connection Interval Range
+   reference: Core Specification Supplement, Part A, Section 1.9
+ - value: 14
+   name: List of 16-bit Service Solicitation UUIDs
+   reference: Core Specification Supplement, Part A, Section 1.10
+ - value: 15
+   name: List of 128-bit Service Solicitation UUIDs
+   reference: Core Specification Supplement, Part A, Section 1.10
+ - value: 16
+   name: Service Data - 16-bit UUID
+   reference: Core Specification Supplement, Part A, Section 1.11
+ - value: 17
+   name: Public Target Address
+   reference: Core Specification Supplement, Part A, Section 1.13
+ - value: 18
+   name: Random Target Address
+   reference: Core Specification Supplement, Part A, Section 1.14
+ - value: 19
+   name: Appearance
+   reference: Core Specification Supplement, Part A, Section 1.12
+ - value: 1A
+   name: Advertising Interval
+   reference: Core Specification Supplement, Part A, Section 1.15
+ - value: 1B
+   name: LE Bluetooth Device Address
+   reference: Core Specification Supplement, Part A, Section 1.16
+ - value: 1C
+   name: LE Role
+   reference: Core Specification Supplement, Part A, Section 1.17
+ - value: 1D
+   name: Simple Pairing Hash C-256
+   reference: Core Specification Supplement, Part A, Section 1.6
+ - value: 1E
+   name: Simple Pairing Randomizer R-256
+   reference: Core Specification Supplement, Part A, Section 1.6
+ - value: 1F
+   name: List of 32-bit Service Solicitation UUIDs
+   reference: Core Specification Supplement, Part A, Section 1.10
+ - value: 20
+   name: Service Data - 32-bit UUID
+   reference: Core Specification Supplement, Part A, Section 1.11
+ - value: 21
+   name: Service Data - 128-bit UUID
+   reference: Core Specification Supplement, Part A, Section 1.11
+ - value: 22
+   name: LE Secure Connections Confirmation Value
+   reference: Core Specification Supplement, Part A, Section 1.6
+ - value: 23
+   name: LE Secure Connections Random Value
+   reference: Core Specification Supplement, Part A, Section 1.6
+ - value: 24
+   name: URI
+   reference: Core Specification Supplement, Part A, Section 1.18
+ - value: 25
+   name: Indoor Positioning
+   reference: Indoor Positioning Service
+ - value: 26
+   name: Transport Discovery Data
+   reference: Transport Discovery Service
+ - value: 27
+   name: LE Supported Features
+   reference: Core Specification Supplement, Part A, Section 1.19
+ - value: 28
+   name: Channel Map Update Indication
+   reference: Core Specification Supplement, Part A, Section 1.20
+ - value: 29
+   name: PB-ADV
+   reference: Mesh Profile Specification, Section 5.2.1
+ - value: 2A
+   name: Mesh Message
+   reference: Mesh Profile Specification, Section 3.3.1
+ - value: 2B
+   name: Mesh Beacon
+   reference: Mesh Profile Specification, Section 3.9
+ - value: 2C
+   name: BIGInfo
+   reference: Core Specification Supplement, Part A, Section 1.21
+ - value: 2D
+   name: Broadcast_Code
+   reference: Core Specification Supplement, Part A, Section 1.22
+ - value: 2E
+   name: Resolvable Set Identifier
+   reference: Coordinated Set Identification Profile v1.0 or later
+ - value: 2F
+   name: Advertising Interval - long
+   reference: Core Specification Supplement, Part A, Section 1.15
+ - value: 30
+   name: Broadcast_Name
+   reference: Public Broadcast Profile v1.0 or later
+ - value: 31
+   name: Encrypted Advertising Data
+   reference: Core Specification Supplement, Part A, Section 1.23
+ - value: 32
+   name: Periodic Advertising Response Timing Information
+   reference: Core Specification Supplement, Part A, Section 1.24
+ - value: 34
+   name: Electronic Shelf Label
+   reference: ESL Profile
+ - value: 3D
+   name: 3D Information Data
+   reference: 3D Synchronization Profile
+ - value: FF
+   name: Manufacturer Specific Data
+   reference: Core Specification Supplement, Part A, Section 1.4
