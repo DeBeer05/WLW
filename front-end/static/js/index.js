@@ -1,6 +1,6 @@
 // index.js - WebSocket client for Smart-IoT-Gateway-Scan card
 
-// Replace with your actual websocket server address/port
+
 const ws = new WebSocket('ws://10.245.13.18:8765');
 let wsLines = [];
 ws.onmessage = function(event) {
