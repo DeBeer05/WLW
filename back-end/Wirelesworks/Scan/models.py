@@ -29,4 +29,6 @@ class Device(models.Model):
         ordering = ['mac_address']
         
     def __str__(self):
-        return f"{self.mac_address} - {self.company_name or 'Unknown'}"
+        if self.company_name and self.company_name not in ["Unknown", "N/A", "No Name Found"]:
+            return f"{self.mac_address} - {self.company_name}"
+        return f"{self.mac_address}"

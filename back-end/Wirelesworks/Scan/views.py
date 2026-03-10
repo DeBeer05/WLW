@@ -139,7 +139,10 @@ class BluetoothScanner:
         byte2 = company_id[2:4]
         company_id_rotated = byte2 + byte1
         comp_name = self.company_identifiers.get(str(company_id_rotated))
-        device['company_name'] = comp_name if comp_name else "No Name Found"
+        if comp_name and comp_name not in ["Unknown", "N/A", "No Name Found"]:
+            device['company_name'] = comp_name
+        else:
+            device['company_name'] = None
     
     def _get_device_name(self, device, hex_name):
         """Extract device name"""

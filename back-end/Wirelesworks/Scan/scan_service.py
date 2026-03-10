@@ -187,10 +187,10 @@ class ScanService:
                     device['company_name'] = self.company_identifiers[key_attempt]
                     return
             
-            # If no match found, set to "Unknown" 
-            device['company_name'] = "Unknown"
+            # If no match found, set to None
+            device['company_name'] = None
         except Exception as e:
-            device['company_name'] = "Unknown"
+            device['company_name'] = None
     
     def _get_device_name(self, device, hex_name):
         """Extract device name"""
@@ -217,9 +217,14 @@ class ScanService:
         ws_server.broadcast_sync(header)
         
         for mac, device_info in devices.items():
-            info_string = f"{device_info.get('mac')} | RSSI: {device_info.get('rssi')} | " \
-                         f"Company: {device_info.get('company_name', 'Unknown')} | " \
-                         f"Name: {device_info.get('device_name', 'N/A')}"
+            parts = [f"{device_info.get('mac')}", f"RSSI: {device_info.get('rssi')}"]
+            company = device_info.get('company_name')
+            if company and company not in ["Unknown", "N/A", "No Name Found"]:
+                parts.append(f"Company: {company}")
+            name = device_info.get('device_name')
+            if name and name not in ["Unknown", "N/A", "No Name Found"]:
+                parts.append(f"Name: {name}")
+            info_string = " | ".join(parts)
             print(info_string)
             ws_server.broadcast_sync(info_string)
             time.sleep(1)  # Delay between each device
@@ -232,16 +237,19 @@ class ScanService:
         ws_server.broadcast_sync(header_company)
         
         for company, company_devs in company_devices.items():
-            company_header = f"\n{company}:"
-            print(company_header)
-            ws_server.broadcast_sync(company_header)
-            
-            for mac, device_info in company_devs.items():
-                info_string = f"  {device_info.get('mac')} | RSSI: {device_info.get('rssi')} | " \
-                             f"Name: {device_info.get('device_name', 'N/A')}"
-                print(info_string)
-                ws_server.broadcast_sync(info_string)
-                time.sleep(1)  # Delay between each device
+            if company and company not in ["Unknown", "N/A", "No Name Found"]:
+                company_header = f"\n{company}:"
+                print(company_header)
+                ws_server.broadcast_sync(company_header)
+                for mac, device_info in company_devs.items():
+                    parts = [f"  {device_info.get('mac')}", f"RSSI: {device_info.get('rssi')}"]
+                    name = device_info.get('device_name')
+                    if name and name not in ["Unknown", "N/A", "No Name Found"]:
+                        parts.append(f"Name: {name}")
+                    info_string = " | ".join(parts)
+                    print(info_string)
+                    ws_server.broadcast_sync(info_string)
+                    time.sleep(1)  # Delay between each device
     
     def _sort_by_company(self, devices):
         """Sort devices by company name"""
