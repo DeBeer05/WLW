@@ -1,0 +1,220 @@
+.card-websocket {
+  display: flex;
+  flex-direction: column;
+  height: 300px !important;
+  max-height: 300px !important;
+  min-height: 300px !important;
+  overflow: hidden;
+}
+.card-websocket .websocket-output {
+  background: #f5f5f5;
+  color: #111;
+  font-size: 0.95rem;
+  padding: 1.1em 1.2em;
+  border-radius: 0 0 12px 12px;
+  overflow-y: auto;
+  width: 560px !important;
+  overflow-x: hidden !important;
+  white-space: nowrap !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  min-height: 0 !important;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.use-cases-section {
+  background: #bdf1f6;
+  padding: 2.5rem 0 3.5rem 0;
+  text-align: center;
+}
+.use-cases-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2.2rem;
+  color: #111;
+}
+.use-cases-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.2rem;
+  flex-wrap: wrap;
+}
+.use-case-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px #0001;
+  padding: 1.1rem 1.1rem 0.7rem 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 180px;
+  max-height: 180px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.use-case-card img {
+  max-width: 120px;
+  max-height: 120px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.use-case-card:hover {
+  box-shadow: 0 6px 24px #15683733;
+  transform: translateY(-4px) scale(1.04);
+}
+.feature-cards-section {
+  background: #e6fafb;
+  padding: 2.5rem 0 3.5rem 0;
+}
+.feature-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.feature-card {
+  background: #fff;
+  border: 3px solid #156837;
+  border-radius: 8px;
+  box-shadow: 4px 8px 0 #b2d8c6;
+  max-width: 370px;
+  min-width: 320px;
+  flex: 1 1 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.2rem 1.5rem 1.5rem 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.feature-card:hover {
+  box-shadow: 8px 16px 0 #a0cfae;
+  transform: translateY(-4px) scale(1.02);
+}
+.feature-card-img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 1.1rem;
+}
+.feature-card h3 {
+  font-size: 1.18rem;
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+  color: #111;
+}
+.feature-card p {
+  font-size: 1.05rem;
+  color: #222;
+  margin-bottom: 0.7rem;
+  line-height: 1.5;
+}
+/* Card grid and card styles */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 2.5rem auto;
+  padding: 0 2rem;
+}
+.card {
+  background: #fff;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 24px #0002;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 362px;
+  transition: box-shadow 0.2s;
+}
+.card:hover {
+  box-shadow: 0 8px 32px #0003;
+}
+.card-header {
+  background: #156837;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  border-radius: 12px 12px 0 0;
+  letter-spacing: 0.01em;
+}
+.card-img {
+    display: inline;
+  
+ 
+  object-fit: cover;
+  border-radius: 0 0 12px 12px;
+}
+.card-embed {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #116330;
+  padding: 0;
+}
+body {
+  background: linear-gradient(180deg, #f7f7f7 0%, #eaeaea 100%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Info/diagram section styles */
+.info-diagram-section {
+  background: #c6f2f7;
+  padding: 0 0 3rem 0;
+  position: relative;
+  overflow: hidden;
+}
+.info-diagram-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 3rem 2rem 2rem 2rem;
+  gap: 3rem;
+}
+.info-text {
+  flex: 1 1 420px;
+  max-width: 540px;
+  color: #111;
+}
+.info-text h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+.info-text p {
+  font-size: 1.13rem;
+  margin-bottom: 1.1rem;
+  line-height: 1.6;
+}
+.info-diagram {
+  flex: 1 1 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-diagram img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 24px #0002;
+  border-radius: 12px;
+  background: #fff;
+  padding: 0.5rem;
+}
+

@@ -1,0 +1,121 @@
+/* HEADER.CSS - Styles for custom header and dropdowns */
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  background: #12642e;
+  color: #fff;
+  padding: 1.2rem 2rem 0.7rem 2rem;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1000;
+  height: 114px;
+}
+
+.header-logo {
+  height: 64px;
+  margin-right: 2.5rem;
+}
+
+/* Tempbar styling for info box */
+.tempbar {
+ 
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.7rem 2.2rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-right: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 334px;
+  border: 2px solid #fff;
+}
+.tempbar-main {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+.tempbar-details {
+  font-size: 0.95rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.3;
+}
+.tempbar-powered img {
+  height: 1.1em;
+  margin: 0 0.1em;
+  vertical-align: middle;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+  margin-top: 0.2rem;
+}
+
+.navbar .dropdown {
+  position: relative;
+}
+
+.navbar .dropdown > a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 6px 6px 0 0;
+  transition: background 0.2s;
+  font-size: 1.1rem;
+}
+
+.navbar .dropdown > a:hover {
+  background: #14592e;
+}
+
+.navbar .login-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  background: #14592e;
+  margin-left: 1.2rem;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+.navbar .login-link:hover {
+  background: #114d27;
+}
+
+.dropdown-menu {
+  display: none !important;
+  position: absolute;
+  top: 2.2rem;
+  left: 0;
+  background: #156837;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 4px 16px #0002;
+  min-width: 220px;
+  z-index: 100;
+  padding: 0.5rem 0;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block !important;
+}
+
+.dropdown-menu a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 0;
+  transition: background 0.2s;
+}
+
+.dropdown-menu a:hover {
+  background: #14592e;
+}
+

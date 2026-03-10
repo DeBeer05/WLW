@@ -1,0 +1,109 @@
+    
+    
+<!-- index.html - Main page template -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WLW Home</title>
+  <link rel="stylesheet" href="/static/css/index.CSS">
+</head>
+<body>
+  {% include 'header.html' %}
+  <main>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-header">Smart-IoT-Gateway</div>
+        <img src="/static/img/smart-iot-gateway.png" alt="Smart-IoT-Gateway" class="card-img">
+      </div>
+      <div class="card">
+        <div class="card-header">Smart-IoT-Gateway-Scan</div>
+        <div class="card-embed">
+           <div class="websocket-output" id="websocket-output"></div>
+          </div>
+      </div>
+      <div class="card">
+        <div class="card-header">Primary-Fixed-Wireless-Access</div>
+        <img src="/static/img/Primary-Fixed-Wireless-Access.png" alt="Primary-Fixed-Wireless-Access" class="card-img">
+      </div>
+      <div class="card">
+        <div class="card-header">Failover-Fixed-Wireless-Access</div>
+        <img src="/static/img/Failover-Fixed-Wireless-Access.png" alt="Failover-Fixed-Wireless-Access" class="card-img">
+      </div>
+    </div>
+    <!-- Info/diagram section below cards -->
+    <section class="info-diagram-section">
+      <div class="info-diagram-container">
+        <div class="info-text">
+          <h2>Move your goods and maximize product integrity, safety, quality, transparency &amp; redundancy</h2>
+          <p>WirelessWorks.IT offers a globally managed IoT-Gateway with an end-to-end visibility platform, connecting all validated measurement data during a supply chain cycle, and providing critical KPI-information that a business needs.</p>
+          <p>From arriving at the airport, through handling and during inland transport, or from leaving the distribution center and ensuring closure and controlled secured openings for unloading.</p>
+          <p>Our advanced IoT network and our secure cloud-based network improves and maximizes product integrity, safety, quality, compliance, transparency &amp; redundancy.</p>
+        </div>
+        <div class="info-diagram">
+          <img src="/static/img/graph-.webp" alt="IoT Gateway Diagram" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Three feature cards section -->
+    <section class="feature-cards-section">
+      <div class="feature-cards-container">
+        <div class="feature-card">
+          <img src="/static/img/businessman-pointing-their-goals-stock-board-digital-design-1024x684-1.webp" alt="KPI Visibility" class="feature-card-img">
+          <h3>Have maximum visibility on your critical supply chain KPI’s</h3>
+          <p>WirelessWorks.IT provides you a portal for the best insights and for one-view-insights. Data is retrieved from our servers or passed through via API’s to your own environment.</p>
+          <p>Your most recent critical KPI-information always available. We provide a cloud-based software application, no software installation is required.</p>
+          <p>Scaling is possible now!</p>
+        </div>
+        <div class="feature-card">
+          <img src="/static/img/Primary-Fixed-Wireless-Access.png" alt="Direct Data Insight" class="feature-card-img">
+          <h3>Have insight into your data directly</h3>
+          <p>Struggled with preparing accurate and timely supply chain reports?</p>
+          <p>No longer struggling as the latest critical KPI information is at hand. Retrieved from our strong ecosystem of connected gateways to gather the data, via storing in our secure network and by providing instant actionable insight. Your IoT in the supply chain becomes a transformative tool on which the enterprise can act quickly.</p>
+        </div>
+        <div class="feature-card">
+          <img src="/static/img/Data-daschboard-1024x591-1-480x277.webp" alt="Supply Chain Analytics" class="feature-card-img">
+          <h3>Analyzing your supply chain easier than ever!</h3>
+          <p>Struggled with preparing accurate and timely supply chain reports?</p>
+          <p>No longer struggling as the latest critical KPI information is at hand. Retrieved from our strong ecosystem of connected gateways to gather the data, via storing in our secure network and by providing instant actionable insight. Your IoT in the supply chain becomes a transformative tool on which the enterprise can act quickly.</p>
+        </div>
+      </div>
+    </section>
+        <section class="feature-cards-section">
+      <div class="feature-cards-container">
+        <div class="feature-card">
+          <img src="/static/img/Data-daschboard-1024x591-1-1-480x310.webp" alt="KPI Integration" class="feature-card-img">
+          <h3>Integrate your critical KPI-information in your enterprise systems</h3>
+          <p>WirelessWorks.IT can support you in fully automizing the throughput of data into your enterprise IT environment. Integrate with your core business systems for efficiencies with reducing human error. As skilled in all leading cloud database solutions, connections via API’s can be made with our support. We monitor 24/7 as part of agreed Service Levels.</p>
+        </div>
+        <div class="feature-card">
+          <img src="/static/img/AdobeStock_289951018-1024x683-1-480x320.webp" alt="Expedite 4G/LTE/5G" class="feature-card-img">
+          <h3>Expedite 4G/LTE/5G access</h3>
+          <p>Confronted with delayed delivery of your new fixed (fiber) lines?</p>
+          <p>Or out of fixed connectivity due to unexpected maintenance? WirelessWorks.IT can provide fixed wireless access within 24 hours in Europe. Need information or a quote: <a href="#" style="color:#156837;text-decoration:underline;">ask us here.</a></p>
+        </div>
+        <div class="feature-card">
+          <img src="/static/img/image001-480x329.webp" alt="Failover for continuity" class="feature-card-img">
+          <h3>Wireless 4G/LTE/5G failover for business continuity</h3>
+          <p>WirelessWorks.IT can support you by providing a backup internet failover solution. When your primary access breaks down, our failover solution immediately picks up and your business stays connected!</p>
+        </div>
+      </div>
+    </section>
+            <section class="use-cases-section">
+          <h2 class="use-cases-title">Our use cases:</h2>
+          <div class="use-cases-row">
+            <div class="use-case-card"><img src="/static/img/post-300x300.png" alt="PostNL"></div>
+            <div class="use-case-card"><img src="/static/img/pharma-480x480.webp" alt="Pharma"></div>
+            <div class="use-case-card"><img src="/static/img/logo-hive-1-480x480.webp" alt="Hive-Zox"></div>
+            <div class="use-case-card"><img src="/static/img/wirelessaccess-480x480.webp" alt="Telecom"></div>
+            <div class="use-case-card"><img src="/static/img/logistic-480x480.webp" alt="Device"></div>
+          </div>
+        </section>
+  </main>
+  {% include 'footer.html' %}
+  <script src="/static/js/header.js"></script>
+  <script src="/static/js/index.js"></script>
+</body>
+</html>
