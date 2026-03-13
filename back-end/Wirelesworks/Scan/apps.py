@@ -18,7 +18,7 @@ class ScanConfig(AppConfig):
                 print(f"⚠ WebSocket server failed to start: {e}")
             
             try:
-                from .scan_service import start_background_scanning
+                from .application.background_scan_service import start_background_scanning
                 start_background_scanning()
             except Exception as e:
                 print(f"⚠ Background scanning failed to start: {e}")
