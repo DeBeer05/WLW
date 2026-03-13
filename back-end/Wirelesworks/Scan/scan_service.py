@@ -1,6 +1,7 @@
 import threading
 import time
 import os
+import re
 import yaml
 import serial
 from .utils.loading import Loading
@@ -10,7 +11,14 @@ from .utils.websocket_server import ws_server
 class ScanService:
     """Background service for continuous BLE scanning"""
     
-    def __init__(self, port="/dev/ttyS2", baudrate=115200, timeout=0.2, scan_duration=15, scan_interval=10):
+    def __init__(
+        self,
+        port="/dev/ttyS2",
+        baudrate=115200,
+        timeout=0.2,
+        scan_duration=5,
+        scan_interval=0,
+    ):
         self.port = port
         self.baudrate = baudrate
         self.timeout = timeout
@@ -19,6 +27,8 @@ class ScanService:
         self.running = False
         self.thread = None
         self.serial_bus = None
+        self.unique_devices = {}
+        self.loading_bar = Loading("Scanning")
         
         # Load YAML files
         base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -69,14 +79,14 @@ class ScanService:
     
     def scan(self):
         """Perform single Bluetooth scan"""
-        unique_devices = {}
-        
         try:
+            self.unique_devices = {}
             self.serial_bus.flushInput()
             ignore_list = ['', '\n']
             
             command = f'AT+LSCN {self.scan_duration}\r'.encode()
             self.serial_bus.write(command)
+            self.loading_bar.start_loading()
             
             ok_reached = False
             
@@ -88,7 +98,8 @@ class ScanService:
                     print(f"⚠ Serial error during scan: {str(se)}")
                     # Try to recover the connection
                     self.reconnect_serial()
-                    return unique_devices
+                    self.loading_bar.stop_loading()
+                    return {}
                 
                 if len(incoming_adv) > 28:
                     device['mac'] = incoming_adv[6:20]
@@ -97,14 +108,21 @@ class ScanService:
                     
                     if device['data'][-1] == '"':
                         device['data'] = incoming_adv[26:-3]
-                    
-                    unique_devices[device['mac']] = device
-                    self._decode_advert(unique_devices[device['mac']])
+
+                    self.unique_devices[device['mac']] = device
+                    self._decode_advert(self.unique_devices[device['mac']])
                 elif incoming_adv not in ignore_list:
                     ok_reached = True
-            
-            return unique_devices
+
+            self.loading_bar.stop_loading()
+            self.delay()
+            print("Scan Completed! Found devices:")
+            return self.unique_devices
         except Exception as e:
+            try:
+                self.loading_bar.stop_loading()
+            except Exception:
+                pass
             print(f"⚠ Scan error: {str(e)}")
             ws_server.broadcast_sync(f"Scan error: {str(e)}")
             return {}
@@ -162,35 +180,18 @@ class ScanService:
     def _get_company_name(self, device, company_id):
         """Extract company name from identifier"""
         try:
-            # Remove common prefixes/spaces and strip
-            company_id = company_id.strip().replace(' ', '').replace('0x', '')
-            
-            # Take first 4 characters (2 bytes = 4 hex chars)
-            if len(company_id) >= 4:
-                company_id = company_id[:4]
-            else:
-                company_id = company_id.zfill(4)
-            
-            # Byte swap: Little Endian to Big Endian
+            company_id = str(company_id)
             byte1 = company_id[:2]
             byte2 = company_id[2:4]
             company_id_rotated = byte2 + byte1
-            
-            # Try different key variations (the YAML keys are uppercase)
-            for key_attempt in [
-                company_id_rotated.upper(),  # Swapped + uppercase
-                company_id_rotated.lower(),  # Swapped + lowercase
-                company_id.upper(),           # Not swapped + uppercase
-                company_id.lower()            # Not swapped + lowercase
-            ]:
-                if key_attempt in self.company_identifiers:
-                    device['company_name'] = self.company_identifiers[key_attempt]
-                    return
-            
-            # If no match found, set to None
-            device['company_name'] = None
-        except Exception as e:
-            device['company_name'] = None
+
+            comp_name = self.company_identifiers.get(str(company_id_rotated))
+            if comp_name:
+                device['company_name'] = comp_name
+            else:
+                device['company_name'] = "No Name Found"
+        except Exception:
+            device['company_name'] = "No Name Found"
     
     def _get_device_name(self, device, hex_name):
         """Extract device name"""
@@ -204,52 +205,72 @@ class ScanService:
                 device['company_name'] = "Laird"
         except:
             pass
-    
+
     def print_and_broadcast_results(self, devices):
-        """Print results and broadcast via WebSocket"""
+        """Print results and broadcast via WebSocket, matching original scan script formatting."""
         if not devices:
             ws_server.broadcast_sync("No devices found")
             return
         
-        # All devices
-        header = f"\n=== All Devices ({len(devices)}) ===\n"
-        print(header)
-        ws_server.broadcast_sync(header)
+        header_all = '\n\n\nAll devices\n'
+        print(header_all)
+        self.push_print_to_websocket(header_all)
         
         for mac, device_info in devices.items():
-            parts = [f"{device_info.get('mac')}", f"RSSI: {device_info.get('rssi')}"]
-            company = device_info.get('company_name')
-            if company and company not in ["Unknown", "N/A", "No Name Found"]:
-                parts.append(f"Company: {company}")
-            name = device_info.get('device_name')
-            if name and name not in ["Unknown", "N/A", "No Name Found"]:
-                parts.append(f"Name: {name}")
-            info_string = " | ".join(parts)
+            info_string = f"MAC-Address: {device_info.get('mac')} | RSSI: {device_info.get('rssi')} |"
+
+            if device_info.get('company_name') not in [None, 'No Name Found']:
+                info_string += f" Company Name: {device_info.get('company_name')} |"
+
+            if device_info.get('device_name') is not None:
+                info_string += f" Device Name: {device_info.get('device_name')}"
+
             print(info_string)
-            ws_server.broadcast_sync(info_string)
-            time.sleep(1)  # Delay between each device
+            self.push_print_to_websocket(info_string)
+            self.delay(0.7)
         
-        # Devices by company
         company_devices = self._sort_by_company(devices)
-        
-        header_company = "\n=== Devices Sorted by Company ===\n"
+        self.delay()
+        header_company = '\n\n\nDevices sorted by company'
         print(header_company)
-        ws_server.broadcast_sync(header_company)
+        self.push_print_to_websocket(header_company)
         
         for company, company_devs in company_devices.items():
-            if company and company not in ["Unknown", "N/A", "No Name Found"]:
-                company_header = f"\n{company}:"
+            if company and company != 'No Name Found':
+                company_header = f"\nCompany Name: {company}"
                 print(company_header)
-                ws_server.broadcast_sync(company_header)
+                self.push_print_to_websocket(company_header)
                 for mac, device_info in company_devs.items():
-                    parts = [f"  {device_info.get('mac')}", f"RSSI: {device_info.get('rssi')}"]
-                    name = device_info.get('device_name')
-                    if name and name not in ["Unknown", "N/A", "No Name Found"]:
-                        parts.append(f"Name: {name}")
-                    info_string = " | ".join(parts)
+                    info_string = f"MAC-Address: {device_info.get('mac')} | RSSI: {device_info.get('rssi')} |"
+
+                    if device_info.get('company_name') not in [None, 'No Name Found']:
+                        info_string += f" Company Name: {device_info.get('company_name')} |"
+
+                    if device_info.get('device_name') is not None:
+                        info_string += f" Device Name: {device_info.get('device_name')}"
+
                     print(info_string)
-                    ws_server.broadcast_sync(info_string)
-                    time.sleep(1)  # Delay between each device
+                    self.push_print_to_websocket(info_string)
+                    self.delay(0.7)
+                self.delay(1)
+
+    def push_print_to_websocket(self, line):
+        ansi_escape = re.compile(r'\x1b\[[0-9;]*m')
+        cleaned_line = ansi_escape.sub('', line)
+        cleaned_line = cleaned_line.lstrip('\n')
+
+        if cleaned_line.strip() == 'All devices':
+            return
+        if cleaned_line.strip() == '':
+            return
+
+        ws_server.broadcast_sync(cleaned_line)
+
+    def reset(self):
+        self.unique_devices = {}
+
+    def delay(self, n=0.1):
+        time.sleep(n)
     
     def _sort_by_company(self, devices):
         """Sort devices by company name"""
@@ -274,16 +295,16 @@ class ScanService:
                 devices = self.scan()
                 
                 if devices:
-                    
-                    
                     self.print_and_broadcast_results(devices)
+                    self.reset()
                 else:
                     print("✗ No devices found")
                     ws_server.broadcast_sync("✗ No devices found")
                 
                 # Wait before next scan
-                print(f"⏳ Waiting {self.scan_interval} seconds before next scan...")
-                time.sleep(self.scan_interval)
+                if self.scan_interval > 0:
+                    print(f"⏳ Waiting {self.scan_interval} seconds before next scan...")
+                    time.sleep(self.scan_interval)
                 
             except Exception as e:
                 error_msg = f"⚠ Scan error: {str(e)}"
@@ -325,12 +346,12 @@ def start_background_scanning():
     # Get configuration from environment or use defaults
     port = os.environ.get('SERIAL_PORT', '/dev/ttyS2')
     scan_duration = int(os.environ.get('SCAN_DURATION', '5'))
-    scan_interval = int(os.environ.get('SCAN_INTERVAL', '10'))
+    scan_interval = int(os.environ.get('SCAN_INTERVAL', '0'))
     
     scan_service = ScanService(
         port=port,
         scan_duration=scan_duration,
-        scan_interval=scan_interval
+        scan_interval=scan_interval,
     )
     
     return scan_service.start()
