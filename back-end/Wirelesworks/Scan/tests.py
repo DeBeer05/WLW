@@ -11,7 +11,7 @@ from Scan.models import Device, ScanSession
 
 class ScanApiViewTests(SimpleTestCase):
 	def test_index_returns_status_payload(self):
-		"""Index returns the API status payload."""
+		"""Index status."""
 		with patch("Scan.presentation.api_views.scan_use_cases.index_status") as index_status:
 			index_status.return_value = {
 				"status": "info",
@@ -25,7 +25,7 @@ class ScanApiViewTests(SimpleTestCase):
 		index_status.assert_called_once_with()
 
 	def test_start_scan_uses_request_payload(self):
-		"""Start scan passes JSON duration and port to the use case."""
+		"""Start scan payload."""
 		with patch("Scan.presentation.api_views.scan_use_cases.start_scan") as start_scan:
 			start_scan.return_value = {
 				"status": "success",
@@ -45,7 +45,7 @@ class ScanApiViewTests(SimpleTestCase):
 		start_scan.assert_called_once_with(duration=8, port="COM7")
 
 	def test_start_scan_uses_defaults_when_body_is_empty(self):
-		"""Start scan falls back to default duration and port when the body is empty."""
+		"""Start scan defaults."""
 		with patch("Scan.presentation.api_views.scan_use_cases.start_scan") as start_scan:
 			start_scan.return_value = {
 				"status": "success",
@@ -65,7 +65,7 @@ class ScanApiViewTests(SimpleTestCase):
 		start_scan.assert_called_once_with(duration=5, port="/dev/ttyS2")
 
 	def test_start_scan_returns_error_payload_on_exception(self):
-		"""Start scan returns an error payload when the use case raises an exception."""
+		"""Start scan error."""
 		with patch("Scan.presentation.api_views.scan_use_cases.start_scan") as start_scan:
 			start_scan.side_effect = RuntimeError("scanner unavailable")
 
@@ -82,7 +82,7 @@ class ScanApiViewTests(SimpleTestCase):
 		)
 
 	def test_scan_history_returns_json_payload(self):
-		"""Scan history returns the JSON payload from the use case."""
+		"""History payload."""
 		payload = {
 			"status": "success",
 			"scans": [{"id": 1, "device_count": 2}],
@@ -97,7 +97,7 @@ class ScanApiViewTests(SimpleTestCase):
 		get_scan_history.assert_called_once_with()
 
 	def test_scan_details_passes_route_parameter(self):
-		"""Scan details forwards the route scan id to the use case."""
+		"""Details route id."""
 		payload = {
 			"status": "success",
 			"scan": {"id": 7, "device_count": 1, "devices": []},
@@ -114,7 +114,7 @@ class ScanApiViewTests(SimpleTestCase):
 
 class ScanApiIntegrationTests(TestCase):
 	def test_scan_history_reads_real_repository_data(self):
-		"""Scan history endpoint returns persisted scans in newest-first order."""
+		"""History endpoint order."""
 		older_scan = ScanSession.objects.create(duration=4, device_count=1)
 		newer_scan = ScanSession.objects.create(duration=9, device_count=2)
 
@@ -130,7 +130,7 @@ class ScanApiIntegrationTests(TestCase):
 		self.assertEqual(payload["scans"][0]["device_count"], 2)
 
 	def test_scan_details_reads_real_repository_data(self):
-		"""Scan details endpoint returns persisted devices ordered by MAC address."""
+		"""Details endpoint data."""
 		session = ScanSession.objects.create(duration=5, device_count=2)
 		Device.objects.create(
 			scan_session=session,
@@ -166,7 +166,7 @@ class ScanApiIntegrationTests(TestCase):
 		self.assertEqual(payload["scan"]["devices"][1]["company_name"], "BeaconCo")
 
 	def test_scan_details_returns_error_payload_for_unknown_scan(self):
-		"""Scan details endpoint returns an error payload for an unknown scan id."""
+		"""Details missing scan."""
 		response = self.client.get(reverse("scan:scan_details", args=[999999]))
 
 		self.assertEqual(response.status_code, 200)
@@ -178,7 +178,7 @@ class ScanApiIntegrationTests(TestCase):
 
 class ScanUseCasesTests(SimpleTestCase):
 	def test_start_scan_configures_scanner_persists_devices_and_returns_payload(self):
-		"""Start scan configures the scanner, persists results, and returns a success payload."""
+		"""Use case start success."""
 		repository = MagicMock()
 		repository.create_scan_session_with_devices.return_value = SimpleNamespace(id=42)
 		devices = {
@@ -215,7 +215,7 @@ class ScanUseCasesTests(SimpleTestCase):
 		)
 
 	def test_start_scan_closes_scanner_when_scan_fails(self):
-		"""Start scan always closes the scanner when the scan operation fails."""
+		"""Use case closes scanner."""
 		repository = MagicMock()
 
 		with patch("Scan.application.scan_use_cases.BluetoothScanner") as bluetooth_scanner:
@@ -231,7 +231,7 @@ class ScanUseCasesTests(SimpleTestCase):
 		repository.create_scan_session_with_devices.assert_not_called()
 
 	def test_get_scan_history_wraps_repository_payload(self):
-		"""Get scan history wraps repository results in a success response."""
+		"""Use case history response."""
 		repository = MagicMock()
 		repository.get_scan_history.return_value = [{"id": 1}]
 		use_cases = ScanUseCases(repository=repository)
@@ -241,7 +241,7 @@ class ScanUseCasesTests(SimpleTestCase):
 		self.assertEqual(result, {"status": "success", "scans": [{"id": 1}]})
 
 	def test_get_scan_details_returns_error_for_missing_scan(self):
-		"""Get scan details returns an error response when the scan does not exist."""
+		"""Use case missing scan."""
 		repository = MagicMock()
 		repository.get_scan_details.return_value = None
 		use_cases = ScanUseCases(repository=repository)
@@ -253,7 +253,7 @@ class ScanUseCasesTests(SimpleTestCase):
 
 class ScanRepositoryTests(SimpleTestCase):
 	def test_create_scan_session_with_devices_creates_session_and_bulk_inserts_devices(self):
-		"""Repository create maps input devices into bulk-created Device rows."""
+		"""Repository create mapping."""
 		repository = ScanRepository()
 		session = ScanSession(id=3, duration=6, device_count=1)
 		devices = {
@@ -290,7 +290,7 @@ class ScanRepositoryTests(SimpleTestCase):
 		self.assertEqual(inserted_devices[0].decoded_data, {"09": {"data": "53656e736f72"}})
 
 	def test_get_scan_history_serializes_latest_scans(self):
-		"""Repository get_scan_history serializes the latest scan summaries."""
+		"""Repository history summary."""
 		repository = ScanRepository()
 		scan = SimpleNamespace(
 			id=5,
@@ -317,7 +317,7 @@ class ScanRepositoryTests(SimpleTestCase):
 		)
 
 	def test_get_scan_details_returns_none_when_scan_is_missing(self):
-		"""Repository get_scan_details returns None when the scan is missing."""
+		"""Repository missing details."""
 		repository = ScanRepository()
 		queryset = MagicMock()
 		queryset.prefetch_related.return_value.first.return_value = None
@@ -328,7 +328,7 @@ class ScanRepositoryTests(SimpleTestCase):
 		self.assertIsNone(result)
 
 	def test_get_scan_details_serializes_devices(self):
-		"""Repository get_scan_details serializes a scan and its devices."""
+		"""Repository details payload."""
 		repository = ScanRepository()
 		device = SimpleNamespace(
 			id=8,
@@ -378,7 +378,7 @@ class ScanRepositoryTests(SimpleTestCase):
 
 class ScanRepositoryIntegrationTests(TestCase):
 	def test_create_scan_session_with_devices_persists_models(self):
-		"""Repository create persists a scan session and all associated devices."""
+		"""Repository create persists."""
 		repository = ScanRepository()
 		devices = {
 			"AA:BB:CC:DD:EE:FF": {
@@ -420,7 +420,7 @@ class ScanRepositoryIntegrationTests(TestCase):
 		)
 
 	def test_get_scan_history_returns_latest_scans_from_database(self):
-		"""Repository get_scan_history reads newest-first scans from the database."""
+		"""Repository history database."""
 		repository = ScanRepository()
 		older_scan = ScanSession.objects.create(duration=4, device_count=1)
 		newer_scan = ScanSession.objects.create(duration=9, device_count=3)
@@ -434,7 +434,7 @@ class ScanRepositoryIntegrationTests(TestCase):
 		self.assertEqual(result[1]["id"], older_scan.id)
 
 	def test_get_scan_details_returns_devices_from_database(self):
-		"""Repository get_scan_details returns persisted device details from the database."""
+		"""Repository details database."""
 		repository = ScanRepository()
 		session = ScanSession.objects.create(duration=5, device_count=2)
 		Device.objects.create(
@@ -469,7 +469,7 @@ class ScanRepositoryIntegrationTests(TestCase):
 		self.assertEqual(result["devices"][1]["company_name"], "BeaconCo")
 
 	def test_get_scan_details_returns_none_for_unknown_id(self):
-		"""Repository get_scan_details returns None for an unknown database id."""
+		"""Repository unknown id."""
 		repository = ScanRepository()
 
 		self.assertIsNone(repository.get_scan_details(scan_id=999999))
