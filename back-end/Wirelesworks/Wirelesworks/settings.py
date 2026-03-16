@@ -1,3 +1,7 @@
+import os
+import sys
+from pathlib import Path
+
 """
 Django settings for Wirelesworks project.
 
@@ -9,9 +13,6 @@ https://docs.djangoproject.com/en/6.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/6.0/ref/settings/
 """
-
-from pathlib import Path
-import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -65,8 +66,21 @@ WSGI_APPLICATION = 'Wirelesworks.wsgi.application'
 
 
 # Database
-# Database disabled - no database connections
-DATABASES = {}
+# Runtime stays database-free, but tests or an explicit env flag can enable SQLite.
+use_test_database = (
+    "test" in sys.argv
+    or os.environ.get("WIRELESWORKS_USE_TEST_DB", "").lower() in {"1", "true", "yes", "on"}
+)
+
+if use_test_database:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'test_db.sqlite3',
+        }
+    }
+else:
+    DATABASES = {}
 
 
 # Password validation
@@ -92,3 +106,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+TEST_RUNNER = 'Wirelesworks.test_runner.RedStatusDiscoverRunner'
