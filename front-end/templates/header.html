@@ -1,7 +1,9 @@
 <!-- header.html - Custom header template matching screenshot -->
 <div class="header">
     <link rel="stylesheet" href="/static/css/HEADER.CSS">
-  <img src="/static/img/wirelessworks_text.webp" alt="wirelessworks.it logo" class="header-logo">
+  <a href="{{ url_for('index') }}">
+    <img src="/static/img/wirelessworks_text.webp" alt="wirelessworks.it logo" class="header-logo">
+  </a>
   <div class="tempbar">
     <div class="tempbar-main" id="tempHTML">Loading...</div>
     <div class="tempbar-details">
@@ -12,22 +14,29 @@
   </div>
   <nav class="navbar">
     <div class="dropdown">
-      <a href="#">What we provide</a>
+      <a href="{{ url_for('index') }}#diagram">What we provide &#8595;</a>
       <div class="dropdown-menu">
-        <a href="#">Smart-IoT-Gateway</a>
-        <a href="#">Primary-Fixed-Wireless-Access</a>
-        <a href="#">Failover-Fixed-Wireless-Access</a>
+        <a href="{{ url_for('index') }}#diagram">Smart-IoT-Gateway</a>
+        <a href="{{ url_for('index') }}#KPI">KPI visibility</a>
+        <a href="{{ url_for('index') }}#KPI">Data dashboard</a>
+        <a href="{{ url_for('index') }}#KPI">Supply chain analytics</a>
+        <a href="{{ url_for('index') }}#integrations">Integrations</a>
+        <a href="{{ url_for('index') }}#integrations">Primary-fixed-wireless-access</a>
+        <a href="{{ url_for('index') }}#integrations">Failover-fixed-wireless-access</a>
       </div>
     </div>
     <div class="dropdown">
-      <a href="#">Use Cases</a>
+      <a href="{{ url_for('postnl') }}">Use Cases &#8595;</a>
       <div class="dropdown-menu">
-        <a href="#">Smart-IoT-Gateway-Scan</a>
-        <a href="#">Other Use Case</a>
+        <a href="{{ url_for('postnl') }}">PostNL</a>
+        <a href="{{ url_for('pharmaceutical') }}">Pharmaceutical</a>
+        <a href="{{ url_for('hive_zox') }}">Hive-Zox</a>
+        <a href="{{ url_for('fixed_wireless_access') }}">Fixed-Wireless-Access</a>
+        <a href="{{ url_for('logistics_security') }}">Logistics security</a>
       </div>
     </div>
     <div class="dropdown">
-      <a href="#">Company</a>
+      <a href="#">Company &#8595;</a>
       <div class="dropdown-menu">
         <a href="#">About us</a>
         <a href="#">Team</a>

@@ -2,14 +2,15 @@
 
 .header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   background: #12642e;
   color: #fff;
+  box-sizing: border-box;
   padding: 1.2rem 2rem 0.7rem 2rem;
   justify-content: space-between;
   position: relative;
   z-index: 1000;
-  height: 114px;
+  height: 144px;
 }
 
 .header-logo {
@@ -30,12 +31,14 @@
   flex-direction: column;
   align-items: center;
   width: 334px;
+  height: 87px;
   border: 2px solid #fff;
 }
 .tempbar-main {
   font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 0.2rem;
+  
 }
 .tempbar-details {
   font-size: 0.95rem;

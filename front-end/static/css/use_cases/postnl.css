@@ -1,0 +1,17 @@
+/* Page-specific layout for the PostNL use case */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #f7f7f7;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+main {
+  min-height: calc(100vh - 144px);
+}

@@ -1,3 +1,4 @@
+html { scroll-behavior: smooth; }
 .card-websocket {
   display: flex;
   flex-direction: column;
