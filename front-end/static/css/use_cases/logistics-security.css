@@ -7,11 +7,69 @@ body {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   background: #f7f7f7;
   font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 main {
-  min-height: calc(100vh - 144px);
+  flex: 1;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.logistics-media {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.logistics-top-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.media-card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 3px 16px #0000001f;
+  overflow: hidden;
+}
+
+.media-card img,
+.media-card video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.media-card-small {
+  width: min(360px, 100%);
+}
+
+.media-card-video {
+  width: min(760px, 100%);
+}
+
+.logistics-bottom-row {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.media-card-poster {
+  width: min(720px, 100%);
+}
+
+@media (max-width: 900px) {
+  .logistics-top-row {
+    gap: 1.25rem;
+  }
+
+  main {
+    padding: 1.25rem 0.75rem 2rem;
+  }
 }

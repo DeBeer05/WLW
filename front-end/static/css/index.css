@@ -166,10 +166,16 @@ html { scroll-behavior: smooth; }
   padding: 0;
 }
 body {
+  display: flex;
+  flex-direction: column;
   background: linear-gradient(180deg, #f7f7f7 0%, #eaeaea 100%);
   min-height: 100vh;
   margin: 0;
   font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+main {
+  flex: 1;
 }
 
 /* Info/diagram section styles */
