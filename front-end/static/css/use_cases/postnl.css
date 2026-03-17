@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: #f7f7f7;
+  background: linear-gradient(180deg, #f7f7f7 0%, #eaeaea 100%);
   font-family: 'Segoe UI', Arial, sans-serif;
 }
 

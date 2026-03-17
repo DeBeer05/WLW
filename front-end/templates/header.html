@@ -36,11 +36,11 @@
       </div>
     </div>
     <div class="dropdown">
-      <a href="#">Company &#8595;</a>
+      <a href="{{ url_for('about') }}">Company &#8595;</a>
       <div class="dropdown-menu">
-        <a href="#">About us</a>
-        <a href="#">Team</a>
-        <a href="#">Contact</a>
+        <a href="{{ url_for('about') }}">About Wirelessworks.it</a>
+        <a href="{{ url_for('news') }}">News</a>
+        <a href="{{ url_for('contact') }}">Contact</a>
       </div>
     </div>
     <a href="#" class="login-link">Login</a>

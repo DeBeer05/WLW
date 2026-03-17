@@ -1,0 +1,159 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #005b2a;
+  color: #fff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+main {
+  flex: 1;
+}
+
+.news-page {
+  width: min(980px, 92vw);
+  margin: 2rem auto 3rem;
+}
+
+.social-strip {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.social-pill {
+  text-decoration: none;
+  color: #0a7a3f;
+  background: #fff;
+  border-radius: 12px;
+  padding: 0.7rem 2rem;
+  font-weight: 700;
+  font-size: 2.1rem;
+  line-height: 1;
+}
+
+.posts {
+  display: grid;
+  gap: 2rem;
+}
+
+.post-card {
+  text-align: center;
+}
+
+.post-card h2 {
+  font-size: clamp(2rem, 3.3vw, 3.6rem);
+  margin: 0 0 0.6rem;
+  line-height: 1.2;
+}
+
+.post-meta {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.post-excerpt {
+  max-width: 900px;
+  margin: 0.9rem auto 1rem;
+  font-size: 1.35rem;
+  line-height: 1.5;
+}
+
+.read-more {
+  display: inline-block;
+  width: min(900px, 90%);
+  background: #e7e7e7;
+  color: #005b2a;
+  text-decoration: none;
+  border-radius: 14px;
+  padding: 0.45rem 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.composer {
+  margin-top: 2.6rem;
+  background: #ffffff;
+  color: #123;
+  border-radius: 12px;
+  padding: 1.2rem;
+}
+
+.composer h3 {
+  margin: 0 0 0.8rem;
+  color: #065f2d;
+}
+
+.post-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.post-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.post-form .full {
+  grid-column: 1 / -1;
+}
+
+.post-form input,
+.post-form textarea {
+  border: 1px solid #cfd7d2;
+  border-radius: 8px;
+  padding: 0.55rem 0.65rem;
+  font: inherit;
+}
+
+.post-form button {
+  grid-column: 1 / -1;
+  border: 0;
+  border-radius: 8px;
+  background: #0f7a40;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.65rem 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .news-page {
+    margin: 1.1rem auto 2rem;
+  }
+
+  .social-pill {
+    font-size: 1.3rem;
+    padding: 0.55rem 1rem;
+  }
+
+  .post-meta {
+    font-size: 1.05rem;
+  }
+
+  .post-excerpt {
+    font-size: 1rem;
+  }
+
+  .read-more {
+    font-size: 1.25rem;
+  }
+
+  .post-form {
+    grid-template-columns: 1fr;
+  }
+}

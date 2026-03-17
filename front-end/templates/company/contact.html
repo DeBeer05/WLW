@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact</title>
+	<link rel="stylesheet" href="/static/css/company/contact.css">
+</head>
+<body>
+	{% include 'header.html' %}
+	<main>
+		<section class="contact-page" aria-label="Contact page">
+			<div class="contact-info-block">
+				<h2>Contact info</h2>
+				<p>info@wirelessworks.it</p>
+				<p>Hendrik Figeeweg 5L</p>
+				<p>2031 BJ, Haarlem</p>
+				<p>The Netherlands</p>
+				<p>T. +31 023 2001221</p>
+			</div>
+
+			<div class="map-wrap">
+				<iframe
+					title="WirelessWorks.IT location map"
+					src="https://maps.google.com/maps?q=Hendrik%20Figeeweg%205L%2C%20Haarlem&t=&z=13&ie=UTF8&iwloc=&output=embed"
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+
+			<section class="contact-form-block" aria-label="Contact form">
+				<h2>Contact form</h2>
+
+				{% if sent %}
+					<p class="sent-message">Your message has been sent.</p>
+				{% endif %}
+
+				<form method="post" class="contact-form">
+					<input type="text" name="name" placeholder="Name" required>
+					<input type="email" name="email" placeholder="Email Address" required>
+					<input class="full" type="text" name="phone" placeholder="Phone">
+					<textarea class="full" name="message" rows="6" placeholder="Message" required></textarea>
+
+					<div class="captcha-line">3 + 8 =</div>
+					<button type="submit">SEND</button>
+				</form>
+			</section>
+		</section>
+	</main>
+	{% include 'footer.html' %}
+	<script src="/static/js/header.js"></script>
+</body>
+</html>
