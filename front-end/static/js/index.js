@@ -1,7 +1,7 @@
 // index.js - WebSocket client for Smart-IoT-Gateway-Scan card
 
 
-const ws = new WebSocket('ws://10.245.13.18:8765');
+const ws = new WebSocket('ws://10.10.0.145:8765');
 let wsLines = [];
 ws.onmessage = function(event) {
   const output = document.getElementById('websocket-output');
@@ -10,6 +10,7 @@ ws.onmessage = function(event) {
     output.style.width = '560px';
     output.style.minWidth = '560px';
     output.style.maxWidth = '560px';
+    output.style.color = '#FFFFFF';
     // Split incoming message into lines and add to array
     wsLines = wsLines.concat(event.data.split(/\r?\n/));
     // Limit to last 200 lines in memory
