@@ -6,10 +6,6 @@ let wsLines = [];
 ws.onmessage = function(event) {
   const output = document.getElementById('websocket-output');
   if (output) {
-    // Force width to 560px via JS
-    output.style.width = '560px';
-    output.style.minWidth = '560px';
-    output.style.maxWidth = '560px';
     output.style.color = '#FFFFFF';
     // Split incoming message into lines and add to array
     wsLines = wsLines.concat(event.data.split(/\r?\n/));
@@ -26,9 +22,6 @@ ws.onmessage = function(event) {
 ws.onerror = function() {
   const output = document.getElementById('websocket-output');
   if (output) {
-    output.style.width = '560px';
-    output.style.minWidth = '560px';
-    output.style.maxWidth = '560px';
     output.innerHTML = 'WebSocket connection error.';
   }
 };
