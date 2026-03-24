@@ -62,7 +62,7 @@ class ScanService(BluetoothScanner):
             ws_server.broadcast_sync("No devices found")
             return
 
-        header_all = "\n\n\nAll devices\n"
+        header_all = "\n\n\nAll devices\n "
         print(header_all)
         self.push_print_to_websocket(header_all)
 
@@ -72,7 +72,7 @@ class ScanService(BluetoothScanner):
             )
 
             if device_info.get("company_name") not in [None, "No Name Found"]:
-                info_string += f" Company Name: {device_info.get('company_name')} |"
+                info_string += f" Company Name: {device_info.get('company_name')}  |"
 
             if device_info.get("device_name") is not None:
                 info_string += f" Device Name: {device_info.get('device_name')}"
@@ -89,7 +89,7 @@ class ScanService(BluetoothScanner):
 
         for company, company_devs in company_devices.items():
             if company and company != "No Name Found":
-                company_header = f"\nCompany Name: {company}"
+                company_header = f"\nCompany Name: {company}\n"
                 print(company_header)
                 self.push_print_to_websocket(company_header)
                 for device_info in company_devs.values():
@@ -98,7 +98,7 @@ class ScanService(BluetoothScanner):
                     )
 
                     if device_info.get("company_name") not in [None, "No Name Found"]:
-                        info_string += f" Company Name: {device_info.get('company_name')} |"
+                        info_string += f" Company Name: {device_info.get('company_name')}  |"
 
                     if device_info.get("device_name") is not None:
                         info_string += f" Device Name: {device_info.get('device_name')}"
