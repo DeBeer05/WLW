@@ -66,7 +66,8 @@ class ScanService(BluetoothScanner):
         print(header_all)
         self.push_print_to_websocket(header_all)
 
-        for device_info in devices.values():
+        all_devices = list(devices.values())
+        for index, device_info in enumerate(all_devices):
             info_string = (
                 f"MAC-Address: {device_info.get('mac')} | RSSI: {device_info.get('rssi')} |"
             )
@@ -76,6 +77,9 @@ class ScanService(BluetoothScanner):
 
             if device_info.get("device_name") is not None:
                 info_string += f" Device Name: {device_info.get('device_name')}"
+
+            if index == len(all_devices) - 1:
+                info_string += "\n"
 
             print(info_string)
             self.push_print_to_websocket(info_string)
@@ -92,7 +96,8 @@ class ScanService(BluetoothScanner):
                 company_header = f"\nCompany Name: {company}\n"
                 print(company_header)
                 self.push_print_to_websocket(company_header)
-                for device_info in company_devs.values():
+                company_device_list = list(company_devs.values())
+                for index, device_info in enumerate(company_device_list):
                     info_string = (
                         f"MAC-Address: {device_info.get('mac')} | RSSI: {device_info.get('rssi')} |"
                     )
@@ -102,6 +107,9 @@ class ScanService(BluetoothScanner):
 
                     if device_info.get("device_name") is not None:
                         info_string += f" Device Name: {device_info.get('device_name')}"
+
+                    if index == len(company_device_list) - 1:
+                        info_string += "\n"
 
                     print(info_string)
                     self.push_print_to_websocket(info_string)
