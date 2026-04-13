@@ -1,10 +1,12 @@
 from types import SimpleNamespace
 from unittest.mock import MagicMock, patch
+from datetime import datetime, timedelta, timezone
 
 from django.test import SimpleTestCase, TestCase
 from django.urls import reverse
 
 from Scan.application.scan_use_cases import ScanUseCases
+from Scan.application.background_scan_service import ScanService
 from Scan.data_access.scan_repository import ScanRepository
 from Scan.models import Device, ScanSession
 
@@ -473,3 +475,114 @@ class ScanRepositoryIntegrationTests(TestCase):
 		repository = ScanRepository()
 
 		self.assertIsNone(repository.get_scan_details(scan_id=999999))
+
+
+class ScanServiceHourlyCounterTests(SimpleTestCase):
+	def test_counter_emit_mode_defaults_to_hour(self):
+		service = ScanService()
+
+		self.assertEqual(service._counter_emit_mode, "hour")
+
+	def test_counter_emit_mode_can_be_minute_via_env(self):
+		with patch.dict("os.environ", {"HOURLY_COUNTER_BROADCAST_EVERY": "minute"}):
+			service = ScanService()
+
+		self.assertEqual(service._counter_emit_mode, "minute")
+		self.assertEqual(service._counter_emit_delta(), timedelta(minutes=1))
+
+	def test_roll_hour_if_needed_uses_minute_cadence_with_hour_keys(self):
+		with patch.dict("os.environ", {"HOURLY_COUNTER_BROADCAST_EVERY": "minute"}):
+			service = ScanService()
+
+		start = datetime(2026, 4, 13, 10, 0, 0, tzinfo=timezone.utc)
+		service._current_hour_start = start
+		service._hourly_unique_devices = {"AA"}
+
+		with patch("Scan.application.background_scan_service.ws_server.broadcast_sync") as broadcast_sync:
+			service._roll_hour_if_needed(now=start + timedelta(minutes=3, seconds=5))
+
+		self.assertEqual(broadcast_sync.call_count, 3)
+		first = broadcast_sync.call_args_list[0].args[0]
+		second = broadcast_sync.call_args_list[1].args[0]
+		third = broadcast_sync.call_args_list[2].args[0]
+		self.assertEqual(first["type"], "hourly_unique_device_count")
+		self.assertEqual(first["hour_start"], "2026-04-13T10:00:00+00:00")
+		self.assertEqual(first["hour_end"], "2026-04-13T10:01:00+00:00")
+		self.assertEqual(first["unique_device_count"], 1)
+		self.assertEqual(second["hour_start"], "2026-04-13T10:01:00+00:00")
+		self.assertEqual(second["unique_device_count"], 0)
+		self.assertEqual(third["hour_start"], "2026-04-13T10:02:00+00:00")
+		self.assertEqual(third["unique_device_count"], 0)
+		self.assertEqual(service._current_hour_start, start + timedelta(minutes=3))
+
+	def test_track_hourly_devices_counts_unique_mac_addresses_case_insensitive(self):
+		service = ScanService()
+
+		service._track_hourly_devices(
+			{
+				"1": {"mac": "aa:bb:cc:dd:ee:ff"},
+				"2": {"mac": "AA:BB:CC:DD:EE:FF"},
+				"3": {"mac": None},
+				"4": {},
+			}
+		)
+
+		self.assertEqual(service._hourly_unique_devices, {"AA:BB:CC:DD:EE:FF"})
+		self.assertEqual(service._hourly_company_unique_devices, {"Unknown": {"AA:BB:CC:DD:EE:FF"}})
+
+	def test_track_hourly_devices_tracks_unique_devices_per_company(self):
+		service = ScanService()
+
+		service._track_hourly_devices(
+			{
+				"1": {"mac": "AA:BB", "company_name": "Laird"},
+				"2": {"mac": "AA:BB", "company_name": "Laird"},
+				"3": {"mac": "CC:DD", "company_name": "Laird"},
+				"4": {"mac": "EE:FF", "company_name": "Nordic"},
+			}
+		)
+
+		self.assertEqual(service._hourly_company_unique_devices["Laird"], {"AA:BB", "CC:DD"})
+		self.assertEqual(service._hourly_company_unique_devices["Nordic"], {"EE:FF"})
+
+	def test_roll_hour_if_needed_broadcasts_completed_hour_and_resets_counter(self):
+		service = ScanService()
+		start_hour = datetime(2026, 4, 13, 10, 0, 0, tzinfo=timezone.utc)
+		service._current_hour_start = start_hour
+		service._hourly_unique_devices = {"AA", "BB"}
+		service._hourly_company_unique_devices = {"Laird": {"AA", "BB"}}
+
+		with patch("Scan.application.background_scan_service.ws_server.broadcast_sync") as broadcast_sync:
+			service._roll_hour_if_needed(now=start_hour + timedelta(hours=1, seconds=1))
+
+		self.assertEqual(broadcast_sync.call_count, 1)
+		payload = broadcast_sync.call_args.args[0]
+		self.assertEqual(payload["type"], "hourly_unique_device_count")
+		self.assertEqual(payload["hour_start"], "2026-04-13T10:00:00+00:00")
+		self.assertEqual(payload["hour_end"], "2026-04-13T11:00:00+00:00")
+		self.assertEqual(payload["unique_device_count"], 2)
+		self.assertEqual(payload["company_device_counts"], {"Laird": 2})
+		self.assertEqual(service._current_hour_start, start_hour + timedelta(hours=1))
+		self.assertEqual(service._hourly_unique_devices, set())
+		self.assertEqual(service._hourly_company_unique_devices, {})
+
+	def test_roll_hour_if_needed_broadcasts_each_elapsed_hour(self):
+		service = ScanService()
+		start_hour = datetime(2026, 4, 13, 10, 0, 0, tzinfo=timezone.utc)
+		service._current_hour_start = start_hour
+		service._hourly_unique_devices = {"AA"}
+
+		with patch("Scan.application.background_scan_service.ws_server.broadcast_sync") as broadcast_sync:
+			service._roll_hour_if_needed(now=start_hour + timedelta(hours=3, minutes=5))
+
+		self.assertEqual(broadcast_sync.call_count, 3)
+		first = broadcast_sync.call_args_list[0].args[0]
+		second = broadcast_sync.call_args_list[1].args[0]
+		third = broadcast_sync.call_args_list[2].args[0]
+		self.assertEqual(first["hour_start"], "2026-04-13T10:00:00+00:00")
+		self.assertEqual(first["unique_device_count"], 1)
+		self.assertEqual(second["hour_start"], "2026-04-13T11:00:00+00:00")
+		self.assertEqual(second["unique_device_count"], 0)
+		self.assertEqual(third["hour_start"], "2026-04-13T12:00:00+00:00")
+		self.assertEqual(third["unique_device_count"], 0)
+		self.assertEqual(service._current_hour_start, start_hour + timedelta(hours=3))

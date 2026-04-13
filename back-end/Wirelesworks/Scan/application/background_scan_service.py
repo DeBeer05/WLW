@@ -2,8 +2,10 @@ import os
 import re
 import threading
 import time
+from datetime import timedelta
 
 import serial
+from django.utils import timezone
 
 from Scan.business_logic.bluetooth_scanner import BluetoothScanner
 from Scan.utils.websocket_server import ws_server
@@ -25,6 +27,77 @@ class ScanService(BluetoothScanner):
         self.scan_interval = scan_interval
         self.running = False
         self.thread = None
+        self._counter_emit_mode = self._resolve_counter_emit_mode(
+            os.environ.get("HOURLY_COUNTER_BROADCAST_EVERY", "hour")
+        )
+        self._current_hour_start = self._truncate_counter_start(timezone.now())
+        self._hourly_unique_devices = set()
+        self._hourly_company_unique_devices = {}
+
+    def _resolve_counter_emit_mode(self, mode):
+        normalized_mode = str(mode).strip().lower()
+        if normalized_mode in {"minute", "hour"}:
+            return normalized_mode
+        return "hour"
+
+    def _counter_emit_delta(self):
+        if self._counter_emit_mode == "minute":
+            return timedelta(minutes=1)
+        return timedelta(hours=1)
+
+    def _truncate_counter_start(self, dt):
+        if self._counter_emit_mode == "minute":
+            return dt.replace(second=0, microsecond=0)
+        return self._truncate_to_hour(dt)
+
+    def _truncate_to_hour(self, dt):
+        return dt.replace(minute=0, second=0, microsecond=0)
+
+    def _broadcast_hourly_unique_count(self, hour_start):
+        window_delta = self._counter_emit_delta()
+        company_device_counts = {
+            company: len(mac_addresses)
+            for company, mac_addresses in self._hourly_company_unique_devices.items()
+        }
+        payload = {
+            "type": "hourly_unique_device_count",
+            "hour_start": hour_start.isoformat(),
+            "hour_end": (hour_start + window_delta).isoformat(),
+            "unique_device_count": len(self._hourly_unique_devices),
+            "company_device_counts": company_device_counts,
+        }
+        ws_server.broadcast_sync(payload)
+        print(
+            "🕒 Hourly unique devices "
+            f"({payload['hour_start']} -> {payload['hour_end']}): "
+            f"{payload['unique_device_count']}"
+        )
+
+    def _roll_hour_if_needed(self, now=None):
+        now = now or timezone.now()
+        emit_delta = self._counter_emit_delta()
+        while now >= self._current_hour_start + emit_delta:
+            self._broadcast_hourly_unique_count(self._current_hour_start)
+            self._current_hour_start += emit_delta
+            self._hourly_unique_devices = set()
+            self._hourly_company_unique_devices = {}
+
+    def _track_hourly_devices(self, devices):
+        for device_info in devices.values():
+            mac_address = device_info.get("mac")
+            if mac_address:
+                normalized_mac = str(mac_address).upper()
+                self._hourly_unique_devices.add(normalized_mac)
+
+                company_name = device_info.get("company_name")
+                if not company_name or company_name == "No Name Found":
+                    company_name = "Unknown"
+                else:
+                    company_name = str(company_name)
+
+                if company_name not in self._hourly_company_unique_devices:
+                    self._hourly_company_unique_devices[company_name] = set()
+                self._hourly_company_unique_devices[company_name].add(normalized_mac)
 
     def run_single_scan(self):
         try:
@@ -147,10 +220,19 @@ class ScanService(BluetoothScanner):
     def run_loop(self):
         print("🔄 Continuous scanning started")
         ws_server.broadcast_sync("🔄 Continuous scanning started")
+        hour_start = self._current_hour_start.isoformat()
+        mode = self._counter_emit_mode
+        print(f"hourly counter started on {hour_start} (broadcast every {mode})")
+        ws_server.broadcast_sync(
+            f"hourly counter started on {hour_start} (broadcast every {mode})"
+        )
 
         while self.running:
             try:
+                self._roll_hour_if_needed()
                 devices = self.run_single_scan()
+                self._track_hourly_devices(devices)
+                self._roll_hour_if_needed()
 
                 if devices:
                     self.print_and_broadcast_results(devices)
@@ -162,6 +244,7 @@ class ScanService(BluetoothScanner):
                 if self.scan_interval > 0:
                     print(f"⏳ Waiting {self.scan_interval} seconds before next scan...")
                     time.sleep(self.scan_interval)
+                    self._roll_hour_if_needed()
             except Exception as exc:
                 error_msg = f"⚠ Scan error: {exc}"
                 print(error_msg)

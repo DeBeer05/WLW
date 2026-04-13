@@ -1,8 +1,10 @@
 import asyncio
-import websockets
 import json
+import os
 import threading
 from typing import Set, Union
+
+import websockets
 
 
 class WebSocketServer:
@@ -78,7 +80,10 @@ class WebSocketServer:
 
 
 # Global instance that can be imported and used
-ws_server = WebSocketServer()
+ws_server = WebSocketServer(
+    host=os.environ.get("WS_HOST", "0.0.0.0"),
+    port=int(os.environ.get("WS_PORT", "8765")),
+)
 
 
 if __name__ == "__main__":
