@@ -4,7 +4,11 @@ on:
   push:
     branches:
       - "**"
+    paths:
+      - "back-end/**"
   pull_request:
+    paths:
+      - "back-end/**"
   workflow_dispatch:
 
 jobs:
@@ -13,7 +17,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: Wirelesworks
+        working-directory: back-end/Wirelesworks
 
     steps:
       - name: Checkout repository
