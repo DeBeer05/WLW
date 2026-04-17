@@ -16,3 +16,5 @@ termcolor>=2.4
 # Note: PostgreSQL database support is disabled
 # Uncomment below if you want to enable database functionality:
 # psycopg2-binary>=2.9
+
+
