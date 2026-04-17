@@ -1,5 +1,7 @@
+import asyncio
+import json
 from types import SimpleNamespace
-from unittest.mock import MagicMock, patch
+from unittest.mock import AsyncMock, MagicMock, patch
 from datetime import datetime, timedelta, timezone
 
 from django.test import SimpleTestCase, TestCase
@@ -9,6 +11,7 @@ from Scan.application.scan_use_cases import ScanUseCases
 from Scan.application.background_scan_service import ScanService
 from Scan.data_access.scan_repository import ScanRepository
 from Scan.models import Device, ScanSession
+from Scan.utils.websocket_server import WebSocketServer
 
 
 class ScanApiViewTests(SimpleTestCase):
@@ -483,6 +486,35 @@ class ScanServiceHourlyCounterTests(SimpleTestCase):
 
 		self.assertEqual(service._counter_emit_mode, "hour")
 
+	def test_process_live_scan_event_counts_devices_and_shows_total_after_hour(self):
+		service = ScanService()
+		start_hour = datetime(2026, 4, 13, 10, 0, 0, tzinfo=timezone.utc)
+		service._current_hour_start = start_hour
+
+		devices = {
+			"1": {"mac": "aa:bb:cc:dd:ee:ff", "company_name": "Laird"},
+			"2": {"mac": "AA:BB:CC:DD:EE:FF", "company_name": "Laird"},
+			"3": {"mac": "11:22:33:44:55:66", "company_name": "Nordic"},
+		}
+
+		with patch.object(service, "broadcast_scan_event_to_clients") as broadcast_scan_event_to_clients:
+			processed = service.process_live_scan_event(devices)
+
+		self.assertTrue(processed)
+		broadcast_scan_event_to_clients.assert_called_once_with(devices)
+
+		with patch("Scan.application.background_scan_service.ws_server.broadcast_sync") as broadcast_sync:
+			service.trigger_hourly_persistence(now=start_hour + timedelta(hours=1, seconds=1))
+
+		payload = broadcast_sync.call_args.args[0]
+		self.assertEqual(payload["type"], "hourly_unique_device_count")
+		self.assertEqual(payload["hour_start"], "2026-04-13T10:00:00+00:00")
+		self.assertEqual(payload["hour_end"], "2026-04-13T11:00:00+00:00")
+		self.assertEqual(payload["unique_device_count"], 2)
+		self.assertEqual(payload["company_device_counts"], {"Laird": 1, "Nordic": 1})
+		self.assertEqual(service._hourly_unique_devices, set())
+		self.assertEqual(service._hourly_company_unique_devices, {})
+
 	def test_counter_emit_mode_can_be_minute_via_env(self):
 		with patch.dict("os.environ", {"HOURLY_COUNTER_BROADCAST_EVERY": "minute"}):
 			service = ScanService()
@@ -586,3 +618,30 @@ class ScanServiceHourlyCounterTests(SimpleTestCase):
 		self.assertEqual(third["hour_start"], "2026-04-13T12:00:00+00:00")
 		self.assertEqual(third["unique_device_count"], 0)
 		self.assertEqual(service._current_hour_start, start_hour + timedelta(hours=3))
+
+
+class WebSocketServerPayloadTests(SimpleTestCase):
+	def test_broadcast_serializes_hourly_total_payload_for_frontend_clients(self):
+		server = WebSocketServer()
+		client = AsyncMock()
+		server.clients.add(client)
+
+		payload = {
+			"type": "hourly_unique_device_count",
+			"hour_start": "2026-04-13T10:00:00+00:00",
+			"hour_end": "2026-04-13T11:00:00+00:00",
+			"unique_device_count": 2,
+			"company_device_counts": {"Laird": 1, "Nordic": 1},
+		}
+
+		asyncio.run(server.broadcast(payload))
+
+		client.send.assert_awaited_once()
+		sent_message = client.send.await_args.args[0]
+		frontend_payload = json.loads(sent_message)
+
+		self.assertEqual(frontend_payload["type"], "hourly_unique_device_count")
+		self.assertEqual(frontend_payload["hour_start"], "2026-04-13T10:00:00+00:00")
+		self.assertEqual(frontend_payload["hour_end"], "2026-04-13T11:00:00+00:00")
+		self.assertEqual(frontend_payload["unique_device_count"], 2)
+		self.assertEqual(frontend_payload["company_device_counts"], {"Laird": 1, "Nordic": 1})
