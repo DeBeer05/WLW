@@ -53,37 +53,25 @@ class ScanService(BluetoothScanner):
     def _truncate_to_hour(self, dt):
         return dt.replace(minute=0, second=0, microsecond=0)
 
-    def _broadcast_hourly_unique_count(self, hour_start):
+    def _build_hourly_total_payload(self, hour_start):
         window_delta = self._counter_emit_delta()
         company_device_counts = {
             company: len(mac_addresses)
             for company, mac_addresses in self._hourly_company_unique_devices.items()
         }
-        payload = {
+        return {
             "type": "hourly_unique_device_count",
             "hour_start": hour_start.isoformat(),
             "hour_end": (hour_start + window_delta).isoformat(),
             "unique_device_count": len(self._hourly_unique_devices),
             "company_device_counts": company_device_counts,
         }
-        ws_server.broadcast_sync(payload)
-        print(
-            "🕒 Hourly unique devices "
-            f"({payload['hour_start']} -> {payload['hour_end']}): "
-            f"{payload['unique_device_count']}"
-        )
 
-    def _roll_hour_if_needed(self, now=None):
-        now = now or timezone.now()
-        emit_delta = self._counter_emit_delta()
-        while now >= self._current_hour_start + emit_delta:
-            self._broadcast_hourly_unique_count(self._current_hour_start)
-            self._current_hour_start += emit_delta
-            self._hourly_unique_devices = set()
-            self._hourly_company_unique_devices = {}
+    def validate_scan_event(self, device_data):
+        return bool(device_data)
 
-    def _track_hourly_devices(self, devices):
-        for device_info in devices.values():
+    def increment_hourly_scan_counter(self, device_data):
+        for device_info in device_data.values():
             mac_address = device_info.get("mac")
             if mac_address:
                 normalized_mac = str(mac_address).upper()
@@ -98,6 +86,59 @@ class ScanService(BluetoothScanner):
                 if company_name not in self._hourly_company_unique_devices:
                     self._hourly_company_unique_devices[company_name] = set()
                 self._hourly_company_unique_devices[company_name].add(normalized_mac)
+
+    def push_live_device_update(self, device_data):
+        self.print_and_broadcast_results(device_data)
+
+    def broadcast_scan_event_to_clients(self, device_data):
+        self.push_live_device_update(device_data)
+
+    def process_live_scan_event(self, device_data):
+        if not self.validate_scan_event(device_data):
+            return False
+
+        self.increment_hourly_scan_counter(device_data)
+        self.broadcast_scan_event_to_clients(device_data)
+        return True
+
+    def retrieve_and_reset_hourly_counter(self, hour_start):
+        total_count = self._build_hourly_total_payload(hour_start)
+        self._hourly_unique_devices = set()
+        self._hourly_company_unique_devices = {}
+        return total_count
+
+    def return_hourly_total(self, total_count):
+        ws_server.broadcast_sync(total_count)
+        print(
+            "🕒 Hourly unique devices "
+            f"({total_count['hour_start']} -> {total_count['hour_end']}): "
+            f"{total_count['unique_device_count']}"
+        )
+
+    def store_hourly_total(self, total_count):
+        # Kept as a dedicated step so persistence can move to the data layer.
+        print(
+            "✓ hourly total ready for persistence: "
+            f"{total_count['hour_start']} -> {total_count['hour_end']}"
+        )
+
+    def trigger_hourly_persistence(self, now=None):
+        now = now or timezone.now()
+        emit_delta = self._counter_emit_delta()
+        while now >= self._current_hour_start + emit_delta:
+            total_count = self.retrieve_and_reset_hourly_counter(self._current_hour_start)
+            self.return_hourly_total(total_count)
+            self.store_hourly_total(total_count)
+            self._current_hour_start += emit_delta
+
+    def _broadcast_hourly_unique_count(self, hour_start):
+        self.return_hourly_total(self._build_hourly_total_payload(hour_start))
+
+    def _roll_hour_if_needed(self, now=None):
+        self.trigger_hourly_persistence(now=now)
+
+    def _track_hourly_devices(self, devices):
+        self.increment_hourly_scan_counter(devices)
 
     def run_single_scan(self):
         try:
@@ -229,13 +270,12 @@ class ScanService(BluetoothScanner):
 
         while self.running:
             try:
-                self._roll_hour_if_needed()
+                self.trigger_hourly_persistence()
                 devices = self.run_single_scan()
-                self._track_hourly_devices(devices)
-                self._roll_hour_if_needed()
+                self.process_live_scan_event(devices)
+                self.trigger_hourly_persistence()
 
                 if devices:
-                    self.print_and_broadcast_results(devices)
                     self.reset()
                 else:
                     print("✗ No devices found")
@@ -244,7 +284,7 @@ class ScanService(BluetoothScanner):
                 if self.scan_interval > 0:
                     print(f"⏳ Waiting {self.scan_interval} seconds before next scan...")
                     time.sleep(self.scan_interval)
-                    self._roll_hour_if_needed()
+                    self.trigger_hourly_persistence()
             except Exception as exc:
                 error_msg = f"⚠ Scan error: {exc}"
                 print(error_msg)
