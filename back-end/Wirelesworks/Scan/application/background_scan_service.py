@@ -8,6 +8,7 @@ import serial
 from django.utils import timezone
 
 from Scan.business_logic.bluetooth_scanner import BluetoothScanner
+from Scan.utils.broadcast_logger import broadcast_logger
 from Scan.utils.websocket_server import ws_server
 
 
@@ -27,6 +28,7 @@ class ScanService(BluetoothScanner):
         self.scan_interval = scan_interval
         self.running = False
         self.thread = None
+        self.hourly_broadcast_thread = None
         self._counter_emit_mode = self._resolve_counter_emit_mode(
             os.environ.get("HOURLY_COUNTER_BROADCAST_EVERY", "hour")
         )
@@ -109,6 +111,7 @@ class ScanService(BluetoothScanner):
 
     def return_hourly_total(self, total_count):
         ws_server.broadcast_sync(total_count)
+        broadcast_logger.log_broadcast(total_count, message_type="hourly_unique_device_count")
         print(
             "🕒 Hourly unique devices "
             f"({total_count['hour_start']} -> {total_count['hour_end']}): "
@@ -139,6 +142,28 @@ class ScanService(BluetoothScanner):
 
     def _track_hourly_devices(self, devices):
         self.increment_hourly_scan_counter(devices)
+
+    def _run_hourly_broadcast_loop(self):
+        """Dedicated thread to ensure hourly broadcasts happen reliably."""
+        print("🕐 Hourly broadcast thread started")
+        while self.running:
+            try:
+                emit_delta = self._counter_emit_delta()
+                now = timezone.now()
+                
+                # Calculate time until next broadcast
+                time_until_next = (self._current_hour_start + emit_delta) - now
+                sleep_seconds = time_until_next.total_seconds()
+                
+                # Sleep until the next hour boundary (add small buffer)
+                if sleep_seconds > 0:
+                    time.sleep(min(sleep_seconds + 0.5, 60))  # Check at most every 60 seconds
+                
+                # Trigger broadcast when time reaches it
+                self.trigger_hourly_persistence()
+            except Exception as exc:
+                print(f"⚠ Error in hourly broadcast thread: {exc}")
+                time.sleep(60)  # Wait a minute before retrying
 
     def run_single_scan(self):
         try:
@@ -270,10 +295,8 @@ class ScanService(BluetoothScanner):
 
         while self.running:
             try:
-                self.trigger_hourly_persistence()
                 devices = self.run_single_scan()
                 self.process_live_scan_event(devices)
-                self.trigger_hourly_persistence()
 
                 if devices:
                     self.reset()
@@ -284,7 +307,6 @@ class ScanService(BluetoothScanner):
                 if self.scan_interval > 0:
                     print(f"⏳ Waiting {self.scan_interval} seconds before next scan...")
                     time.sleep(self.scan_interval)
-                    self.trigger_hourly_persistence()
             except Exception as exc:
                 error_msg = f"⚠ Scan error: {exc}"
                 print(error_msg)
@@ -303,8 +325,15 @@ class ScanService(BluetoothScanner):
             return False
 
         self.running = True
+        
+        # Start the main scanning thread
         self.thread = threading.Thread(target=self.run_loop, daemon=True)
         self.thread.start()
+        
+        # Start the hourly broadcast thread
+        self.hourly_broadcast_thread = threading.Thread(target=self._run_hourly_broadcast_loop, daemon=True)
+        self.hourly_broadcast_thread.start()
+        
         print("✓ Background scanning started")
         return True
 

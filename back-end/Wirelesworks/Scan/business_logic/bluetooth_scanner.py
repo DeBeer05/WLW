@@ -70,11 +70,12 @@ class BluetoothScanner:
         ok_reached = False
 
         while not ok_reached:
-            device = {}
             incoming_adv = self.serial_bus.readline().decode()
 
             if len(incoming_adv) > 28:
-                device["mac"] = incoming_adv[6:20]
+                mac = incoming_adv[6:20]
+                device = self.unique_devices.get(mac, {})
+                device["mac"] = mac
                 device["rssi"] = incoming_adv[21:24]
                 device["data"] = incoming_adv[26:-2]
 
@@ -82,7 +83,7 @@ class BluetoothScanner:
                     device["data"] = incoming_adv[26:-3]
 
                 self.unique_devices[device["mac"]] = device
-                self._decode_advert(self.unique_devices[device["mac"]])
+                self._decode_advert(device)
             elif incoming_adv not in ignore_list:
                 ok_reached = True
 
@@ -122,7 +123,7 @@ class BluetoothScanner:
         comp_name = self.company_identifiers.get(str(company_id_rotated))
         if comp_name and comp_name not in ["Unknown", "N/A", "No Name Found"]:
             device["company_name"] = comp_name
-        else:
+        elif "company_name" not in device:
             device["company_name"] = None
 
     def _get_device_name(self, device, hex_name):
@@ -133,6 +134,10 @@ class BluetoothScanner:
             device["company_name"] = "PNL"
         if "LAIRD" in name.upper():
             device["company_name"] = "Laird"
+        if "VANMOOF" in name.upper():
+            device["company_name"] = "VANMOOF."
+        if "BYD" in name.upper():
+            device["company_name"] = "BYD"
 
     def close(self):
         if self.serial_bus and self.serial_bus.is_open:
