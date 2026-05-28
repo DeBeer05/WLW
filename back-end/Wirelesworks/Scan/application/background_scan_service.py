@@ -1,7 +1,10 @@
+import json
 import os
 import re
 import threading
 import time
+import urllib.error
+import urllib.request
 from datetime import timedelta
 
 import serial
@@ -35,6 +38,17 @@ class ScanService(BluetoothScanner):
         self._current_hour_start = self._truncate_counter_start(timezone.now())
         self._hourly_unique_devices = set()
         self._hourly_company_unique_devices = {}
+        self._aws_post_url = os.environ.get(
+            "AWS_HOURLY_POST_URL",
+            "https://d95aurhfwi.execute-api.eu-central-1.amazonaws.com/post",
+        )
+        self._aws_post_auth = os.environ.get("AWS_HOURLY_POST_AUTH", "WWIT_Website_Scan")
+        self._aws_db_name = os.environ.get("AWS_HOURLY_DB_NAME", "demo_database")
+        self._aws_table_name = os.environ.get(
+            "AWS_HOURLY_TABLE_NAME",
+            "WWIT_website_scan_table",
+        )
+        self._aws_post_timeout = float(os.environ.get("AWS_HOURLY_POST_TIMEOUT", "10"))
 
     def _resolve_counter_emit_mode(self, mode):
         normalized_mode = str(mode).strip().lower()
@@ -119,6 +133,44 @@ class ScanService(BluetoothScanner):
         )
 
     def store_hourly_total(self, total_count):
+        self._post_hourly_total_to_aws(total_count)
+
+    def _post_hourly_total_to_aws(self, total_count):
+        payload = {
+            "action": "write",
+            "db_name": self._aws_db_name,
+            "table": self._aws_table_name,
+            "data": total_count,
+        }
+        request_body = json.dumps(payload).encode("utf-8")
+        request = urllib.request.Request(
+            self._aws_post_url,
+            data=request_body,
+            headers={
+                "Content-Type": "application/json",
+                "authorization": self._aws_post_auth,
+            },
+            method="POST",
+        )
+
+        try:
+            with urllib.request.urlopen(request, timeout=self._aws_post_timeout) as response:
+                response_status = getattr(response, "status", "unknown")
+                print(
+                    "✓ hourly total posted to AWS: "
+                    f"status={response_status}, "
+                    f"window={total_count['hour_start']} -> {total_count['hour_end']}"
+                )
+        except urllib.error.HTTPError as exc:
+            print(
+                "⚠ hourly total POST rejected by AWS: "
+                f"status={exc.code}, reason={exc.reason}"
+            )
+        except urllib.error.URLError as exc:
+            print(f"⚠ hourly total POST failed for {self._aws_post_url}: {exc.reason}")
+        except Exception as exc:
+            print(f"⚠ unexpected error while posting hourly total to AWS: {exc}")
+
         # Kept as a dedicated step so persistence can move to the data layer.
         print(
             "✓ hourly total ready for persistence: "
@@ -160,6 +212,12 @@ class ScanService(BluetoothScanner):
                     time.sleep(min(sleep_seconds + 0.5, 60))  # Check at most every 60 seconds
                 
                 # Trigger broadcast when time reaches it
+                if sleep_seconds <= 0:
+                    next_boundary = self._current_hour_start + emit_delta
+                    print(
+                        "🕐 Hourly boundary reached "
+                        f"(now={now.isoformat()}, boundary={next_boundary.isoformat()})"
+                    )
                 self.trigger_hourly_persistence()
             except Exception as exc:
                 print(f"⚠ Error in hourly broadcast thread: {exc}")
@@ -288,10 +346,13 @@ class ScanService(BluetoothScanner):
         ws_server.broadcast_sync("🔄 Continuous scanning started")
         hour_start = self._current_hour_start.isoformat()
         mode = self._counter_emit_mode
+        next_emit = (self._current_hour_start + self._counter_emit_delta()).isoformat()
         print(f"hourly counter started on {hour_start} (broadcast every {mode})")
+        print(f"next hourly broadcast scheduled at {next_emit}")
         ws_server.broadcast_sync(
             f"hourly counter started on {hour_start} (broadcast every {mode})"
         )
+        ws_server.broadcast_sync(f"next hourly broadcast scheduled at {next_emit}")
 
         while self.running:
             try:
